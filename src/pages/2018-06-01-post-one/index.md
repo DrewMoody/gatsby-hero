@@ -2,7 +2,7 @@
 path: "/post-one"
 title: "Post One"
 date: "2018-06-01"
-tags: ['test', 'testing', 'banana']
+tags: ['diet', 'exercise', 'banana']
 ---
 
 ![](sunset-3416768_1920.jpg)

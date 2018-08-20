@@ -2,7 +2,7 @@
 path: "/post-three"
 title: "Post Three"
 date: "2018-04-01"
-tags: ['test', 'testing', 'banana']
+tags: ['diet', 'exercise']
 ---
 
 ![](hut-1681485_1920.jpg)

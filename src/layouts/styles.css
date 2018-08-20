@@ -10,3 +10,14 @@ a {
 p {
   font-size: 16px;
 }
+.postfilter {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.postfilter h3 {
+  margin-bottom: 0.3rem;
+}
+.postfilter .tabfilter {
+  margin-bottom: 0;
+}

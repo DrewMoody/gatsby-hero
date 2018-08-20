@@ -2,7 +2,7 @@
 path: "/post-two"
 title: Post Two
 date: "2018-05-01"
-tags: ['test', 'testing', 'banana']
+tags: ['finance']
 ---
 
 <!-- <img src="hiker-984083_1920.jpg" /> -->

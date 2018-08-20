@@ -1,28 +1,30 @@
 import React from "react";
-import g from "glamorous";
 import Link from "gatsby-link";
 
-import { rhythm } from "../utils/typography";
-
 export default ({ data }) => {
-  console.log(data);
+  console.log('dta', data.allMarkdownRemark.edges.filter(x => x.node.frontmatter.tags.includes('banana')));
   return (
     <div>
-      <g.H1 display={"inline-block"} borderBottom={"1px solid"}>
-        View All Posts
-      </g.H1>
+      <h1>View All Posts</h1>
       <h4>{data.allMarkdownRemark.totalCount} Posts</h4>
+      <div className="postfilter">
+        <h3>Filter</h3>
+        <div className='tabfilter' data-tab="all">All</div>
+        <div className='tabfilter' data-tab="diet">Diet</div>
+        <div className='tabfilter' data-tab="exercise">Exercise</div>
+        <div className='tabfilter' data-tab="finance">Finance</div>
+        <div className='tabfilter' data-tab="banana">Banana</div>
+      </div>
       {data.allMarkdownRemark.edges.map(({ node }) => (
-        <div key={node.id}>
+          <div key={node.id}>
           <Link
-            // to={node.fields.slug} // old version using slugs
             to={node.frontmatter.path}
             css={{ textDecoration: `none`, color: `inherit` }}
           >
-            <g.H3 marginBottom={rhythm(1 / 4)}>
+            <h3>
               {node.frontmatter.title}{" "}
-              <g.Span color="#BBB">— {node.frontmatter.date}</g.Span>
-            </g.H3>
+              <span>— {node.frontmatter.date}</span>
+            </h3>
             <p>{node.excerpt}</p>
           </Link>
         </div>
@@ -31,7 +33,7 @@ export default ({ data }) => {
   );
 };
 
-export const query = graphql`
+export const allPostQuery = graphql`
   query AllPostQuery {
     allMarkdownRemark(sort: {fields: [frontmatter___date], order: DESC}) {
       totalCount
@@ -42,6 +44,7 @@ export const query = graphql`
             title
             date(formatString: "DD MMMM, YYYY")
             path
+            tags
           }
           fields {
             slug
