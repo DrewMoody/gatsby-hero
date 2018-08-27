@@ -1,37 +1,59 @@
 import React from "react";
 import Link from "gatsby-link";
 
-export default ({ data }) => {
-  console.log('dta', data.allMarkdownRemark.edges.filter(x => x.node.frontmatter.tags.includes('banana')));
-  return (
-    <div>
-      <h1>View All Posts</h1>
-      <h4>{data.allMarkdownRemark.totalCount} Posts</h4>
-      <div className="postfilter">
-        <h3>Filter</h3>
-        <div className='tabfilter' data-tab="all">All</div>
-        <div className='tabfilter' data-tab="diet">Diet</div>
-        <div className='tabfilter' data-tab="exercise">Exercise</div>
-        <div className='tabfilter' data-tab="finance">Finance</div>
-        <div className='tabfilter' data-tab="banana">Banana</div>
-      </div>
-      {data.allMarkdownRemark.edges.map(({ node }) => (
-          <div key={node.id}>
-          <Link
-            to={node.frontmatter.path}
-            css={{ textDecoration: `none`, color: `inherit` }}
-          >
-            <h3>
-              {node.frontmatter.title}{" "}
-              <span>— {node.frontmatter.date}</span>
-            </h3>
-            <p>{node.excerpt}</p>
-          </Link>
+class AllPosts extends React.Component {
+  constructor() {
+    super();
+    this.state = {tab: 'all'};
+  }
+
+  setTab(x) {
+    return function() {
+      this.setState((prevState, props) => {
+        return {tab: x};
+      });
+      console.log(this.state.tab);
+    }
+  }
+
+  render() {
+    const data = this.props.data;
+    console.log('data', data);
+    console.log(this.state.tab);
+    return (
+      <div>
+        <h1>View All Posts</h1>
+        <h4>{data.allMarkdownRemark.totalCount} Posts</h4>
+        <div className="postfilter">
+          <h3>Filter</h3>
+          <div className='tabfilter' data-tab="all">All</div>
+          <div className='tabfilter' data-tab="diet" onClick={this.setTab('diet')}>Diet</div>
+          <div className='tabfilter' data-tab="exercise">Exercise</div>
+          <div className='tabfilter' data-tab="finance">Finance</div>
+          <div className='tabfilter' data-tab="banana">Banana</div>
         </div>
-      ))}
-    </div>
-  );
-};
+        {data.allMarkdownRemark.edges.filter(x=> {
+          if (this.state.tab === 'all') return x;
+          return x.node.frontmatter.tags.includes(this.state.tab)
+        }).map(x => (
+            <div key={x.node.id}>
+            <Link
+              to={x.node.frontmatter.path}
+            >
+              <h3>
+                {x.node.frontmatter.title}{" "}
+                <span>— {x.node.frontmatter.date}</span>
+              </h3>
+              <p>{x.node.excerpt}</p>
+            </Link>
+          </div>
+        ))}
+      </div>
+    );
+  }
+}
+
+export default AllPosts;
 
 export const allPostQuery = graphql`
   query AllPostQuery {
