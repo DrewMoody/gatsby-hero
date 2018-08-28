@@ -7,30 +7,26 @@ class AllPosts extends React.Component {
     this.state = {tab: 'all'};
   }
 
-  setTab(x) {
-    return function() {
-      this.setState((prevState, props) => {
-        return {tab: x};
-      });
-      console.log(this.state.tab);
-    }
-  }
+  // TODO: DRY the filter code
+  // setTab = (x) => {
+  //   this.setState({tab: x});
+  // } 
 
   render() {
     const data = this.props.data;
-    console.log('data', data);
-    console.log(this.state.tab);
+    // console.log('data', data);
+    // console.log(this.state.tab);
     return (
       <div>
         <h1>View All Posts</h1>
         <h4>{data.allMarkdownRemark.totalCount} Posts</h4>
         <div className="postfilter">
           <h3>Filter</h3>
-          <div className='tabfilter' data-tab="all">All</div>
-          <div className='tabfilter' data-tab="diet" onClick={this.setTab('diet')}>Diet</div>
-          <div className='tabfilter' data-tab="exercise">Exercise</div>
-          <div className='tabfilter' data-tab="finance">Finance</div>
-          <div className='tabfilter' data-tab="banana">Banana</div>
+          <div className='tabfilter' data-tab="all" onClick={() => this.setState({tab: "all"})}>All</div>
+          <div className='tabfilter' data-tab="diet" onClick={() => this.setState({tab: "diet"})}>Diet</div>
+          <div className='tabfilter' data-tab="exercise" onClick={() => this.setState({tab: "exercise"})}>Exercise</div>
+          <div className='tabfilter' data-tab="finance" onClick={() => this.setState({tab: "finance"})}>Finance</div>
+          <div className='tabfilter' data-tab="banana" onClick={() => this.setState({tab: "banana"})}>Banana</div>
         </div>
         {data.allMarkdownRemark.edges.filter(x=> {
           if (this.state.tab === 'all') return x;
