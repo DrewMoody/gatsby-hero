@@ -6,6 +6,7 @@ import { rhythm } from "../utils/typography";
 
 export default ({ data }) => {
   console.log(data);
+  console.log(data.allMarkdownRemark.edges[1].node.frontmatter.headerImg)
   return (
     <div>
       <g.H1 display={"inline-block"} borderBottom={"1px solid"}>
@@ -42,6 +43,11 @@ export const query = graphql`
             title
             date(formatString: "DD MMMM, YYYY")
             path
+            headerImg {
+              childImageSharp {
+                id
+              }
+            }
           }
           fields {
             slug

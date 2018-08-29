@@ -3,9 +3,10 @@ path: "/post-three"
 title: "Post Three"
 date: "2018-04-01"
 tags: ['diet', 'exercise']
+headerImg: "hut.jpg"
 ---
 
-![](hut-1681485_1920.jpg)
+![](hut.jpg)
 
 Integer eget tellus sagittis, auctor felis quis, fermentum leo. Morbi tincidunt augue et iaculis dignissim. Phasellus accumsan malesuada odio, at rutrum odio gravida sit amet. Integer vitae leo ultrices, maximus massa ut, placerat lorem. Maecenas lobortis feugiat velit, id efficitur augue blandit eu. Cras feugiat nec lacus nec tincidunt. Nullam a scelerisque libero, vitae fermentum arcu. Phasellus commodo gravida pharetra. Suspendisse non massa risus. Nam at tellus a nisi tempus pretium. Aliquam laoreet neque at dapibus sagittis.
 

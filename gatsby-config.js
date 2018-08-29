@@ -10,6 +10,7 @@ module.exports = {
         path: `${__dirname}/src/`,
       },
     },
+    `gatsby-transformer-sharp`,
     `gatsby-plugin-sharp`,
     {
       resolve: `gatsby-transformer-remark`,
@@ -29,6 +30,13 @@ module.exports = {
     },
     // `gatsby-transformer-remark`,
     `gatsby-plugin-glamor`,
+    {
+      resolve: `gatsby-source-filesystem`,
+      options: {
+        name: `pages`,
+        path: `${__dirname}/src/pages`
+      }
+    },
     {
       resolve: `gatsby-plugin-typography`,
       options: {

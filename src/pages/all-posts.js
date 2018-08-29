@@ -1,5 +1,6 @@
 import React from "react";
 import Link from "gatsby-link";
+import Img from "gatsby-image";
 
 class AllPosts extends React.Component {
   constructor() {
@@ -14,7 +15,7 @@ class AllPosts extends React.Component {
 
   render() {
     const data = this.props.data;
-    // console.log('data', data);
+    console.log('data', data);
     // console.log(this.state.tab);
     return (
       <div>
@@ -31,11 +32,12 @@ class AllPosts extends React.Component {
         {data.allMarkdownRemark.edges.filter(x=> {
           if (this.state.tab === 'all') return x;
           return x.node.frontmatter.tags.includes(this.state.tab)
-        }).map(x => (
-            <div key={x.node.id}>
+        }).map((x, i) => (
+            <div key={x.node.id} className={i % 2 === 0 ? "reg" : "reverse"}>
             <Link
               to={x.node.frontmatter.path}
             >
+              <Img resolutions={x.node.frontmatter.headerImg.childImageSharp.resolutions} />
               <h3>
                 {x.node.frontmatter.title}{" "}
                 <span>— {x.node.frontmatter.date}</span>
@@ -63,6 +65,13 @@ export const allPostQuery = graphql`
             date(formatString: "DD MMMM, YYYY")
             path
             tags
+            headerImg {
+              childImageSharp {
+                resolutions {
+                  ...GatsbyImageSharpResolutions
+                }
+              }
+            }
           }
           fields {
             slug
