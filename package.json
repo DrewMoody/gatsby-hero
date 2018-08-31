@@ -19,6 +19,9 @@
     "gatsby-transformer-remark": "^1.7.43",
     "gatsby-transformer-sharp": "^1.6.27",
     "glamorous": "^4.13.1",
+    "typeface-montserrat": "0.0.54",
+    "typeface-mukta-mahee": "0.0.54",
+    "typeface-palanquin-dark": "0.0.54",
     "typography-theme-kirkham": "^0.16.3",
     "typography-theme-lawton": "^0.15.10"
   }

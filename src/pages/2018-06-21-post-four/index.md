@@ -3,7 +3,7 @@ path: "/post-four"
 date: "2018-06-21T01:46:57"
 title: "Post Four"
 tags: ['test', 'testing', 'banana']
-headerImg: "sunset.jpg"
+headerImg: "hut.jpg"
 ---
 
 Lorem ipsum dolor sit amet, fastidii offendit no duo, tacimates corrumpit gloriatur duo ad. Nec eu vide duis libris, vel aeque utamur expetenda ad, an voluptua epicurei democritum vix. Virtute diceret eu vix, his dolore iuvaret scaevola ut. Ut case menandri his, in sed homero corrumpit. Consul scripserit cu pro.

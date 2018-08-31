@@ -1,15 +1,22 @@
 import React from "react";
+import Img from "gatsby-image";
 
 export default ({ data }) => {
   const post = data.markdownRemark;
-  console.log('hi', post.headerImg);
+  console.log('hi', post);
   return (
-    <div>
-      {/* EASY TO STYLE USING THIS: <img src='http://localhost:8000/static/sunset-3416768_1920-95da4572d5307cf2b9b54c5ee1f4641b-90e0b.jpg'/> */}
-      <h1>{post.frontmatter.title}</h1>
-      <p>{post.frontmatter.date}</p>
-      <div dangerouslySetInnerHTML={{ __html: post.html }} />
+    <div className='blog-post'>
+      <div className='hero'>
+        <Img resolutions={post.frontmatter.headerImg.childImageSharp.resolutions} />
+        <div className='hero-text'>
+          <h1>{post.frontmatter.title}</h1>
+          <p>{post.frontmatter.date}</p>
+        </div>
+        <div className='down-arrow'>DOWN</div>
+      </div>
+      <div className='text' dangerouslySetInnerHTML={{ __html: post.html }} />
     </div>
+
   );
 };
 
@@ -21,7 +28,11 @@ export const query = graphql`
         title
         date(formatString: "MMMM DD, YYYY")
         headerImg {
-          id
+          childImageSharp {
+            resolutions(width:1920 height:1280) {
+              ...GatsbyImageSharpResolutions
+            }
+          }
         }
       }
     }

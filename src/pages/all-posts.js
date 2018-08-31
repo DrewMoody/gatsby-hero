@@ -1,6 +1,8 @@
 import React from "react";
 import Link from "gatsby-link";
 import Img from "gatsby-image";
+import Header from "../components/header";
+import Header2 from "../components/headerAll";
 
 class AllPosts extends React.Component {
   constructor() {
@@ -16,9 +18,9 @@ class AllPosts extends React.Component {
   render() {
     const data = this.props.data;
     console.log('data', data);
-    // console.log(this.state.tab);
     return (
       <div>
+        <Header2 name={data.allMarkdownRemark.totalCount}/>
         <h1>View All Posts</h1>
         <h4>{data.allMarkdownRemark.totalCount} Posts</h4>
         <div className="postfilter">
@@ -33,16 +35,18 @@ class AllPosts extends React.Component {
           if (this.state.tab === 'all') return x;
           return x.node.frontmatter.tags.includes(this.state.tab)
         }).map((x, i) => (
-            <div key={x.node.id} className={i % 2 === 0 ? "reg" : "reverse"}>
+            <div key={x.node.id}>
             <Link
               to={x.node.frontmatter.path}
+              className={i % 2 === 0 ? "post-preview" : "post-preview ppr-reverse"}
+              heroImg={x.node.frontmatter.headerImg.childImageSharp}
             >
               <Img resolutions={x.node.frontmatter.headerImg.childImageSharp.resolutions} />
-              <h3>
-                {x.node.frontmatter.title}{" "}
-                <span>— {x.node.frontmatter.date}</span>
-              </h3>
+              <div className="ppr-text-content">
+                <h3>{`${x.node.frontmatter.title} `}<span>— {x.node.frontmatter.date}</span></h3>
               <p>{x.node.excerpt}</p>
+              </div>
+
             </Link>
           </div>
         ))}
@@ -67,7 +71,7 @@ export const allPostQuery = graphql`
             tags
             headerImg {
               childImageSharp {
-                resolutions {
+                resolutions(width:200, height:150) {
                   ...GatsbyImageSharpResolutions
                 }
               }
