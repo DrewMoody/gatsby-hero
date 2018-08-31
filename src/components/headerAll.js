@@ -10,7 +10,7 @@ function Header2(props) {
     <div className='hero'>
       <div>HELLO {props.name}</div>
       <div className='hero gatsby-image-wrapper'>
-        <img src='../imgs/headerBackground.jpeg'/>
+        <img src='/static/hut-58f3f4d5d85f70a456cabea460fb8f90-3b6ab.jpg'/>
       </div>
     </div>
   )

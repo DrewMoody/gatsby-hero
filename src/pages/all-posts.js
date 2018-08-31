@@ -11,6 +11,9 @@ class AllPosts extends React.Component {
   }
 
   // TODO: DRY the filter code
+  // Make filter its own component
+  // pass setTab function to it
+  // anon function send it back passing in the new tab name
   // setTab = (x) => {
   //   this.setState({tab: x});
   // } 
@@ -19,37 +22,36 @@ class AllPosts extends React.Component {
     const data = this.props.data;
     console.log('data', data);
     return (
-      <div>
-        <Header2 name={data.allMarkdownRemark.totalCount}/>
-        <h1>View All Posts</h1>
-        <h4>{data.allMarkdownRemark.totalCount} Posts</h4>
-        <div className="postfilter">
-          <h3>Filter</h3>
-          <div className='tabfilter' data-tab="all" onClick={() => this.setState({tab: "all"})}>All</div>
-          <div className='tabfilter' data-tab="diet" onClick={() => this.setState({tab: "diet"})}>Diet</div>
-          <div className='tabfilter' data-tab="exercise" onClick={() => this.setState({tab: "exercise"})}>Exercise</div>
-          <div className='tabfilter' data-tab="finance" onClick={() => this.setState({tab: "finance"})}>Finance</div>
-          <div className='tabfilter' data-tab="banana" onClick={() => this.setState({tab: "banana"})}>Banana</div>
-        </div>
-        {data.allMarkdownRemark.edges.filter(x=> {
-          if (this.state.tab === 'all') return x;
-          return x.node.frontmatter.tags.includes(this.state.tab)
-        }).map((x, i) => (
-            <div key={x.node.id}>
-            <Link
-              to={x.node.frontmatter.path}
-              className={i % 2 === 0 ? "post-preview" : "post-preview ppr-reverse"}
-              heroImg={x.node.frontmatter.headerImg.childImageSharp}
-            >
-              <Img resolutions={x.node.frontmatter.headerImg.childImageSharp.resolutions} />
-              <div className="ppr-text-content">
-                <h3>{`${x.node.frontmatter.title} `}<span>— {x.node.frontmatter.date}</span></h3>
-              <p>{x.node.excerpt}</p>
-              </div>
-
-            </Link>
+      <div className="all-posts-wrapper">
+        <Header name={data.allMarkdownRemark.totalCount} title={'View All Posts'} text={`${data.allMarkdownRemark.totalCount} Posts`}/>
+        <div className="all-posts">
+          <div className="postfilter">
+            <h3>Filter</h3>
+            <div className='tabfilter' data-tab="all" onClick={() => this.setState({tab: "all"})}>All</div>
+            <div className='tabfilter' data-tab="diet" onClick={() => this.setState({tab: "diet"})}>Diet</div>
+            <div className='tabfilter' data-tab="exercise" onClick={() => this.setState({tab: "exercise"})}>Exercise</div>
+            <div className='tabfilter' data-tab="finance" onClick={() => this.setState({tab: "finance"})}>Finance</div>
+            <div className='tabfilter' data-tab="banana" onClick={() => this.setState({tab: "banana"})}>Banana</div>
           </div>
-        ))}
+          {data.allMarkdownRemark.edges.filter(x=> {
+            if (this.state.tab === 'all') return x;
+            return x.node.frontmatter.tags.includes(this.state.tab)
+          }).map((x, i) => (
+              <div key={x.node.id}>
+              <Link
+                to={x.node.frontmatter.path}
+                className={i % 2 === 0 ? "post-preview" : "post-preview ppr-reverse"}
+              >
+                <Img resolutions={x.node.frontmatter.headerImg.childImageSharp.resolutions} />
+                <div className="ppr-text-content">
+                  <h3>{`${x.node.frontmatter.title} `}<span>— {x.node.frontmatter.date}</span></h3>
+                <p>{x.node.excerpt}</p>
+                </div>
+
+              </Link>
+            </div>
+          ))}
+        </div>
       </div>
     );
   }

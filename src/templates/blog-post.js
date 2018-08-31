@@ -1,22 +1,16 @@
 import React from "react";
 import Img from "gatsby-image";
+import Header from "../components/header";
 
 export default ({ data }) => {
   const post = data.markdownRemark;
-  console.log('hi', post);
+  console.log('from blog-post', post.frontmatter.headerImg.childImageSharp.resolutions);
   return (
     <div className='blog-post'>
-      <div className='hero'>
-        <Img resolutions={post.frontmatter.headerImg.childImageSharp.resolutions} />
-        <div className='hero-text'>
-          <h1>{post.frontmatter.title}</h1>
-          <p>{post.frontmatter.date}</p>
-        </div>
-        <div className='down-arrow'>DOWN</div>
-      </div>
+    <Header resolutions={post.frontmatter.headerImg.childImageSharp.resolutions} title={post.frontmatter.title} text={post.frontmatter.date}/>
+        {/* <Img sizes={post.frontmatter.headerImg.childImageSharp.resolutions} /> */}
       <div className='text' dangerouslySetInnerHTML={{ __html: post.html }} />
     </div>
-
   );
 };
 

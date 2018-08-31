@@ -175,8 +175,59 @@ p {
   border-radius: 5px;
 }
 .header {
+  width: 100%;
+  height: 100vh;
+  overflow: hidden;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #FFFFFF;
+  margin-bottom: 3rem;
+}
+.header .navbar {
   position: absolute;
-  z-index: 5;
+  z-index: 1;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  padding: 1rem 5%;
+  color: #FFFFFF;
+  align-items: center;
+  align-self: flex-start;
+}
+.header .navbar a {
+  font-size: calc(0.8rem + 0.5vw);
+  font-weight: 200;
+}
+.header .hero-text {
+  position: absolute;
+}
+.header .hero-text p {
+  color: #FFFFFF;
+  text-align: center;
+}
+.header .hero-img {
+  width: 100%;
+  height: 100vh;
+}
+.header .hero-img img {
+  width: 100%;
+  height: 100vh;
+  object-fit: cover;
+}
+.header .down-arrow {
+  position: absolute;
+  align-self: flex-end;
+  width: 100%;
+  text-align: right;
+  padding: 2% 5%;
+}
+.header h1 {
+  font-size: calc(1rem + 3vw);
+}
+.hero {
+  position: absolute;
+  z-index: 1;
   width: 100%;
   display: flex;
   justify-content: space-between;
@@ -184,10 +235,10 @@ p {
   color: #FFFFFF;
   align-items: center;
 }
-.header h1 {
+.hero h1 {
   font-size: calc(1rem + 3vw);
 }
-.header a {
+.hero a {
   font-size: calc(0.8rem + 0.5vw);
   font-weight: 200;
 }
@@ -228,7 +279,7 @@ p {
   color: #FFFFFF;
 }
 .blog-post .text {
-  padding: 3rem 10%;
+  padding: 0 10% 3rem 10%;
 }
 .nav {
   display: flex;
@@ -255,9 +306,10 @@ p {
   display: flex;
   margin-bottom: 3rem;
   justify-content: space-between;
+  align-items: center;
 }
 .ppr-text-content {
-  width: 350px;
+  width: 100%;
   text-align: right;
   padding-left: 15px;
 }
@@ -268,4 +320,9 @@ p {
   text-align: left;
   padding-right: 15px;
   padding-left: 0;
+}
+.all-posts {
+  width: 100%;
+  max-width: 800px;
+  margin: 0 auto;
 }
