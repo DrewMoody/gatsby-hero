@@ -1,11 +1,14 @@
 import React from "react";
 import Img from "gatsby-image";
 import Link from 'gatsby-link';
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
+import { faAngleDoubleDown } from '@fortawesome/free-solid-svg-icons'
 
-const Header = props => {
-  console.log(props.test);
+// NOTE: The img in there now is temporary. Needs to be changed.
+const Header = (props) => {
+  // console.log(props.test);
   return (
-    <div className="header" 
+    <div className="header" style={props.noPadding ? { marginBottom: 0} : null }
     //   style={ !props.resolutions.src ?
     //     { backgroundImage: props.resolutions.src }
     //     : { backgroundColor: '#999999' }
@@ -13,9 +16,10 @@ const Header = props => {
     >
       <div className='navbar'>
         <Link to={`/`}>
-          <h1>Blog Title</h1>
+          <h1>Blog title</h1>
         </Link>
         <div className="nav">
+          <Link to={`/all-posts/`}>Blog</Link>
           <Link to={`/about/`}>About</Link>
           <Link to={`/new-test/`}>Test</Link>
         </div>
@@ -32,9 +36,20 @@ const Header = props => {
         <h1>{props.title}</h1>
         <p>{props.text}</p>
       </div>
-      <div className='down-arrow'>DOWN</div>
+      
+      {!props.hideArrow ? <div className='down-arrow'><FontAwesomeIcon icon={faAngleDoubleDown} size="3x" /></div> : null}
     </div>
   )
 }
 
 export default Header;
+
+export const query = graphql`
+  query AboutQuery {
+    site {
+      siteMetadata {
+        title
+      }
+    }
+  }
+`

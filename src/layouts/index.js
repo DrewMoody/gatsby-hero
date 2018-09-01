@@ -1,8 +1,13 @@
 import React from 'react';
-import Link from 'gatsby-link';
 import './styles.css';
-import Header from '../components/header';
+// import Link from 'gatsby-link';
+// import Header from '../components/header';
+// require('typeface-cabin');
+// require('typeface-palanquin-dark')
+require('typeface-montserrat');
+require('typeface-mukta-mahee');
 
+// Plugging header in to each component individually in order to change image/header style
 export default ({ children, data }) => {
   return (
     <div className="container">

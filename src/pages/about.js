@@ -1,21 +1,21 @@
 import React from "react";
+import HeaderMini from '../components/headerMini';
 
 export default ({ data }) =>
   <div>
-    <h1>
-      About {data.site.siteMetadata.title}
-    </h1>
-    <p>
-      Here's some information about us. Oh, wait...
-    </p>
+    <HeaderMini />
+    <div className='miniPages'>
+      <h1>About Us</h1>
+      <p>Here's some information about us. Oh, wait...</p>
+    </div>
   </div>
 
-export const query = graphql`
-  query AboutQuery {
-    site {
-      siteMetadata {
-        title
-      }
-    }
-  }
-`
+// export const query = graphql`
+//   query AboutQuery {
+//     site {
+//       siteMetadata {
+//         title
+//       }
+//     }
+//   }
+// `

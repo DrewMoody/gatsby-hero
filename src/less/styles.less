@@ -1,17 +1,19 @@
 // command: less-watch-compiler less layouts styles.less
 
 @import './reset.less'; 
+// @import url('https://fonts.googleapis.com/css?family=Montserrat|Mukta+Mahee:700');
 
 @margin-b: 3rem;
-@hFont: 'Mukta Vaani', sans-serif;
+@hFont: 'Montserrat', sans-serif;
 @hFontWeight: 700;
-@bodyFont: 'Montserrat', sans-serif;
+@bodyFont: 'Mukta mahee', sans-serif;
 @bodyFontWeight: 400;
 @headerFontColor: #FFFFFF;
-
+@bodyFontColor: #333333;
 @headingFontSize: calc(1rem + 3vw);
 @hFontSize: calc(1rem + 3vw);
-// @navFontSize: calc(0.8rem + 1vw);
+@miniHFontSize: calc(1rem + 2vw);
+@navFontSize: calc(0.8rem + 1vw);
 @pFontSize: calc(0.8rem + 0.5vw);
 
 
@@ -28,8 +30,8 @@ p {
   font-size: @pFontSize;
   line-height: 1.5;
   margin-bottom: 2rem;
-  color: #333333;
-  font-weight:400;
+  color: @bodyFontColor;
+  font-weight:@bodyFontWeight;
 }
 
 #___gatsby {
@@ -43,6 +45,35 @@ p {
 
   img {
     border-radius:5px;
+  }
+}
+
+.headerMini {
+  z-index:1;
+  width:100%;
+  display:flex;
+  justify-content:space-between;
+  padding: 1rem 5%;
+  color: @bodyFontColor;
+  align-items:center;
+  margin-bottom: @margin-b;
+
+  h1 {
+    font-size: @miniHFontSize;
+  }
+
+  a {
+    font-size: @pFontSize;
+    font-weight:200;
+  }
+}
+
+.miniPages {
+  width: 80%;
+  margin: 0 auto;
+
+  h1 {
+    padding-bottom:1rem;
   }
 }
 

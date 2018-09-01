@@ -2,7 +2,6 @@ import React from "react";
 import Link from "gatsby-link";
 import Img from "gatsby-image";
 import Header from "../components/header";
-import Header2 from "../components/headerAll";
 
 class AllPosts extends React.Component {
   constructor() {
@@ -23,7 +22,7 @@ class AllPosts extends React.Component {
     console.log('data', data);
     return (
       <div className="all-posts-wrapper">
-        <Header name={data.allMarkdownRemark.totalCount} title={'View All Posts'} text={`${data.allMarkdownRemark.totalCount} Posts`}/>
+        <Header title={'View All Posts'} text={`${data.allMarkdownRemark.totalCount} Total Posts`}/>
         <div className="all-posts">
           <div className="postfilter">
             <h3>Filter</h3>
