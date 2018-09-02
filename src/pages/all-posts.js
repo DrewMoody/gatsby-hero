@@ -57,7 +57,6 @@ class AllPosts extends React.Component {
                   <h3>{`${x.node.frontmatter.title} `}<span>— {x.node.frontmatter.date}</span></h3>
                 <p>{x.node.excerpt}</p>
                 </div>
-
               </Link>
             </div>
           ))}
@@ -72,7 +71,7 @@ export default AllPosts;
 // change headerBackground to allpostsBackground when you get an img
 export const allPostQuery = graphql`
   query AllPostQuery {
-    file(relativePath: { regex: "/headerBackground/" }) {
+    file(relativePath: { regex: "/allpostsBackground/" }) {
       childImageSharp {
         sizes(maxWidth:1920) {
           ...GatsbyImageSharpSizes
