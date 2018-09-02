@@ -1,8 +1,8 @@
 ---
 path: "/post-four"
-date: "2018-06-21T01:46:57"
+date: "2018-07-01T01:46:57"
 title: "Post Four"
-tags: ['test', 'testing', 'banana']
+tags: ['tag2', 'tag3', 'tag4']
 headerImg: "hut.jpg"
 ---
 

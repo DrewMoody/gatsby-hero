@@ -4,16 +4,9 @@ import Link from 'gatsby-link';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faAngleDoubleDown } from '@fortawesome/free-solid-svg-icons'
 
-// NOTE: The img in there now is temporary. Needs to be changed.
 const Header = (props) => {
-  // console.log(props.test);
   return (
-    <div className="header" style={props.noPadding ? { marginBottom: 0} : null }
-    //   style={ !props.resolutions.src ?
-    //     { backgroundImage: props.resolutions.src }
-    //     : { backgroundColor: '#999999' }
-    // }
-    >
+    <div className="header" style={props.noPadding ? { marginBottom: 0} : null }>
       <div className='navbar'>
         <Link to={`/`}>
           <h1>Blog title</h1>
@@ -25,12 +18,11 @@ const Header = (props) => {
         </div>
       </div>
       <div className='hero-img'>
-        {props.resolutions ? 
-          <img src={props.resolutions.src} /> 
-          : <img src='http://sfwallpaper.com/images/beautiful-background-pictures-19.jpg' 
-          />
-        }
-        {/* <img src={props.resolutions.src} /> */}
+        <Img sizes={props.heroImg} style={{ height: '100vh'}}/>
+        {/* </div>{props.heroImg ?
+          <Img sizes={props.heroImg} style={{ height: '100vh'}}/>
+         : <img src='http://sfwallpaper.com/images/beautiful-background-pictures-19.jpg' />
+        } */}
       </div>
       <div className='hero-text'>
         <h1>{props.title}</h1>
@@ -43,13 +35,3 @@ const Header = (props) => {
 }
 
 export default Header;
-
-export const query = graphql`
-  query AboutQuery {
-    site {
-      siteMetadata {
-        title
-      }
-    }
-  }
-`

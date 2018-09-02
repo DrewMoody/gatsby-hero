@@ -16,7 +16,7 @@
       "children": [],
       "internal": {
         "type": "SitePage",
-        "contentDigest": "26dc6fd9a659972ac9be93cc502bdad1",
+        "contentDigest": "8e338ba15cae5730e1cd6715f02d7e23",
         "description": "Plugin dev-404-page",
         "owner": "internal-data-bridge"
       }
@@ -380,7 +380,7 @@
       "resolve": "/Users/drewmoody/Personal_Projects/Cael/node_modules/gatsby-plugin-sharp",
       "id": "Plugin gatsby-plugin-sharp",
       "name": "gatsby-plugin-sharp",
-      "version": "1.6.48",
+      "version": "2.0.0-rc.3",
       "pluginOptions": {
         "plugins": []
       },
@@ -391,7 +391,7 @@
       "packageJson": {
         "name": "gatsby-plugin-sharp",
         "description": "Wrapper of the Sharp image manipulation library for Gatsby plugins",
-        "version": "1.6.48",
+        "version": "2.0.0-rc.3",
         "main": "index.js",
         "keywords": [
           "gatsby",
@@ -406,28 +406,32 @@
         "license": "MIT",
         "dependencies": [
           {
-            "name": "async",
-            "version": "^2.1.2"
+            "name": "@babel/runtime",
+            "version": "^7.0.0"
           },
           {
-            "name": "babel-runtime",
-            "version": "^6.26.0"
+            "name": "async",
+            "version": "^2.1.2"
           },
           {
             "name": "bluebird",
             "version": "^3.5.0"
           },
           {
+            "name": "fs-exists-cached",
+            "version": "^1.0.0"
+          },
+          {
             "name": "imagemin",
-            "version": "^5.2.2"
+            "version": "^6.0.0"
           },
           {
             "name": "imagemin-pngquant",
-            "version": "5.0.1"
+            "version": "^6.0.0"
           },
           {
             "name": "imagemin-webp",
-            "version": "^4.0.0"
+            "version": "^4.1.0"
           },
           {
             "name": "lodash",
@@ -451,7 +455,7 @@
           },
           {
             "name": "sharp",
-            "version": "^0.20.0"
+            "version": "^0.20.2"
           },
           {
             "name": "svgo",
@@ -460,18 +464,22 @@
         ],
         "devDependencies": [
           {
-            "name": "babel-cli",
-            "version": "^6.26.0"
+            "name": "@babel/cli",
+            "version": "^7.0.0"
+          },
+          {
+            "name": "@babel/core",
+            "version": "^7.0.0"
           },
           {
             "name": "cross-env",
-            "version": "^5.0.5"
+            "version": "^5.1.4"
           }
         ],
         "peerDependencies": [
           {
             "name": "gatsby",
-            "version": "^1.0.0"
+            "version": ">2.0.0-alpha"
           }
         ],
         "optionalDependecies": [],
@@ -480,7 +488,7 @@
       "parent": "SOURCE",
       "children": [],
       "internal": {
-        "contentDigest": "3bb7840983e089665f3c7e5183d45ba1",
+        "contentDigest": "7a20fa3e0025fb3270fb3f22b68e0382",
         "type": "SitePlugin",
         "owner": "internal-data-bridge"
       }
@@ -489,7 +497,7 @@
       "resolve": "/Users/drewmoody/Personal_Projects/Cael/node_modules/gatsby-transformer-remark",
       "id": "Plugin gatsby-transformer-remark",
       "name": "gatsby-transformer-remark",
-      "version": "1.7.43",
+      "version": "1.7.44",
       "pluginOptions": {
         "plugins": [
           {
@@ -523,7 +531,7 @@
       "packageJson": {
         "name": "gatsby-transformer-remark",
         "description": "Gatsby transformer plugin for Markdown using the Remark library and ecosystem",
-        "version": "1.7.43",
+        "version": "1.7.44",
         "keywords": [
           "gatsby",
           "gatsby-plugin",
@@ -638,7 +646,7 @@
       "parent": "SOURCE",
       "children": [],
       "internal": {
-        "contentDigest": "e3f760b7293ea2cadf1a395210b70557",
+        "contentDigest": "0c5cf68f468887da182c0648352cd6db",
         "type": "SitePlugin",
         "owner": "internal-data-bridge"
       }
@@ -831,6 +839,10 @@
             "version": "^5.3.1"
           },
           {
+            "name": "@fortawesome/react-fontawesome",
+            "version": "^0.1.2"
+          },
+          {
             "name": "gatsby",
             "version": "^1.9.277"
           },
@@ -840,7 +852,7 @@
           },
           {
             "name": "gatsby-link",
-            "version": "^1.6.40"
+            "version": "^1.6.46"
           },
           {
             "name": "gatsby-plugin-glamor",
@@ -848,11 +860,11 @@
           },
           {
             "name": "gatsby-plugin-sharp",
-            "version": "^1.6.48"
+            "version": "^2.0.0-rc.3"
           },
           {
             "name": "gatsby-plugin-typography",
-            "version": "^1.7.18"
+            "version": "^1.7.19"
           },
           {
             "name": "gatsby-remark-images",
@@ -864,7 +876,7 @@
           },
           {
             "name": "gatsby-transformer-remark",
-            "version": "^1.7.43"
+            "version": "^1.7.44"
           },
           {
             "name": "gatsby-transformer-sharp",
@@ -1006,12 +1018,12 @@
       "host": "localhost",
       "pathPrefix": "",
       "polyfill": true,
-      "buildTime": "2018-09-01T18:53:12.322Z",
+      "buildTime": "2018-09-02T06:00:18.701Z",
       "id": "Site",
       "parent": "SOURCE",
       "children": [],
       "internal": {
-        "contentDigest": "c75ef1061b372ca052c5956ab92f73c6",
+        "contentDigest": "a0322277554d1d7345c76fda48c6f3ed",
         "type": "Site",
         "owner": "internal-data-bridge"
       }
@@ -1021,7 +1033,7 @@
       "children": [],
       "parent": "___SOURCE___",
       "internal": {
-        "contentDigest": "1545fb4ef26423670be62fc89310c3e4",
+        "contentDigest": "d2a72061ebc3e6b5868dc3dffdbce3c3",
         "type": "Directory",
         "description": "Directory \"src\"",
         "owner": "gatsby-source-filesystem"
@@ -1033,7 +1045,7 @@
       "size": 320,
       "prettySize": "320 B",
       "modifiedTime": "2018-08-31T05:18:22.121Z",
-      "accessTime": "2018-09-01T18:53:15.481Z",
+      "accessTime": "2018-09-02T06:00:20.596Z",
       "changeTime": "2018-08-31T05:18:22.121Z",
       "birthTime": "2018-06-16T23:40:05.243Z",
       "root": "/",
@@ -1051,11 +1063,11 @@
       "blksize": 4194304,
       "ino": 8599211939,
       "blocks": 0,
-      "atimeMs": 1535827995480.7563,
+      "atimeMs": 1535868020595.8743,
       "mtimeMs": 1535692702120.9111,
       "ctimeMs": 1535692702120.9111,
       "birthtimeMs": 1529192405243.0034,
-      "atime": "2018-09-01T18:53:15.481Z",
+      "atime": "2018-09-02T06:00:20.596Z",
       "mtime": "2018-08-31T05:18:22.121Z",
       "ctime": "2018-08-31T05:18:22.121Z",
       "birthtime": "2018-06-16T23:40:05.243Z"
@@ -1065,7 +1077,7 @@
       "children": [],
       "parent": "___SOURCE___",
       "internal": {
-        "contentDigest": "6de17073cd84951d29a2f53ce0a321cc",
+        "contentDigest": "de149dae878f713b8d0fa3748a677ed9",
         "type": "Directory",
         "description": "Directory \"src/components\"",
         "owner": "gatsby-source-filesystem"
@@ -1076,9 +1088,9 @@
       "extension": "",
       "size": 128,
       "prettySize": "128 B",
-      "modifiedTime": "2018-08-31T05:53:46.618Z",
-      "accessTime": "2018-09-01T18:53:15.484Z",
-      "changeTime": "2018-08-31T05:53:46.618Z",
+      "modifiedTime": "2018-09-01T19:27:40.847Z",
+      "accessTime": "2018-09-02T06:00:20.599Z",
+      "changeTime": "2018-09-01T19:27:40.847Z",
       "birthTime": "2018-06-17T02:38:45.012Z",
       "root": "/",
       "dir": "/Users/drewmoody/Personal_Projects/Cael/src",
@@ -1095,13 +1107,13 @@
       "blksize": 4194304,
       "ino": 8599298451,
       "blocks": 0,
-      "atimeMs": 1535827995483.6438,
-      "mtimeMs": 1535694826618.4573,
-      "ctimeMs": 1535694826618.4573,
+      "atimeMs": 1535868020598.6365,
+      "mtimeMs": 1535830060847.2227,
+      "ctimeMs": 1535830060847.2227,
       "birthtimeMs": 1529203125011.779,
-      "atime": "2018-09-01T18:53:15.484Z",
-      "mtime": "2018-08-31T05:53:46.618Z",
-      "ctime": "2018-08-31T05:53:46.618Z",
+      "atime": "2018-09-02T06:00:20.599Z",
+      "mtime": "2018-09-01T19:27:40.847Z",
+      "ctime": "2018-09-01T19:27:40.847Z",
       "birthtime": "2018-06-17T02:38:45.012Z"
     },
     "/Users/drewmoody/Personal_Projects/Cael/src/imgs absPath of file": {
@@ -1109,7 +1121,7 @@
       "children": [],
       "parent": "___SOURCE___",
       "internal": {
-        "contentDigest": "bbfcf1282aad3305e13567d661d79da3",
+        "contentDigest": "b5dabdf9784df3d600d4bcd5056e96f4",
         "type": "Directory",
         "description": "Directory \"src/imgs\"",
         "owner": "gatsby-source-filesystem"
@@ -1121,7 +1133,7 @@
       "size": 96,
       "prettySize": "96 B",
       "modifiedTime": "2018-08-31T05:18:55.678Z",
-      "accessTime": "2018-09-01T18:53:15.486Z",
+      "accessTime": "2018-09-02T06:00:20.599Z",
       "changeTime": "2018-08-31T05:18:55.678Z",
       "birthTime": "2018-08-31T05:18:22.121Z",
       "root": "/",
@@ -1139,11 +1151,11 @@
       "blksize": 4194304,
       "ino": 8604000769,
       "blocks": 0,
-      "atimeMs": 1535827995485.5366,
+      "atimeMs": 1535868020598.6213,
       "mtimeMs": 1535692735678.1333,
       "ctimeMs": 1535692735678.1333,
       "birthtimeMs": 1535692702120.8674,
-      "atime": "2018-09-01T18:53:15.486Z",
+      "atime": "2018-09-02T06:00:20.599Z",
       "mtime": "2018-08-31T05:18:55.678Z",
       "ctime": "2018-08-31T05:18:55.678Z",
       "birthtime": "2018-08-31T05:18:22.121Z"
@@ -1153,7 +1165,7 @@
       "children": [],
       "parent": "___SOURCE___",
       "internal": {
-        "contentDigest": "3dfb74d9f96fa9bfa120b57c627216ed",
+        "contentDigest": "88fd358addd6b66ae963675fa0d3e58d",
         "type": "Directory",
         "description": "Directory \"src/layouts\"",
         "owner": "gatsby-source-filesystem"
@@ -1165,7 +1177,7 @@
       "size": 128,
       "prettySize": "128 B",
       "modifiedTime": "2018-06-17T04:40:40.133Z",
-      "accessTime": "2018-09-01T18:53:15.484Z",
+      "accessTime": "2018-09-02T06:00:20.599Z",
       "changeTime": "2018-06-17T04:40:40.133Z",
       "birthTime": "2018-06-16T23:45:31.141Z",
       "root": "/",
@@ -1183,11 +1195,11 @@
       "blksize": 4194304,
       "ino": 8599289794,
       "blocks": 0,
-      "atimeMs": 1535827995483.5696,
+      "atimeMs": 1535868020598.653,
       "mtimeMs": 1529210440132.59,
       "ctimeMs": 1529210440132.59,
       "birthtimeMs": 1529192731141.3455,
-      "atime": "2018-09-01T18:53:15.484Z",
+      "atime": "2018-09-02T06:00:20.599Z",
       "mtime": "2018-06-17T04:40:40.133Z",
       "ctime": "2018-06-17T04:40:40.133Z",
       "birthtime": "2018-06-16T23:45:31.141Z"
@@ -1197,7 +1209,7 @@
       "children": [],
       "parent": "___SOURCE___",
       "internal": {
-        "contentDigest": "2bfc64761921a9f13029ee1ffb793b70",
+        "contentDigest": "c2f14754fcb23f009568073076f6de7c",
         "type": "Directory",
         "description": "Directory \"src/less\"",
         "owner": "gatsby-source-filesystem"
@@ -1209,7 +1221,7 @@
       "size": 128,
       "prettySize": "128 B",
       "modifiedTime": "2018-08-20T22:09:53.024Z",
-      "accessTime": "2018-09-01T18:53:15.484Z",
+      "accessTime": "2018-09-02T06:00:20.599Z",
       "changeTime": "2018-08-20T22:09:53.024Z",
       "birthTime": "2018-08-20T19:01:02.296Z",
       "root": "/",
@@ -1227,11 +1239,11 @@
       "blksize": 4194304,
       "ino": 8603393340,
       "blocks": 0,
-      "atimeMs": 1535827995484.322,
+      "atimeMs": 1535868020598.68,
       "mtimeMs": 1534802993023.857,
       "ctimeMs": 1534802993023.857,
       "birthtimeMs": 1534791662296.2961,
-      "atime": "2018-09-01T18:53:15.484Z",
+      "atime": "2018-09-02T06:00:20.599Z",
       "mtime": "2018-08-20T22:09:53.024Z",
       "ctime": "2018-08-20T22:09:53.024Z",
       "birthtime": "2018-08-20T19:01:02.296Z"
@@ -1241,7 +1253,7 @@
       "children": [],
       "parent": "___SOURCE___",
       "internal": {
-        "contentDigest": "823bdfe90dfa8eb751f4153b197a2de8",
+        "contentDigest": "a9cdd89afd43e691418208b8d0a741f2",
         "type": "Directory",
         "description": "Directory \"src/pages\"",
         "owner": "gatsby-source-filesystem"
@@ -1252,9 +1264,9 @@
       "extension": "",
       "size": 384,
       "prettySize": "384 B",
-      "modifiedTime": "2018-06-22T03:45:35.314Z",
-      "accessTime": "2018-09-01T18:53:15.548Z",
-      "changeTime": "2018-06-22T03:45:35.314Z",
+      "modifiedTime": "2018-09-02T05:59:36.176Z",
+      "accessTime": "2018-09-02T06:00:20.653Z",
+      "changeTime": "2018-09-02T05:59:36.176Z",
       "birthTime": "2018-06-16T23:40:05.243Z",
       "root": "/",
       "dir": "/Users/drewmoody/Personal_Projects/Cael/src",
@@ -1271,13 +1283,13 @@
       "blksize": 4194304,
       "ino": 8599211940,
       "blocks": 0,
-      "atimeMs": 1535827995548.0417,
-      "mtimeMs": 1529639135313.5015,
-      "ctimeMs": 1529639135313.5015,
+      "atimeMs": 1535868020652.5906,
+      "mtimeMs": 1535867976176.2014,
+      "ctimeMs": 1535867976176.2014,
       "birthtimeMs": 1529192405243.0513,
-      "atime": "2018-09-01T18:53:15.548Z",
-      "mtime": "2018-06-22T03:45:35.314Z",
-      "ctime": "2018-06-22T03:45:35.314Z",
+      "atime": "2018-09-02T06:00:20.653Z",
+      "mtime": "2018-09-02T05:59:36.176Z",
+      "ctime": "2018-09-02T05:59:36.176Z",
       "birthtime": "2018-06-16T23:40:05.243Z"
     },
     "/Users/drewmoody/Personal_Projects/Cael/src/templates absPath of file": {
@@ -1285,7 +1297,7 @@
       "children": [],
       "parent": "___SOURCE___",
       "internal": {
-        "contentDigest": "3a17108d386e87aa66ea6f3de3471097",
+        "contentDigest": "c63eb3754b59c6175e978bb592b3638a",
         "type": "Directory",
         "description": "Directory \"src/templates\"",
         "owner": "gatsby-source-filesystem"
@@ -1297,7 +1309,7 @@
       "size": 96,
       "prettySize": "96 B",
       "modifiedTime": "2018-06-17T00:58:19.076Z",
-      "accessTime": "2018-09-01T18:53:15.484Z",
+      "accessTime": "2018-09-02T06:00:20.599Z",
       "changeTime": "2018-06-17T00:58:19.076Z",
       "birthTime": "2018-06-17T00:58:04.875Z",
       "root": "/",
@@ -1315,11 +1327,11 @@
       "blksize": 4194304,
       "ino": 8599295409,
       "blocks": 0,
-      "atimeMs": 1535827995484.283,
+      "atimeMs": 1535868020598.7546,
       "mtimeMs": 1529197099075.773,
       "ctimeMs": 1529197099075.773,
       "birthtimeMs": 1529197084874.639,
-      "atime": "2018-09-01T18:53:15.484Z",
+      "atime": "2018-09-02T06:00:20.599Z",
       "mtime": "2018-06-17T00:58:19.076Z",
       "ctime": "2018-06-17T00:58:19.076Z",
       "birthtime": "2018-06-17T00:58:04.875Z"
@@ -1329,7 +1341,7 @@
       "children": [],
       "parent": "___SOURCE___",
       "internal": {
-        "contentDigest": "d8542d804923ba470b61f89a44895c98",
+        "contentDigest": "cc7cbd0d5a484b57cd031b8fa9dcc15f",
         "type": "Directory",
         "description": "Directory \"src/utils\"",
         "owner": "gatsby-source-filesystem"
@@ -1341,7 +1353,7 @@
       "size": 96,
       "prettySize": "96 B",
       "modifiedTime": "2018-06-16T23:46:21.570Z",
-      "accessTime": "2018-09-01T18:53:15.484Z",
+      "accessTime": "2018-09-02T06:00:20.599Z",
       "changeTime": "2018-06-16T23:46:21.570Z",
       "birthTime": "2018-06-16T23:46:07.492Z",
       "root": "/",
@@ -1359,65 +1371,21 @@
       "blksize": 4194304,
       "ino": 8599289807,
       "blocks": 0,
-      "atimeMs": 1535827995483.666,
+      "atimeMs": 1535868020598.737,
       "mtimeMs": 1529192781570.2522,
       "ctimeMs": 1529192781570.2522,
       "birthtimeMs": 1529192767492.371,
-      "atime": "2018-09-01T18:53:15.484Z",
+      "atime": "2018-09-02T06:00:20.599Z",
       "mtime": "2018-06-16T23:46:21.570Z",
       "ctime": "2018-06-16T23:46:21.570Z",
       "birthtime": "2018-06-16T23:46:07.492Z"
-    },
-    "/Users/drewmoody/Personal_Projects/Cael/src/pages/2018-04-01-post-three absPath of file": {
-      "id": "/Users/drewmoody/Personal_Projects/Cael/src/pages/2018-04-01-post-three absPath of file",
-      "children": [],
-      "parent": "___SOURCE___",
-      "internal": {
-        "contentDigest": "83f8ea2a144bfaf6e5cd8685b037a1e5",
-        "type": "Directory",
-        "description": "Directory \"src/pages/2018-04-01-post-three\"",
-        "owner": "gatsby-source-filesystem"
-      },
-      "sourceInstanceName": "pages",
-      "absolutePath": "/Users/drewmoody/Personal_Projects/Cael/src/pages/2018-04-01-post-three",
-      "relativePath": "2018-04-01-post-three",
-      "extension": "",
-      "size": 128,
-      "prettySize": "128 B",
-      "modifiedTime": "2018-08-29T05:06:29.680Z",
-      "accessTime": "2018-09-01T18:53:15.551Z",
-      "changeTime": "2018-08-29T05:06:29.680Z",
-      "birthTime": "2018-06-22T02:32:55.871Z",
-      "root": "/",
-      "dir": "/Users/drewmoody/Personal_Projects/Cael/src/pages",
-      "base": "2018-04-01-post-three",
-      "ext": "",
-      "name": "2018-04-01-post-three",
-      "relativeDirectory": "",
-      "dev": 16777221,
-      "mode": 16877,
-      "nlink": 4,
-      "uid": 501,
-      "gid": 20,
-      "rdev": 0,
-      "blksize": 4194304,
-      "ino": 8599721986,
-      "blocks": 0,
-      "atimeMs": 1535827995550.7996,
-      "mtimeMs": 1535519189680.4124,
-      "ctimeMs": 1535519189680.4124,
-      "birthtimeMs": 1529634775871.1306,
-      "atime": "2018-09-01T18:53:15.551Z",
-      "mtime": "2018-08-29T05:06:29.680Z",
-      "ctime": "2018-08-29T05:06:29.680Z",
-      "birthtime": "2018-06-22T02:32:55.871Z"
     },
     "/Users/drewmoody/Personal_Projects/Cael/src/pages/2018-05-01-post-two absPath of file": {
       "id": "/Users/drewmoody/Personal_Projects/Cael/src/pages/2018-05-01-post-two absPath of file",
       "children": [],
       "parent": "___SOURCE___",
       "internal": {
-        "contentDigest": "0c724915c373c344123302921d72a749",
+        "contentDigest": "63a150f4508cf0a362455e4a59a74ae6",
         "type": "Directory",
         "description": "Directory \"src/pages/2018-05-01-post-two\"",
         "owner": "gatsby-source-filesystem"
@@ -1429,7 +1397,7 @@
       "size": 128,
       "prettySize": "128 B",
       "modifiedTime": "2018-08-29T05:06:35.581Z",
-      "accessTime": "2018-09-01T18:53:15.551Z",
+      "accessTime": "2018-09-02T06:00:20.655Z",
       "changeTime": "2018-08-29T05:06:35.581Z",
       "birthTime": "2018-06-22T02:32:37.188Z",
       "root": "/",
@@ -1447,109 +1415,156 @@
       "blksize": 4194304,
       "ino": 8599721976,
       "blocks": 0,
-      "atimeMs": 1535827995550.7488,
+      "atimeMs": 1535868020655.271,
       "mtimeMs": 1535519195581.3613,
       "ctimeMs": 1535519195581.3613,
       "birthtimeMs": 1529634757188.4404,
-      "atime": "2018-09-01T18:53:15.551Z",
+      "atime": "2018-09-02T06:00:20.655Z",
       "mtime": "2018-08-29T05:06:35.581Z",
       "ctime": "2018-08-29T05:06:35.581Z",
       "birthtime": "2018-06-22T02:32:37.188Z"
     },
-    "/Users/drewmoody/Personal_Projects/Cael/src/pages/2018-06-01-post-one absPath of file": {
-      "id": "/Users/drewmoody/Personal_Projects/Cael/src/pages/2018-06-01-post-one absPath of file",
+    "/Users/drewmoody/Personal_Projects/Cael/src/components/header.js absPath of file": {
+      "id": "/Users/drewmoody/Personal_Projects/Cael/src/components/header.js absPath of file",
       "children": [],
       "parent": "___SOURCE___",
       "internal": {
-        "contentDigest": "813dfffea417529499d99971bfb9a446",
-        "type": "Directory",
-        "description": "Directory \"src/pages/2018-06-01-post-one\"",
+        "contentDigest": "353075ceb0cd8df519f2bb341c9a81d9",
+        "mediaType": "application/javascript",
+        "type": "File",
+        "description": "File \"src/components/header.js\"",
         "owner": "gatsby-source-filesystem"
       },
-      "sourceInstanceName": "pages",
-      "absolutePath": "/Users/drewmoody/Personal_Projects/Cael/src/pages/2018-06-01-post-one",
-      "relativePath": "2018-06-01-post-one",
-      "extension": "",
-      "size": 128,
-      "prettySize": "128 B",
-      "modifiedTime": "2018-08-29T05:06:40.884Z",
-      "accessTime": "2018-09-01T18:53:15.551Z",
-      "changeTime": "2018-08-29T05:06:40.884Z",
-      "birthTime": "2018-06-22T02:32:16.264Z",
+      "sourceInstanceName": "src",
+      "absolutePath": "/Users/drewmoody/Personal_Projects/Cael/src/components/header.js",
+      "relativePath": "components/header.js",
+      "extension": "js",
+      "size": 1237,
+      "prettySize": "1.24 kB",
+      "modifiedTime": "2018-09-02T06:05:33.176Z",
+      "accessTime": "2018-09-02T06:05:33.175Z",
+      "changeTime": "2018-09-02T06:05:33.176Z",
+      "birthTime": "2018-06-17T13:00:11.350Z",
       "root": "/",
-      "dir": "/Users/drewmoody/Personal_Projects/Cael/src/pages",
-      "base": "2018-06-01-post-one",
-      "ext": "",
-      "name": "2018-06-01-post-one",
-      "relativeDirectory": "",
+      "dir": "/Users/drewmoody/Personal_Projects/Cael/src/components",
+      "base": "header.js",
+      "ext": ".js",
+      "name": "header",
+      "relativeDirectory": "components",
       "dev": 16777221,
-      "mode": 16877,
-      "nlink": 4,
+      "mode": 33188,
+      "nlink": 1,
       "uid": 501,
       "gid": 20,
       "rdev": 0,
       "blksize": 4194304,
-      "ino": 8599721953,
-      "blocks": 0,
-      "atimeMs": 1535827995550.7607,
-      "mtimeMs": 1535519200884.1455,
-      "ctimeMs": 1535519200884.1455,
-      "birthtimeMs": 1529634736263.928,
-      "atime": "2018-09-01T18:53:15.551Z",
-      "mtime": "2018-08-29T05:06:40.884Z",
-      "ctime": "2018-08-29T05:06:40.884Z",
-      "birthtime": "2018-06-22T02:32:16.264Z"
+      "ino": 8599353064,
+      "blocks": 8,
+      "atimeMs": 1535868333175.0312,
+      "mtimeMs": 1535868333175.5835,
+      "ctimeMs": 1535868333175.5835,
+      "birthtimeMs": 1529240411350.2554,
+      "atime": "2018-09-02T06:05:33.175Z",
+      "mtime": "2018-09-02T06:05:33.176Z",
+      "ctime": "2018-09-02T06:05:33.176Z",
+      "birthtime": "2018-06-17T13:00:11.350Z"
     },
-    "/Users/drewmoody/Personal_Projects/Cael/src/pages/2018-06-21-post-four absPath of file": {
-      "id": "/Users/drewmoody/Personal_Projects/Cael/src/pages/2018-06-21-post-four absPath of file",
+    "/Users/drewmoody/Personal_Projects/Cael/src/components/headerMini.js absPath of file": {
+      "id": "/Users/drewmoody/Personal_Projects/Cael/src/components/headerMini.js absPath of file",
       "children": [],
       "parent": "___SOURCE___",
       "internal": {
-        "contentDigest": "205aaa268abdfcfe04708516e3dd0f9a",
-        "type": "Directory",
-        "description": "Directory \"src/pages/2018-06-21-post-four\"",
+        "contentDigest": "ba238de47ca61ef4c4af94e109094141",
+        "mediaType": "application/javascript",
+        "type": "File",
+        "description": "File \"src/components/headerMini.js\"",
         "owner": "gatsby-source-filesystem"
       },
-      "sourceInstanceName": "pages",
-      "absolutePath": "/Users/drewmoody/Personal_Projects/Cael/src/pages/2018-06-21-post-four",
-      "relativePath": "2018-06-21-post-four",
-      "extension": "",
-      "size": 128,
-      "prettySize": "128 B",
-      "modifiedTime": "2018-08-29T06:47:43.392Z",
-      "accessTime": "2018-09-01T18:53:15.551Z",
-      "changeTime": "2018-08-29T06:47:43.392Z",
-      "birthTime": "2018-06-22T01:45:44.505Z",
+      "sourceInstanceName": "src",
+      "absolutePath": "/Users/drewmoody/Personal_Projects/Cael/src/components/headerMini.js",
+      "relativePath": "components/headerMini.js",
+      "extension": "js",
+      "size": 413,
+      "prettySize": "413 B",
+      "modifiedTime": "2018-09-02T06:08:43.196Z",
+      "accessTime": "2018-09-02T06:08:43.196Z",
+      "changeTime": "2018-09-02T06:08:43.196Z",
+      "birthTime": "2018-08-31T05:53:46.618Z",
       "root": "/",
-      "dir": "/Users/drewmoody/Personal_Projects/Cael/src/pages",
-      "base": "2018-06-21-post-four",
-      "ext": "",
-      "name": "2018-06-21-post-four",
-      "relativeDirectory": "",
+      "dir": "/Users/drewmoody/Personal_Projects/Cael/src/components",
+      "base": "headerMini.js",
+      "ext": ".js",
+      "name": "headerMini",
+      "relativeDirectory": "components",
       "dev": 16777221,
-      "mode": 16877,
-      "nlink": 4,
+      "mode": 33188,
+      "nlink": 1,
       "uid": 501,
       "gid": 20,
       "rdev": 0,
       "blksize": 4194304,
-      "ino": 8599681160,
-      "blocks": 0,
-      "atimeMs": 1535827995550.7776,
-      "mtimeMs": 1535525263392.0615,
-      "ctimeMs": 1535525263392.0615,
-      "birthtimeMs": 1529631944504.84,
-      "atime": "2018-09-01T18:53:15.551Z",
-      "mtime": "2018-08-29T06:47:43.392Z",
-      "ctime": "2018-08-29T06:47:43.392Z",
-      "birthtime": "2018-06-22T01:45:44.505Z"
+      "ino": 8604001885,
+      "blocks": 8,
+      "atimeMs": 1535868523195.5828,
+      "mtimeMs": 1535868523195.9653,
+      "ctimeMs": 1535868523195.9653,
+      "birthtimeMs": 1535694826618.442,
+      "atime": "2018-09-02T06:08:43.196Z",
+      "mtime": "2018-09-02T06:08:43.196Z",
+      "ctime": "2018-09-02T06:08:43.196Z",
+      "birthtime": "2018-08-31T05:53:46.618Z"
+    },
+    "/Users/drewmoody/Personal_Projects/Cael/src/layouts/index.js absPath of file": {
+      "id": "/Users/drewmoody/Personal_Projects/Cael/src/layouts/index.js absPath of file",
+      "children": [],
+      "parent": "___SOURCE___",
+      "internal": {
+        "contentDigest": "7461191277e3acfa373658bc93fca7a9",
+        "mediaType": "application/javascript",
+        "type": "File",
+        "description": "File \"src/layouts/index.js\"",
+        "owner": "gatsby-source-filesystem"
+      },
+      "sourceInstanceName": "src",
+      "absolutePath": "/Users/drewmoody/Personal_Projects/Cael/src/layouts/index.js",
+      "relativePath": "layouts/index.js",
+      "extension": "js",
+      "size": 751,
+      "prettySize": "751 B",
+      "modifiedTime": "2018-09-01T18:41:54.882Z",
+      "accessTime": "2018-09-02T05:34:16.690Z",
+      "changeTime": "2018-09-01T18:41:54.882Z",
+      "birthTime": "2018-06-16T23:45:50.527Z",
+      "root": "/",
+      "dir": "/Users/drewmoody/Personal_Projects/Cael/src/layouts",
+      "base": "index.js",
+      "ext": ".js",
+      "name": "index",
+      "relativeDirectory": "layouts",
+      "dev": 16777221,
+      "mode": 33188,
+      "nlink": 1,
+      "uid": 501,
+      "gid": 20,
+      "rdev": 0,
+      "blksize": 4194304,
+      "ino": 8599289802,
+      "blocks": 8,
+      "atimeMs": 1535866456690.4988,
+      "mtimeMs": 1535827314882.2734,
+      "ctimeMs": 1535827314882.2734,
+      "birthtimeMs": 1529192750527.0356,
+      "atime": "2018-09-02T05:34:16.690Z",
+      "mtime": "2018-09-01T18:41:54.882Z",
+      "ctime": "2018-09-01T18:41:54.882Z",
+      "birthtime": "2018-06-16T23:45:50.527Z"
     },
     "/Users/drewmoody/Personal_Projects/Cael/src/layouts/styles.css absPath of file": {
       "id": "/Users/drewmoody/Personal_Projects/Cael/src/layouts/styles.css absPath of file",
       "children": [],
       "parent": "___SOURCE___",
       "internal": {
-        "contentDigest": "52287138f24bb3359c01f9f171124afe",
+        "contentDigest": "f9a99d7641ce4e1473a7b7836e0531bc",
         "mediaType": "text/css",
         "type": "File",
         "description": "File \"src/layouts/styles.css\"",
@@ -1561,9 +1576,9 @@
       "extension": "css",
       "size": 4736,
       "prettySize": "4.74 kB",
-      "modifiedTime": "2018-09-01T20:03:33.164Z",
-      "accessTime": "2018-09-01T20:03:25.255Z",
-      "changeTime": "2018-09-01T20:03:33.164Z",
+      "modifiedTime": "2018-09-02T05:10:52.219Z",
+      "accessTime": "2018-09-02T05:40:49.197Z",
+      "changeTime": "2018-09-02T05:10:52.219Z",
       "birthTime": "2018-06-17T04:40:40.133Z",
       "root": "/",
       "dir": "/Users/drewmoody/Personal_Projects/Cael/src/layouts",
@@ -1580,14 +1595,59 @@
       "blksize": 4194304,
       "ino": 8599348969,
       "blocks": 16,
-      "atimeMs": 1535832205254.8752,
-      "mtimeMs": 1535832213163.6829,
-      "ctimeMs": 1535832213163.6829,
+      "atimeMs": 1535866849196.6614,
+      "mtimeMs": 1535865052219.2312,
+      "ctimeMs": 1535865052219.2312,
       "birthtimeMs": 1529210440132.556,
-      "atime": "2018-09-01T20:03:25.255Z",
-      "mtime": "2018-09-01T20:03:33.164Z",
-      "ctime": "2018-09-01T20:03:33.164Z",
+      "atime": "2018-09-02T05:40:49.197Z",
+      "mtime": "2018-09-02T05:10:52.219Z",
+      "ctime": "2018-09-02T05:10:52.219Z",
       "birthtime": "2018-06-17T04:40:40.133Z"
+    },
+    "/Users/drewmoody/Personal_Projects/Cael/src/templates/blog-post.js absPath of file": {
+      "id": "/Users/drewmoody/Personal_Projects/Cael/src/templates/blog-post.js absPath of file",
+      "children": [],
+      "parent": "___SOURCE___",
+      "internal": {
+        "contentDigest": "17d1b95340afa20683ade6c40b0eb207",
+        "mediaType": "application/javascript",
+        "type": "File",
+        "description": "File \"src/templates/blog-post.js\"",
+        "owner": "gatsby-source-filesystem"
+      },
+      "sourceInstanceName": "src",
+      "absolutePath": "/Users/drewmoody/Personal_Projects/Cael/src/templates/blog-post.js",
+      "relativePath": "templates/blog-post.js",
+      "extension": "js",
+      "size": 841,
+      "prettySize": "841 B",
+      "modifiedTime": "2018-09-02T06:06:15.477Z",
+      "accessTime": "2018-09-02T06:06:15.477Z",
+      "changeTime": "2018-09-02T06:06:15.477Z",
+      "birthTime": "2018-06-17T00:58:19.076Z",
+      "root": "/",
+      "dir": "/Users/drewmoody/Personal_Projects/Cael/src/templates",
+      "base": "blog-post.js",
+      "ext": ".js",
+      "name": "blog-post",
+      "relativeDirectory": "templates",
+      "dev": 16777221,
+      "mode": 33188,
+      "nlink": 1,
+      "uid": 501,
+      "gid": 20,
+      "rdev": 0,
+      "blksize": 4194304,
+      "ino": 8599295418,
+      "blocks": 8,
+      "atimeMs": 1535868375476.777,
+      "mtimeMs": 1535868375477.1597,
+      "ctimeMs": 1535868375477.1597,
+      "birthtimeMs": 1529197099075.7627,
+      "atime": "2018-09-02T06:06:15.477Z",
+      "mtime": "2018-09-02T06:06:15.477Z",
+      "ctime": "2018-09-02T06:06:15.477Z",
+      "birthtime": "2018-06-17T00:58:19.076Z"
     },
     "/Users/drewmoody/Personal_Projects/Cael/src/pages/.DS_Store absPath of file": {
       "id": "/Users/drewmoody/Personal_Projects/Cael/src/pages/.DS_Store absPath of file",
@@ -1607,7 +1667,7 @@
       "size": 6148,
       "prettySize": "6.15 kB",
       "modifiedTime": "2018-08-31T05:16:00.326Z",
-      "accessTime": "2018-09-01T17:41:16.096Z",
+      "accessTime": "2018-09-02T05:25:44.368Z",
       "changeTime": "2018-08-31T05:16:00.326Z",
       "birthTime": "2018-06-17T02:39:08.184Z",
       "root": "/",
@@ -1625,11 +1685,11 @@
       "blksize": 4194304,
       "ino": 8599298472,
       "blocks": 16,
-      "atimeMs": 1535823676096.301,
+      "atimeMs": 1535865944368.1794,
       "mtimeMs": 1535692560325.9504,
       "ctimeMs": 1535692560325.9504,
       "birthtimeMs": 1529203148184.1494,
-      "atime": "2018-09-01T17:41:16.096Z",
+      "atime": "2018-09-02T05:25:44.368Z",
       "mtime": "2018-08-31T05:16:00.326Z",
       "ctime": "2018-08-31T05:16:00.326Z",
       "birthtime": "2018-06-17T02:39:08.184Z"
@@ -1652,7 +1712,7 @@
       "size": 414,
       "prettySize": "414 B",
       "modifiedTime": "2018-09-01T20:02:14.248Z",
-      "accessTime": "2018-09-01T20:02:14.247Z",
+      "accessTime": "2018-09-02T05:34:14.563Z",
       "changeTime": "2018-09-01T20:02:14.248Z",
       "birthTime": "2018-06-16T23:44:40.744Z",
       "root": "/",
@@ -1670,11 +1730,11 @@
       "blksize": 4194304,
       "ino": 8599289778,
       "blocks": 8,
-      "atimeMs": 1535832134247.3772,
+      "atimeMs": 1535866454563.394,
       "mtimeMs": 1535832134247.9292,
       "ctimeMs": 1535832134247.9292,
       "birthtimeMs": 1529192680743.7239,
-      "atime": "2018-09-01T20:02:14.247Z",
+      "atime": "2018-09-02T05:34:14.563Z",
       "mtime": "2018-09-01T20:02:14.248Z",
       "ctime": "2018-09-01T20:02:14.248Z",
       "birthtime": "2018-06-16T23:44:40.744Z"
@@ -1684,7 +1744,7 @@
       "children": [],
       "parent": "___SOURCE___",
       "internal": {
-        "contentDigest": "19c1fcff3ea15c4ba6cbd96599053f99",
+        "contentDigest": "f7193b7faf0cf38b66f203afbac52f3a",
         "mediaType": "application/javascript",
         "type": "File",
         "description": "File \"src/pages/all-posts.js\"",
@@ -1694,11 +1754,11 @@
       "absolutePath": "/Users/drewmoody/Personal_Projects/Cael/src/pages/all-posts.js",
       "relativePath": "pages/all-posts.js",
       "extension": "js",
-      "size": 2870,
-      "prettySize": "2.87 kB",
-      "modifiedTime": "2018-09-01T19:35:51.334Z",
-      "accessTime": "2018-09-01T19:35:51.333Z",
-      "changeTime": "2018-09-01T19:35:51.334Z",
+      "size": 2996,
+      "prettySize": "3 kB",
+      "modifiedTime": "2018-09-02T06:50:14.866Z",
+      "accessTime": "2018-09-02T06:50:14.866Z",
+      "changeTime": "2018-09-02T06:50:14.866Z",
       "birthTime": "2018-06-16T23:48:35.981Z",
       "root": "/",
       "dir": "/Users/drewmoody/Personal_Projects/Cael/src/pages",
@@ -1715,42 +1775,42 @@
       "blksize": 4194304,
       "ino": 8599289936,
       "blocks": 8,
-      "atimeMs": 1535830551333.2048,
-      "mtimeMs": 1535830551333.7646,
-      "ctimeMs": 1535830551333.7646,
+      "atimeMs": 1535871014865.52,
+      "mtimeMs": 1535871014866.1892,
+      "ctimeMs": 1535871014866.1892,
       "birthtimeMs": 1529192915980.5867,
-      "atime": "2018-09-01T19:35:51.333Z",
-      "mtime": "2018-09-01T19:35:51.334Z",
-      "ctime": "2018-09-01T19:35:51.334Z",
+      "atime": "2018-09-02T06:50:14.866Z",
+      "mtime": "2018-09-02T06:50:14.866Z",
+      "ctime": "2018-09-02T06:50:14.866Z",
       "birthtime": "2018-06-16T23:48:35.981Z"
     },
-    "/Users/drewmoody/Personal_Projects/Cael/src/pages/index.js absPath of file": {
-      "id": "/Users/drewmoody/Personal_Projects/Cael/src/pages/index.js absPath of file",
+    "/Users/drewmoody/Personal_Projects/Cael/src/less/styles.less absPath of file": {
+      "id": "/Users/drewmoody/Personal_Projects/Cael/src/less/styles.less absPath of file",
       "children": [],
       "parent": "___SOURCE___",
       "internal": {
-        "contentDigest": "ed4b77e81e5fc74db48f96d6af30cd0d",
-        "mediaType": "application/javascript",
+        "contentDigest": "e20e97e5a64bb7a422123dc44d04212d",
+        "mediaType": "text/less",
         "type": "File",
-        "description": "File \"src/pages/index.js\"",
+        "description": "File \"src/less/styles.less\"",
         "owner": "gatsby-source-filesystem"
       },
       "sourceInstanceName": "src",
-      "absolutePath": "/Users/drewmoody/Personal_Projects/Cael/src/pages/index.js",
-      "relativePath": "pages/index.js",
-      "extension": "js",
-      "size": 770,
-      "prettySize": "770 B",
-      "modifiedTime": "2018-09-01T19:22:12.813Z",
-      "accessTime": "2018-09-01T19:22:12.812Z",
-      "changeTime": "2018-09-01T19:22:12.813Z",
-      "birthTime": "2018-06-16T23:40:05.243Z",
+      "absolutePath": "/Users/drewmoody/Personal_Projects/Cael/src/less/styles.less",
+      "relativePath": "less/styles.less",
+      "extension": "less",
+      "size": 3974,
+      "prettySize": "3.97 kB",
+      "modifiedTime": "2018-09-02T05:10:51.982Z",
+      "accessTime": "2018-09-02T05:25:44.368Z",
+      "changeTime": "2018-09-02T05:10:51.982Z",
+      "birthTime": "2018-08-20T19:01:39.382Z",
       "root": "/",
-      "dir": "/Users/drewmoody/Personal_Projects/Cael/src/pages",
-      "base": "index.js",
-      "ext": ".js",
-      "name": "index",
-      "relativeDirectory": "pages",
+      "dir": "/Users/drewmoody/Personal_Projects/Cael/src/less",
+      "base": "styles.less",
+      "ext": ".less",
+      "name": "styles",
+      "relativeDirectory": "less",
       "dev": 16777221,
       "mode": 33188,
       "nlink": 1,
@@ -1758,16 +1818,16 @@
       "gid": 20,
       "rdev": 0,
       "blksize": 4194304,
-      "ino": 8599211941,
+      "ino": 8603393358,
       "blocks": 8,
-      "atimeMs": 1535829732812.2769,
-      "mtimeMs": 1535829732812.6328,
-      "ctimeMs": 1535829732812.6328,
-      "birthtimeMs": 1529192405243.1138,
-      "atime": "2018-09-01T19:22:12.812Z",
-      "mtime": "2018-09-01T19:22:12.813Z",
-      "ctime": "2018-09-01T19:22:12.813Z",
-      "birthtime": "2018-06-16T23:40:05.243Z"
+      "atimeMs": 1535865944368.1384,
+      "mtimeMs": 1535865051981.731,
+      "ctimeMs": 1535865051981.731,
+      "birthtimeMs": 1534791699381.7612,
+      "atime": "2018-09-02T05:25:44.368Z",
+      "mtime": "2018-09-02T05:10:51.982Z",
+      "ctime": "2018-09-02T05:10:51.982Z",
+      "birthtime": "2018-08-20T19:01:39.382Z"
     },
     "/Users/drewmoody/Personal_Projects/Cael/src/pages/my-files.js absPath of file": {
       "id": "/Users/drewmoody/Personal_Projects/Cael/src/pages/my-files.js absPath of file",
@@ -1787,7 +1847,7 @@
       "size": 1033,
       "prettySize": "1.03 kB",
       "modifiedTime": "2018-06-17T00:28:27.311Z",
-      "accessTime": "2018-09-01T18:41:56.689Z",
+      "accessTime": "2018-09-02T05:34:14.563Z",
       "changeTime": "2018-06-17T00:28:27.311Z",
       "birthTime": "2018-06-17T00:26:19.841Z",
       "root": "/",
@@ -1805,11 +1865,11 @@
       "blksize": 4194304,
       "ino": 8599291459,
       "blocks": 8,
-      "atimeMs": 1535827316689.353,
+      "atimeMs": 1535866454563.412,
       "mtimeMs": 1529195307311.1929,
       "ctimeMs": 1529195307311.1929,
       "birthtimeMs": 1529195179840.8828,
-      "atime": "2018-09-01T18:41:56.689Z",
+      "atime": "2018-09-02T05:34:14.563Z",
       "mtime": "2018-06-17T00:28:27.311Z",
       "ctime": "2018-06-17T00:28:27.311Z",
       "birthtime": "2018-06-17T00:26:19.841Z"
@@ -1832,7 +1892,7 @@
       "size": 252,
       "prettySize": "252 B",
       "modifiedTime": "2018-09-01T20:02:25.934Z",
-      "accessTime": "2018-09-01T20:02:25.934Z",
+      "accessTime": "2018-09-02T05:34:14.563Z",
       "changeTime": "2018-09-01T20:02:25.934Z",
       "birthTime": "2018-06-22T03:38:54.458Z",
       "root": "/",
@@ -1850,286 +1910,14 @@
       "blksize": 4194304,
       "ino": 8599725011,
       "blocks": 8,
-      "atimeMs": 1535832145933.7666,
+      "atimeMs": 1535866454563.3806,
       "mtimeMs": 1535832145934.1597,
       "ctimeMs": 1535832145934.1597,
       "birthtimeMs": 1529638734457.5496,
-      "atime": "2018-09-01T20:02:25.934Z",
+      "atime": "2018-09-02T05:34:14.563Z",
       "mtime": "2018-09-01T20:02:25.934Z",
       "ctime": "2018-09-01T20:02:25.934Z",
       "birthtime": "2018-06-22T03:38:54.458Z"
-    },
-    "/Users/drewmoody/Personal_Projects/Cael/src/layouts/index.js absPath of file": {
-      "id": "/Users/drewmoody/Personal_Projects/Cael/src/layouts/index.js absPath of file",
-      "children": [],
-      "parent": "___SOURCE___",
-      "internal": {
-        "contentDigest": "7461191277e3acfa373658bc93fca7a9",
-        "mediaType": "application/javascript",
-        "type": "File",
-        "description": "File \"src/layouts/index.js\"",
-        "owner": "gatsby-source-filesystem"
-      },
-      "sourceInstanceName": "src",
-      "absolutePath": "/Users/drewmoody/Personal_Projects/Cael/src/layouts/index.js",
-      "relativePath": "layouts/index.js",
-      "extension": "js",
-      "size": 751,
-      "prettySize": "751 B",
-      "modifiedTime": "2018-09-01T18:41:54.882Z",
-      "accessTime": "2018-09-01T18:41:56.112Z",
-      "changeTime": "2018-09-01T18:41:54.882Z",
-      "birthTime": "2018-06-16T23:45:50.527Z",
-      "root": "/",
-      "dir": "/Users/drewmoody/Personal_Projects/Cael/src/layouts",
-      "base": "index.js",
-      "ext": ".js",
-      "name": "index",
-      "relativeDirectory": "layouts",
-      "dev": 16777221,
-      "mode": 33188,
-      "nlink": 1,
-      "uid": 501,
-      "gid": 20,
-      "rdev": 0,
-      "blksize": 4194304,
-      "ino": 8599289802,
-      "blocks": 8,
-      "atimeMs": 1535827316111.8845,
-      "mtimeMs": 1535827314882.2734,
-      "ctimeMs": 1535827314882.2734,
-      "birthtimeMs": 1529192750527.0356,
-      "atime": "2018-09-01T18:41:56.112Z",
-      "mtime": "2018-09-01T18:41:54.882Z",
-      "ctime": "2018-09-01T18:41:54.882Z",
-      "birthtime": "2018-06-16T23:45:50.527Z"
-    },
-    "/Users/drewmoody/Personal_Projects/Cael/src/utils/typography.js absPath of file": {
-      "id": "/Users/drewmoody/Personal_Projects/Cael/src/utils/typography.js absPath of file",
-      "children": [],
-      "parent": "___SOURCE___",
-      "internal": {
-        "contentDigest": "d6b1656f25fe9eba2b626fd121c642d1",
-        "mediaType": "application/javascript",
-        "type": "File",
-        "description": "File \"src/utils/typography.js\"",
-        "owner": "gatsby-source-filesystem"
-      },
-      "sourceInstanceName": "src",
-      "absolutePath": "/Users/drewmoody/Personal_Projects/Cael/src/utils/typography.js",
-      "relativePath": "utils/typography.js",
-      "extension": "js",
-      "size": 328,
-      "prettySize": "328 B",
-      "modifiedTime": "2018-06-22T04:51:12.611Z",
-      "accessTime": "2018-09-01T18:41:56.689Z",
-      "changeTime": "2018-06-22T04:51:12.611Z",
-      "birthTime": "2018-06-16T23:46:21.570Z",
-      "root": "/",
-      "dir": "/Users/drewmoody/Personal_Projects/Cael/src/utils",
-      "base": "typography.js",
-      "ext": ".js",
-      "name": "typography",
-      "relativeDirectory": "utils",
-      "dev": 16777221,
-      "mode": 33188,
-      "nlink": 1,
-      "uid": 501,
-      "gid": 20,
-      "rdev": 0,
-      "blksize": 4194304,
-      "ino": 8599289812,
-      "blocks": 8,
-      "atimeMs": 1535827316689.433,
-      "mtimeMs": 1529643072610.8557,
-      "ctimeMs": 1529643072610.8557,
-      "birthtimeMs": 1529192781570.2422,
-      "atime": "2018-09-01T18:41:56.689Z",
-      "mtime": "2018-06-22T04:51:12.611Z",
-      "ctime": "2018-06-22T04:51:12.611Z",
-      "birthtime": "2018-06-16T23:46:21.570Z"
-    },
-    "/Users/drewmoody/Personal_Projects/Cael/src/templates/blog-post.js absPath of file": {
-      "id": "/Users/drewmoody/Personal_Projects/Cael/src/templates/blog-post.js absPath of file",
-      "children": [],
-      "parent": "___SOURCE___",
-      "internal": {
-        "contentDigest": "3e55dd2faaa47616c231786ae66d6b0c",
-        "mediaType": "application/javascript",
-        "type": "File",
-        "description": "File \"src/templates/blog-post.js\"",
-        "owner": "gatsby-source-filesystem"
-      },
-      "sourceInstanceName": "src",
-      "absolutePath": "/Users/drewmoody/Personal_Projects/Cael/src/templates/blog-post.js",
-      "relativePath": "templates/blog-post.js",
-      "extension": "js",
-      "size": 1048,
-      "prettySize": "1.05 kB",
-      "modifiedTime": "2018-08-31T08:07:21.159Z",
-      "accessTime": "2018-09-01T18:51:05.415Z",
-      "changeTime": "2018-08-31T08:07:21.159Z",
-      "birthTime": "2018-06-17T00:58:19.076Z",
-      "root": "/",
-      "dir": "/Users/drewmoody/Personal_Projects/Cael/src/templates",
-      "base": "blog-post.js",
-      "ext": ".js",
-      "name": "blog-post",
-      "relativeDirectory": "templates",
-      "dev": 16777221,
-      "mode": 33188,
-      "nlink": 1,
-      "uid": 501,
-      "gid": 20,
-      "rdev": 0,
-      "blksize": 4194304,
-      "ino": 8599295418,
-      "blocks": 8,
-      "atimeMs": 1535827865415.0999,
-      "mtimeMs": 1535702841159.3994,
-      "ctimeMs": 1535702841159.3994,
-      "birthtimeMs": 1529197099075.7627,
-      "atime": "2018-09-01T18:51:05.415Z",
-      "mtime": "2018-08-31T08:07:21.159Z",
-      "ctime": "2018-08-31T08:07:21.159Z",
-      "birthtime": "2018-06-17T00:58:19.076Z"
-    },
-    "/Users/drewmoody/Personal_Projects/Cael/src/components/header.js absPath of file": {
-      "id": "/Users/drewmoody/Personal_Projects/Cael/src/components/header.js absPath of file",
-      "children": [],
-      "parent": "___SOURCE___",
-      "internal": {
-        "contentDigest": "ecd181dd64e77763d29b6b8e6e36516f",
-        "mediaType": "application/javascript",
-        "type": "File",
-        "description": "File \"src/components/header.js\"",
-        "owner": "gatsby-source-filesystem"
-      },
-      "sourceInstanceName": "src",
-      "absolutePath": "/Users/drewmoody/Personal_Projects/Cael/src/components/header.js",
-      "relativePath": "components/header.js",
-      "extension": "js",
-      "size": 1576,
-      "prettySize": "1.58 kB",
-      "modifiedTime": "2018-09-01T19:46:33.683Z",
-      "accessTime": "2018-09-01T19:46:33.682Z",
-      "changeTime": "2018-09-01T19:46:33.683Z",
-      "birthTime": "2018-06-17T13:00:11.350Z",
-      "root": "/",
-      "dir": "/Users/drewmoody/Personal_Projects/Cael/src/components",
-      "base": "header.js",
-      "ext": ".js",
-      "name": "header",
-      "relativeDirectory": "components",
-      "dev": 16777221,
-      "mode": 33188,
-      "nlink": 1,
-      "uid": 501,
-      "gid": 20,
-      "rdev": 0,
-      "blksize": 4194304,
-      "ino": 8599353064,
-      "blocks": 8,
-      "atimeMs": 1535831193682.0476,
-      "mtimeMs": 1535831193682.5278,
-      "ctimeMs": 1535831193682.5278,
-      "birthtimeMs": 1529240411350.2554,
-      "atime": "2018-09-01T19:46:33.682Z",
-      "mtime": "2018-09-01T19:46:33.683Z",
-      "ctime": "2018-09-01T19:46:33.683Z",
-      "birthtime": "2018-06-17T13:00:11.350Z"
-    },
-    "/Users/drewmoody/Personal_Projects/Cael/src/less/reset.less absPath of file": {
-      "id": "/Users/drewmoody/Personal_Projects/Cael/src/less/reset.less absPath of file",
-      "children": [],
-      "parent": "___SOURCE___",
-      "internal": {
-        "contentDigest": "4c940dff78ad8179a9e33035b3e224bc",
-        "mediaType": "text/less",
-        "type": "File",
-        "description": "File \"src/less/reset.less\"",
-        "owner": "gatsby-source-filesystem"
-      },
-      "sourceInstanceName": "src",
-      "absolutePath": "/Users/drewmoody/Personal_Projects/Cael/src/less/reset.less",
-      "relativePath": "less/reset.less",
-      "extension": "less",
-      "size": 1301,
-      "prettySize": "1.3 kB",
-      "modifiedTime": "2018-08-31T04:01:36.921Z",
-      "accessTime": "2018-09-01T18:14:45.331Z",
-      "changeTime": "2018-08-31T04:01:36.921Z",
-      "birthTime": "2018-08-20T22:09:53.024Z",
-      "root": "/",
-      "dir": "/Users/drewmoody/Personal_Projects/Cael/src/less",
-      "base": "reset.less",
-      "ext": ".less",
-      "name": "reset",
-      "relativeDirectory": "less",
-      "dev": 16777221,
-      "mode": 33188,
-      "nlink": 1,
-      "uid": 501,
-      "gid": 20,
-      "rdev": 0,
-      "blksize": 4194304,
-      "ino": 8603497323,
-      "blocks": 8,
-      "atimeMs": 1535825685331.129,
-      "mtimeMs": 1535688096921.4788,
-      "ctimeMs": 1535688096921.4788,
-      "birthtimeMs": 1534802993023.8423,
-      "atime": "2018-09-01T18:14:45.331Z",
-      "mtime": "2018-08-31T04:01:36.921Z",
-      "ctime": "2018-08-31T04:01:36.921Z",
-      "birthtime": "2018-08-20T22:09:53.024Z"
-    },
-    "/Users/drewmoody/Personal_Projects/Cael/src/pages/2018-06-01-post-one/index.md absPath of file": {
-      "id": "/Users/drewmoody/Personal_Projects/Cael/src/pages/2018-06-01-post-one/index.md absPath of file",
-      "children": [
-        "/Users/drewmoody/Personal_Projects/Cael/src/pages/2018-06-01-post-one/index.md absPath of file >>> MarkdownRemark"
-      ],
-      "parent": "___SOURCE___",
-      "internal": {
-        "contentDigest": "f5a8020f92cafe8ca4548cd06500e924",
-        "mediaType": "text/markdown",
-        "type": "File",
-        "description": "File \"src/pages/2018-06-01-post-one/index.md\"",
-        "owner": "gatsby-source-filesystem"
-      },
-      "sourceInstanceName": "src",
-      "absolutePath": "/Users/drewmoody/Personal_Projects/Cael/src/pages/2018-06-01-post-one/index.md",
-      "relativePath": "pages/2018-06-01-post-one/index.md",
-      "extension": "md",
-      "size": 2468,
-      "prettySize": "2.47 kB",
-      "modifiedTime": "2018-08-29T05:34:01.438Z",
-      "accessTime": "2018-09-01T17:41:16.250Z",
-      "changeTime": "2018-08-29T05:34:01.438Z",
-      "birthTime": "2018-06-17T00:41:11.928Z",
-      "root": "/",
-      "dir": "/Users/drewmoody/Personal_Projects/Cael/src/pages/2018-06-01-post-one",
-      "base": "index.md",
-      "ext": ".md",
-      "name": "index",
-      "relativeDirectory": "pages/2018-06-01-post-one",
-      "dev": 16777221,
-      "mode": 33188,
-      "nlink": 1,
-      "uid": 501,
-      "gid": 20,
-      "rdev": 0,
-      "blksize": 4194304,
-      "ino": 8599294856,
-      "blocks": 8,
-      "atimeMs": 1535823676249.6958,
-      "mtimeMs": 1535520841438.125,
-      "ctimeMs": 1535520841438.125,
-      "birthtimeMs": 1529196071927.8044,
-      "atime": "2018-09-01T17:41:16.250Z",
-      "mtime": "2018-08-29T05:34:01.438Z",
-      "ctime": "2018-08-29T05:34:01.438Z",
-      "birthtime": "2018-06-17T00:41:11.928Z"
     },
     "/Users/drewmoody/Personal_Projects/Cael/src/.DS_Store absPath of file": {
       "id": "/Users/drewmoody/Personal_Projects/Cael/src/.DS_Store absPath of file",
@@ -2149,7 +1937,7 @@
       "size": 6148,
       "prettySize": "6.15 kB",
       "modifiedTime": "2018-06-18T15:13:05.156Z",
-      "accessTime": "2018-09-01T17:41:16.083Z",
+      "accessTime": "2018-09-02T05:25:44.363Z",
       "changeTime": "2018-06-18T15:13:05.156Z",
       "birthTime": "2018-06-18T15:12:58.969Z",
       "root": "/",
@@ -2167,14 +1955,104 @@
       "blksize": 4194304,
       "ino": 8599368714,
       "blocks": 16,
-      "atimeMs": 1535823676082.883,
+      "atimeMs": 1535865944362.5898,
       "mtimeMs": 1529334785155.9622,
       "ctimeMs": 1529334785155.9622,
       "birthtimeMs": 1529334778969.1072,
-      "atime": "2018-09-01T17:41:16.083Z",
+      "atime": "2018-09-02T05:25:44.363Z",
       "mtime": "2018-06-18T15:13:05.156Z",
       "ctime": "2018-06-18T15:13:05.156Z",
       "birthtime": "2018-06-18T15:12:58.969Z"
+    },
+    "/Users/drewmoody/Personal_Projects/Cael/src/utils/typography.js absPath of file": {
+      "id": "/Users/drewmoody/Personal_Projects/Cael/src/utils/typography.js absPath of file",
+      "children": [],
+      "parent": "___SOURCE___",
+      "internal": {
+        "contentDigest": "d6b1656f25fe9eba2b626fd121c642d1",
+        "mediaType": "application/javascript",
+        "type": "File",
+        "description": "File \"src/utils/typography.js\"",
+        "owner": "gatsby-source-filesystem"
+      },
+      "sourceInstanceName": "src",
+      "absolutePath": "/Users/drewmoody/Personal_Projects/Cael/src/utils/typography.js",
+      "relativePath": "utils/typography.js",
+      "extension": "js",
+      "size": 328,
+      "prettySize": "328 B",
+      "modifiedTime": "2018-06-22T04:51:12.611Z",
+      "accessTime": "2018-09-02T05:34:16.691Z",
+      "changeTime": "2018-06-22T04:51:12.611Z",
+      "birthTime": "2018-06-16T23:46:21.570Z",
+      "root": "/",
+      "dir": "/Users/drewmoody/Personal_Projects/Cael/src/utils",
+      "base": "typography.js",
+      "ext": ".js",
+      "name": "typography",
+      "relativeDirectory": "utils",
+      "dev": 16777221,
+      "mode": 33188,
+      "nlink": 1,
+      "uid": 501,
+      "gid": 20,
+      "rdev": 0,
+      "blksize": 4194304,
+      "ino": 8599289812,
+      "blocks": 8,
+      "atimeMs": 1535866456690.6746,
+      "mtimeMs": 1529643072610.8557,
+      "ctimeMs": 1529643072610.8557,
+      "birthtimeMs": 1529192781570.2422,
+      "atime": "2018-09-02T05:34:16.691Z",
+      "mtime": "2018-06-22T04:51:12.611Z",
+      "ctime": "2018-06-22T04:51:12.611Z",
+      "birthtime": "2018-06-16T23:46:21.570Z"
+    },
+    "/Users/drewmoody/Personal_Projects/Cael/src/pages/index.js absPath of file": {
+      "id": "/Users/drewmoody/Personal_Projects/Cael/src/pages/index.js absPath of file",
+      "children": [],
+      "parent": "___SOURCE___",
+      "internal": {
+        "contentDigest": "8315c8a8d763d6e7e7df7f47b6b907d2",
+        "mediaType": "application/javascript",
+        "type": "File",
+        "description": "File \"src/pages/index.js\"",
+        "owner": "gatsby-source-filesystem"
+      },
+      "sourceInstanceName": "src",
+      "absolutePath": "/Users/drewmoody/Personal_Projects/Cael/src/pages/index.js",
+      "relativePath": "pages/index.js",
+      "extension": "js",
+      "size": 534,
+      "prettySize": "534 B",
+      "modifiedTime": "2018-09-02T05:48:29.992Z",
+      "accessTime": "2018-09-02T05:48:29.991Z",
+      "changeTime": "2018-09-02T05:48:29.992Z",
+      "birthTime": "2018-06-16T23:40:05.243Z",
+      "root": "/",
+      "dir": "/Users/drewmoody/Personal_Projects/Cael/src/pages",
+      "base": "index.js",
+      "ext": ".js",
+      "name": "index",
+      "relativeDirectory": "pages",
+      "dev": 16777221,
+      "mode": 33188,
+      "nlink": 1,
+      "uid": 501,
+      "gid": 20,
+      "rdev": 0,
+      "blksize": 4194304,
+      "ino": 8599211941,
+      "blocks": 8,
+      "atimeMs": 1535867309991.2742,
+      "mtimeMs": 1535867309991.7397,
+      "ctimeMs": 1535867309991.7397,
+      "birthtimeMs": 1529192405243.1138,
+      "atime": "2018-09-02T05:48:29.991Z",
+      "mtime": "2018-09-02T05:48:29.992Z",
+      "ctime": "2018-09-02T05:48:29.992Z",
+      "birthtime": "2018-06-16T23:40:05.243Z"
     },
     "/Users/drewmoody/Personal_Projects/Cael/src/pages/2018-05-01-post-two/index.md absPath of file": {
       "id": "/Users/drewmoody/Personal_Projects/Cael/src/pages/2018-05-01-post-two/index.md absPath of file",
@@ -2183,7 +2061,7 @@
       ],
       "parent": "___SOURCE___",
       "internal": {
-        "contentDigest": "a8d15c133b2a04f5f9958b92dbd9d6df",
+        "contentDigest": "bf8b845aff012925a0d18bf3ca1b68c8",
         "mediaType": "text/markdown",
         "type": "File",
         "description": "File \"src/pages/2018-05-01-post-two/index.md\"",
@@ -2193,11 +2071,11 @@
       "absolutePath": "/Users/drewmoody/Personal_Projects/Cael/src/pages/2018-05-01-post-two/index.md",
       "relativePath": "pages/2018-05-01-post-two/index.md",
       "extension": "md",
-      "size": 2576,
+      "size": 2581,
       "prettySize": "2.58 kB",
-      "modifiedTime": "2018-08-29T05:34:05.222Z",
-      "accessTime": "2018-09-01T17:41:16.250Z",
-      "changeTime": "2018-08-29T05:34:05.222Z",
+      "modifiedTime": "2018-09-02T05:16:47.427Z",
+      "accessTime": "2018-09-02T05:25:44.375Z",
+      "changeTime": "2018-09-02T05:16:47.427Z",
       "birthTime": "2018-06-17T00:38:55.866Z",
       "root": "/",
       "dir": "/Users/drewmoody/Personal_Projects/Cael/src/pages/2018-05-01-post-two",
@@ -2214,135 +2092,41 @@
       "blksize": 4194304,
       "ino": 8599294796,
       "blocks": 8,
-      "atimeMs": 1535823676249.657,
-      "mtimeMs": 1535520845221.5613,
-      "ctimeMs": 1535520845221.5613,
+      "atimeMs": 1535865944374.5076,
+      "mtimeMs": 1535865407427.0015,
+      "ctimeMs": 1535865407427.0015,
       "birthtimeMs": 1529195935866.4417,
-      "atime": "2018-09-01T17:41:16.250Z",
-      "mtime": "2018-08-29T05:34:05.222Z",
-      "ctime": "2018-08-29T05:34:05.222Z",
+      "atime": "2018-09-02T05:25:44.375Z",
+      "mtime": "2018-09-02T05:16:47.427Z",
+      "ctime": "2018-09-02T05:16:47.427Z",
       "birthtime": "2018-06-17T00:38:55.866Z"
     },
-    "/Users/drewmoody/Personal_Projects/Cael/src/pages/2018-04-01-post-three/index.md absPath of file": {
-      "id": "/Users/drewmoody/Personal_Projects/Cael/src/pages/2018-04-01-post-three/index.md absPath of file",
-      "children": [
-        "/Users/drewmoody/Personal_Projects/Cael/src/pages/2018-04-01-post-three/index.md absPath of file >>> MarkdownRemark"
-      ],
-      "parent": "___SOURCE___",
-      "internal": {
-        "contentDigest": "522f820f74d3f238840ac56bfb17c574",
-        "mediaType": "text/markdown",
-        "type": "File",
-        "description": "File \"src/pages/2018-04-01-post-three/index.md\"",
-        "owner": "gatsby-source-filesystem"
-      },
-      "sourceInstanceName": "src",
-      "absolutePath": "/Users/drewmoody/Personal_Projects/Cael/src/pages/2018-04-01-post-three/index.md",
-      "relativePath": "pages/2018-04-01-post-three/index.md",
-      "extension": "md",
-      "size": 1941,
-      "prettySize": "1.94 kB",
-      "modifiedTime": "2018-08-29T05:34:08.363Z",
-      "accessTime": "2018-09-01T17:41:16.250Z",
-      "changeTime": "2018-08-29T05:34:08.363Z",
-      "birthTime": "2018-06-17T00:31:55.001Z",
-      "root": "/",
-      "dir": "/Users/drewmoody/Personal_Projects/Cael/src/pages/2018-04-01-post-three",
-      "base": "index.md",
-      "ext": ".md",
-      "name": "index",
-      "relativeDirectory": "pages/2018-04-01-post-three",
-      "dev": 16777221,
-      "mode": 33188,
-      "nlink": 1,
-      "uid": 501,
-      "gid": 20,
-      "rdev": 0,
-      "blksize": 4194304,
-      "ino": 8599291607,
-      "blocks": 8,
-      "atimeMs": 1535823676249.5874,
-      "mtimeMs": 1535520848363.31,
-      "ctimeMs": 1535520848363.31,
-      "birthtimeMs": 1529195515000.5754,
-      "atime": "2018-09-01T17:41:16.250Z",
-      "mtime": "2018-08-29T05:34:08.363Z",
-      "ctime": "2018-08-29T05:34:08.363Z",
-      "birthtime": "2018-06-17T00:31:55.001Z"
-    },
-    "/Users/drewmoody/Personal_Projects/Cael/src/pages/2018-06-21-post-four/index.md absPath of file": {
-      "id": "/Users/drewmoody/Personal_Projects/Cael/src/pages/2018-06-21-post-four/index.md absPath of file",
-      "children": [
-        "/Users/drewmoody/Personal_Projects/Cael/src/pages/2018-06-21-post-four/index.md absPath of file >>> MarkdownRemark"
-      ],
-      "parent": "___SOURCE___",
-      "internal": {
-        "contentDigest": "73430943955cf0a8071c61fabf02557f",
-        "mediaType": "text/markdown",
-        "type": "File",
-        "description": "File \"src/pages/2018-06-21-post-four/index.md\"",
-        "owner": "gatsby-source-filesystem"
-      },
-      "sourceInstanceName": "src",
-      "absolutePath": "/Users/drewmoody/Personal_Projects/Cael/src/pages/2018-06-21-post-four/index.md",
-      "relativePath": "pages/2018-06-21-post-four/index.md",
-      "extension": "md",
-      "size": 1089,
-      "prettySize": "1.09 kB",
-      "modifiedTime": "2018-08-29T06:47:51.652Z",
-      "accessTime": "2018-09-01T17:41:16.250Z",
-      "changeTime": "2018-08-29T06:47:51.652Z",
-      "birthTime": "2018-06-22T01:45:49.996Z",
-      "root": "/",
-      "dir": "/Users/drewmoody/Personal_Projects/Cael/src/pages/2018-06-21-post-four",
-      "base": "index.md",
-      "ext": ".md",
-      "name": "index",
-      "relativeDirectory": "pages/2018-06-21-post-four",
-      "dev": 16777221,
-      "mode": 33188,
-      "nlink": 1,
-      "uid": 501,
-      "gid": 20,
-      "rdev": 0,
-      "blksize": 4194304,
-      "ino": 8599681162,
-      "blocks": 8,
-      "atimeMs": 1535823676249.7566,
-      "mtimeMs": 1535525271651.7437,
-      "ctimeMs": 1535525271651.7437,
-      "birthtimeMs": 1529631949995.8928,
-      "atime": "2018-09-01T17:41:16.250Z",
-      "mtime": "2018-08-29T06:47:51.652Z",
-      "ctime": "2018-08-29T06:47:51.652Z",
-      "birthtime": "2018-06-22T01:45:49.996Z"
-    },
-    "/Users/drewmoody/Personal_Projects/Cael/src/less/styles.less absPath of file": {
-      "id": "/Users/drewmoody/Personal_Projects/Cael/src/less/styles.less absPath of file",
+    "/Users/drewmoody/Personal_Projects/Cael/src/less/reset.less absPath of file": {
+      "id": "/Users/drewmoody/Personal_Projects/Cael/src/less/reset.less absPath of file",
       "children": [],
       "parent": "___SOURCE___",
       "internal": {
-        "contentDigest": "dbed2c9016280ef360513b9c931caa03",
+        "contentDigest": "4c940dff78ad8179a9e33035b3e224bc",
         "mediaType": "text/less",
         "type": "File",
-        "description": "File \"src/less/styles.less\"",
+        "description": "File \"src/less/reset.less\"",
         "owner": "gatsby-source-filesystem"
       },
       "sourceInstanceName": "src",
-      "absolutePath": "/Users/drewmoody/Personal_Projects/Cael/src/less/styles.less",
-      "relativePath": "less/styles.less",
+      "absolutePath": "/Users/drewmoody/Personal_Projects/Cael/src/less/reset.less",
+      "relativePath": "less/reset.less",
       "extension": "less",
-      "size": 3978,
-      "prettySize": "3.98 kB",
-      "modifiedTime": "2018-09-01T20:03:32.789Z",
-      "accessTime": "2018-09-01T20:03:32.788Z",
-      "changeTime": "2018-09-01T20:03:32.789Z",
-      "birthTime": "2018-08-20T19:01:39.382Z",
+      "size": 1301,
+      "prettySize": "1.3 kB",
+      "modifiedTime": "2018-08-31T04:01:36.921Z",
+      "accessTime": "2018-09-02T05:25:44.368Z",
+      "changeTime": "2018-08-31T04:01:36.921Z",
+      "birthTime": "2018-08-20T22:09:53.024Z",
       "root": "/",
       "dir": "/Users/drewmoody/Personal_Projects/Cael/src/less",
-      "base": "styles.less",
+      "base": "reset.less",
       "ext": ".less",
-      "name": "styles",
+      "name": "reset",
       "relativeDirectory": "less",
       "dev": 16777221,
       "mode": 33188,
@@ -2351,16 +2135,16 @@
       "gid": 20,
       "rdev": 0,
       "blksize": 4194304,
-      "ino": 8603393358,
+      "ino": 8603497323,
       "blocks": 8,
-      "atimeMs": 1535832212787.9792,
-      "mtimeMs": 1535832212788.8018,
-      "ctimeMs": 1535832212788.8018,
-      "birthtimeMs": 1534791699381.7612,
-      "atime": "2018-09-01T20:03:32.788Z",
-      "mtime": "2018-09-01T20:03:32.789Z",
-      "ctime": "2018-09-01T20:03:32.789Z",
-      "birthtime": "2018-08-20T19:01:39.382Z"
+      "atimeMs": 1535865944368.13,
+      "mtimeMs": 1535688096921.4788,
+      "ctimeMs": 1535688096921.4788,
+      "birthtimeMs": 1534802993023.8423,
+      "atime": "2018-09-02T05:25:44.368Z",
+      "mtime": "2018-08-31T04:01:36.921Z",
+      "ctime": "2018-08-31T04:01:36.921Z",
+      "birthtime": "2018-08-20T22:09:53.024Z"
     },
     "/Users/drewmoody/Personal_Projects/Cael/src/pages/2018-05-01-post-two/hiker.jpg absPath of file": {
       "id": "/Users/drewmoody/Personal_Projects/Cael/src/pages/2018-05-01-post-two/hiker.jpg absPath of file",
@@ -2382,7 +2166,7 @@
       "size": 176630,
       "prettySize": "177 kB",
       "modifiedTime": "2018-08-29T05:06:35.581Z",
-      "accessTime": "2018-09-01T17:41:17.076Z",
+      "accessTime": "2018-09-02T05:25:45.369Z",
       "changeTime": "2018-08-29T05:06:35.582Z",
       "birthTime": "2018-06-17T02:30:58.108Z",
       "root": "/",
@@ -2400,11 +2184,11 @@
       "blksize": 4194304,
       "ino": 8599298254,
       "blocks": 352,
-      "atimeMs": 1535823677076.3855,
+      "atimeMs": 1535865945369.3335,
       "mtimeMs": 1535519195581,
       "ctimeMs": 1535519195581.7305,
       "birthtimeMs": 1529202658108.2795,
-      "atime": "2018-09-01T17:41:17.076Z",
+      "atime": "2018-09-02T05:25:45.369Z",
       "mtime": "2018-08-29T05:06:35.581Z",
       "ctime": "2018-08-29T05:06:35.582Z",
       "birthtime": "2018-06-17T02:30:58.108Z"
@@ -2419,104 +2203,14 @@
         "owner": "gatsby-transformer-sharp"
       }
     },
-    "/Users/drewmoody/Personal_Projects/Cael/src/pages/2018-06-01-post-one/sunset.jpg absPath of file": {
-      "id": "/Users/drewmoody/Personal_Projects/Cael/src/pages/2018-06-01-post-one/sunset.jpg absPath of file",
-      "children": [
-        "/Users/drewmoody/Personal_Projects/Cael/src/pages/2018-06-01-post-one/sunset.jpg absPath of file >> ImageSharp"
-      ],
-      "parent": "___SOURCE___",
-      "internal": {
-        "contentDigest": "95da4572d5307cf2b9b54c5ee1f4641b",
-        "mediaType": "image/jpeg",
-        "type": "File",
-        "description": "File \"src/pages/2018-06-01-post-one/sunset.jpg\"",
-        "owner": "gatsby-source-filesystem"
-      },
-      "sourceInstanceName": "src",
-      "absolutePath": "/Users/drewmoody/Personal_Projects/Cael/src/pages/2018-06-01-post-one/sunset.jpg",
-      "relativePath": "pages/2018-06-01-post-one/sunset.jpg",
-      "extension": "jpg",
-      "size": 226668,
-      "prettySize": "227 kB",
-      "modifiedTime": "2018-08-29T05:06:40.884Z",
-      "accessTime": "2018-09-01T17:41:17.077Z",
-      "changeTime": "2018-08-29T05:06:40.884Z",
-      "birthTime": "2018-06-17T02:38:07.693Z",
-      "root": "/",
-      "dir": "/Users/drewmoody/Personal_Projects/Cael/src/pages/2018-06-01-post-one",
-      "base": "sunset.jpg",
-      "ext": ".jpg",
-      "name": "sunset",
-      "relativeDirectory": "pages/2018-06-01-post-one",
-      "dev": 16777221,
-      "mode": 33188,
-      "nlink": 1,
-      "uid": 501,
-      "gid": 20,
-      "rdev": 0,
-      "blksize": 4194304,
-      "ino": 8599298417,
-      "blocks": 448,
-      "atimeMs": 1535823677076.5872,
-      "mtimeMs": 1535519200884,
-      "ctimeMs": 1535519200884.4963,
-      "birthtimeMs": 1529203087693.3037,
-      "atime": "2018-09-01T17:41:17.077Z",
-      "mtime": "2018-08-29T05:06:40.884Z",
-      "ctime": "2018-08-29T05:06:40.884Z",
-      "birthtime": "2018-06-17T02:38:07.693Z"
-    },
-    "/Users/drewmoody/Personal_Projects/Cael/src/pages/2018-06-01-post-one/sunset.jpg absPath of file >> ImageSharp": {
-      "id": "/Users/drewmoody/Personal_Projects/Cael/src/pages/2018-06-01-post-one/sunset.jpg absPath of file >> ImageSharp",
-      "children": [],
-      "parent": "/Users/drewmoody/Personal_Projects/Cael/src/pages/2018-06-01-post-one/sunset.jpg absPath of file",
-      "internal": {
-        "contentDigest": "95da4572d5307cf2b9b54c5ee1f4641b",
-        "type": "ImageSharp",
-        "owner": "gatsby-transformer-sharp"
-      }
-    },
-    "/Users/drewmoody/Personal_Projects/Cael/src/pages/2018-06-01-post-one/index.md absPath of file >>> MarkdownRemark": {
-      "id": "/Users/drewmoody/Personal_Projects/Cael/src/pages/2018-06-01-post-one/index.md absPath of file >>> MarkdownRemark",
-      "children": [],
-      "parent": "/Users/drewmoody/Personal_Projects/Cael/src/pages/2018-06-01-post-one/index.md absPath of file",
-      "internal": {
-        "content": "---\npath: \"/post-one\"\ntitle: \"Post One\"\ndate: \"2018-06-01\"\ntags: ['diet', 'exercise', 'banana']\nheaderImg: \"sunset.jpg\"\n---\n\n![](sunset.jpg)\n\nLorem ipsum dolor sit amet, consectetur adipiscing elit. Integer nec odio. Praesent libero. Sed cursus ante dapibus diam. Sed nisi. Nulla quis sem at nibh elementum imperdiet. Duis sagittis ipsum. Praesent mauris. Fusce nec tellus sed augue semper porta. Mauris massa. Vestibulum lacinia arcu eget nulla. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. \n\nCurabitur sodales ligula in libero. Sed dignissim lacinia nunc. Curabitur tortor. Pellentesque nibh. Aenean quam. In scelerisque sem at dolor. Maecenas mattis. Sed convallis tristique sem. Proin ut ligula vel nunc egestas porttitor. Morbi lectus risus, iaculis vel, suscipit quis, luctus non, massa. Fusce ac turpis quis ligula lacinia aliquet. Mauris ipsum. Nulla metus metus, ullamcorper vel, tincidunt sed, euismod in, nibh. Quisque volutpat condimentum velit. \n\nClass aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Nam nec ante. Sed lacinia, urna non tincidunt mattis, tortor neque adipiscing diam, a cursus ipsum ante quis turpis. Nulla facilisi. Ut fringilla. Suspendisse potenti. Nunc feugiat mi a tellus consequat imperdiet. Vestibulum sapien. Proin quam. Etiam ultrices. Suspendisse in justo eu magna luctus suscipit. Sed lectus. Integer euismod lacus luctus magna. \n\nQuisque cursus, metus vitae pharetra auctor, sem massa mattis sem, at interdum magna augue eget diam. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Morbi lacinia molestie dui. Praesent blandit dolor. Sed non quam. In vel mi sit amet augue congue elementum. Morbi in ipsum sit amet pede facilisis laoreet. Donec lacus nunc, viverra nec, blandit vel, egestas et, augue. Vestibulum tincidunt malesuada tellus. Ut ultrices ultrices enim. Curabitur sit amet mauris. Morbi in dui quis est pulvinar ullamcorper. \n\nNulla facilisi. Integer lacinia sollicitudin massa. Cras metus. Sed aliquet risus a tortor. Integer id quam. Morbi mi. Quisque nisl felis, venenatis tristique, dignissim in, ultrices sit amet, augue. Proin sodales libero eget ante. Nulla quam. Aenean laoreet. Vestibulum nisi lectus, commodo ac, facilisis ac, ultricies eu, pede. Ut orci risus, accumsan porttitor, cursus quis, aliquet eget, justo. Sed pretium blandit orci. Ut eu diam at pede suscipit sodales. ",
-        "type": "MarkdownRemark",
-        "contentDigest": "2db537466002346a7023503c8d1fc375",
-        "owner": "gatsby-transformer-remark",
-        "fieldOwners": {
-          "slug": "default-site-plugin"
-        }
-      },
-      "frontmatter": {
-        "title": "Post One",
-        "path": "/post-one",
-        "date": "2018-06-01",
-        "tags": [
-          "diet",
-          "exercise",
-          "banana"
-        ],
-        "headerImg": "sunset.jpg",
-        "_PARENT": "/Users/drewmoody/Personal_Projects/Cael/src/pages/2018-06-01-post-one/index.md absPath of file",
-        "parent": "/Users/drewmoody/Personal_Projects/Cael/src/pages/2018-06-01-post-one/index.md absPath of file"
-      },
-      "excerpt": "",
-      "rawMarkdownBody": "\n![](sunset.jpg)\n\nLorem ipsum dolor sit amet, consectetur adipiscing elit. Integer nec odio. Praesent libero. Sed cursus ante dapibus diam. Sed nisi. Nulla quis sem at nibh elementum imperdiet. Duis sagittis ipsum. Praesent mauris. Fusce nec tellus sed augue semper porta. Mauris massa. Vestibulum lacinia arcu eget nulla. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. \n\nCurabitur sodales ligula in libero. Sed dignissim lacinia nunc. Curabitur tortor. Pellentesque nibh. Aenean quam. In scelerisque sem at dolor. Maecenas mattis. Sed convallis tristique sem. Proin ut ligula vel nunc egestas porttitor. Morbi lectus risus, iaculis vel, suscipit quis, luctus non, massa. Fusce ac turpis quis ligula lacinia aliquet. Mauris ipsum. Nulla metus metus, ullamcorper vel, tincidunt sed, euismod in, nibh. Quisque volutpat condimentum velit. \n\nClass aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Nam nec ante. Sed lacinia, urna non tincidunt mattis, tortor neque adipiscing diam, a cursus ipsum ante quis turpis. Nulla facilisi. Ut fringilla. Suspendisse potenti. Nunc feugiat mi a tellus consequat imperdiet. Vestibulum sapien. Proin quam. Etiam ultrices. Suspendisse in justo eu magna luctus suscipit. Sed lectus. Integer euismod lacus luctus magna. \n\nQuisque cursus, metus vitae pharetra auctor, sem massa mattis sem, at interdum magna augue eget diam. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Morbi lacinia molestie dui. Praesent blandit dolor. Sed non quam. In vel mi sit amet augue congue elementum. Morbi in ipsum sit amet pede facilisis laoreet. Donec lacus nunc, viverra nec, blandit vel, egestas et, augue. Vestibulum tincidunt malesuada tellus. Ut ultrices ultrices enim. Curabitur sit amet mauris. Morbi in dui quis est pulvinar ullamcorper. \n\nNulla facilisi. Integer lacinia sollicitudin massa. Cras metus. Sed aliquet risus a tortor. Integer id quam. Morbi mi. Quisque nisl felis, venenatis tristique, dignissim in, ultrices sit amet, augue. Proin sodales libero eget ante. Nulla quam. Aenean laoreet. Vestibulum nisi lectus, commodo ac, facilisis ac, ultricies eu, pede. Ut orci risus, accumsan porttitor, cursus quis, aliquet eget, justo. Sed pretium blandit orci. Ut eu diam at pede suscipit sodales. ",
-      "fileAbsolutePath": "/Users/drewmoody/Personal_Projects/Cael/src/pages/2018-06-01-post-one/index.md",
-      "fields": {
-        "slug": "/2018-06-01-post-one/"
-      }
-    },
     "/Users/drewmoody/Personal_Projects/Cael/src/pages/2018-05-01-post-two/index.md absPath of file >>> MarkdownRemark": {
       "id": "/Users/drewmoody/Personal_Projects/Cael/src/pages/2018-05-01-post-two/index.md absPath of file >>> MarkdownRemark",
       "children": [],
       "parent": "/Users/drewmoody/Personal_Projects/Cael/src/pages/2018-05-01-post-two/index.md absPath of file",
       "internal": {
-        "content": "---\npath: \"/post-two\"\ntitle: Post Two\ndate: \"2018-05-01\"\ntags: ['finance']\nheaderImg: \"hiker.jpg\"\n---\n\n<!-- <img src=\"hiker-984083_1920.jpg\" /> -->\n![hiker](hiker.jpg)\n\nVestibulum nisi lectus, commodo ac, facilisis ac, ultricies eu, pede. Ut orci risus, accumsan porttitor, cursus quis, aliquet eget, justo. Sed pretium blandit orci. Ut eu diam at pede suscipit sodales. Aenean lectus elit, fermentum non, convallis id, sagittis at, neque. Nullam mauris orci, aliquet et, iaculis et, viverra vitae, ligula. Nulla ut felis in purus aliquam imperdiet. Maecenas aliquet mollis lectus. Vivamus consectetuer risus et tortor. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer nec odio. Praesent libero. Sed cursus ante dapibus diam. Sed nisi. \n\nNulla quis sem at nibh elementum imperdiet. Duis sagittis ipsum. Praesent mauris. Fusce nec tellus sed augue semper porta. Mauris massa. Vestibulum lacinia arcu eget nulla. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Curabitur sodales ligula in libero. Sed dignissim lacinia nunc. Curabitur tortor. Pellentesque nibh. Aenean quam. In scelerisque sem at dolor. \n\nMaecenas mattis. Sed convallis tristique sem. Proin ut ligula vel nunc egestas porttitor. Morbi lectus risus, iaculis vel, suscipit quis, luctus non, massa. Fusce ac turpis quis ligula lacinia aliquet. Mauris ipsum. Nulla metus metus, ullamcorper vel, tincidunt sed, euismod in, nibh. Quisque volutpat condimentum velit. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Nam nec ante. Sed lacinia, urna non tincidunt mattis, tortor neque adipiscing diam, a cursus ipsum ante quis turpis. \n\nNulla facilisi. Ut fringilla. Suspendisse potenti. Nunc feugiat mi a tellus consequat imperdiet. Vestibulum sapien. Proin quam. Etiam ultrices. Suspendisse in justo eu magna luctus suscipit. Sed lectus. Integer euismod lacus luctus magna. Quisque cursus, metus vitae pharetra auctor, sem massa mattis sem, at interdum magna augue eget diam. \n\nVestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Morbi lacinia molestie dui. Praesent blandit dolor. Sed non quam. In vel mi sit amet augue congue elementum. Morbi in ipsum sit amet pede facilisis laoreet. Donec lacus nunc, viverra nec, blandit vel, egestas et, augue. Vestibulum tincidunt malesuada tellus. Ut ultrices ultrices enim. Curabitur sit amet mauris. Morbi in dui quis est pulvinar ullamcorper. Nulla facilisi. Integer lacinia sollicitudin massa. Cras metus. Sed aliquet risus a tortor. ",
+        "content": "---\npath: \"/post-two\"\ntitle: Post Two\ndate: \"2018-05-01\"\ntags: ['tag2', 'tag3']\nheaderImg: \"hiker.jpg\"\n---\n\n<!-- <img src=\"hiker-984083_1920.jpg\" /> -->\n![hiker](hiker.jpg)\n\nVestibulum nisi lectus, commodo ac, facilisis ac, ultricies eu, pede. Ut orci risus, accumsan porttitor, cursus quis, aliquet eget, justo. Sed pretium blandit orci. Ut eu diam at pede suscipit sodales. Aenean lectus elit, fermentum non, convallis id, sagittis at, neque. Nullam mauris orci, aliquet et, iaculis et, viverra vitae, ligula. Nulla ut felis in purus aliquam imperdiet. Maecenas aliquet mollis lectus. Vivamus consectetuer risus et tortor. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer nec odio. Praesent libero. Sed cursus ante dapibus diam. Sed nisi. \n\nNulla quis sem at nibh elementum imperdiet. Duis sagittis ipsum. Praesent mauris. Fusce nec tellus sed augue semper porta. Mauris massa. Vestibulum lacinia arcu eget nulla. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Curabitur sodales ligula in libero. Sed dignissim lacinia nunc. Curabitur tortor. Pellentesque nibh. Aenean quam. In scelerisque sem at dolor. \n\nMaecenas mattis. Sed convallis tristique sem. Proin ut ligula vel nunc egestas porttitor. Morbi lectus risus, iaculis vel, suscipit quis, luctus non, massa. Fusce ac turpis quis ligula lacinia aliquet. Mauris ipsum. Nulla metus metus, ullamcorper vel, tincidunt sed, euismod in, nibh. Quisque volutpat condimentum velit. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Nam nec ante. Sed lacinia, urna non tincidunt mattis, tortor neque adipiscing diam, a cursus ipsum ante quis turpis. \n\nNulla facilisi. Ut fringilla. Suspendisse potenti. Nunc feugiat mi a tellus consequat imperdiet. Vestibulum sapien. Proin quam. Etiam ultrices. Suspendisse in justo eu magna luctus suscipit. Sed lectus. Integer euismod lacus luctus magna. Quisque cursus, metus vitae pharetra auctor, sem massa mattis sem, at interdum magna augue eget diam. \n\nVestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Morbi lacinia molestie dui. Praesent blandit dolor. Sed non quam. In vel mi sit amet augue congue elementum. Morbi in ipsum sit amet pede facilisis laoreet. Donec lacus nunc, viverra nec, blandit vel, egestas et, augue. Vestibulum tincidunt malesuada tellus. Ut ultrices ultrices enim. Curabitur sit amet mauris. Morbi in dui quis est pulvinar ullamcorper. Nulla facilisi. Integer lacinia sollicitudin massa. Cras metus. Sed aliquet risus a tortor. ",
         "type": "MarkdownRemark",
-        "contentDigest": "948e25af3ea2710416c091ba4e5e2c5c",
+        "contentDigest": "ff1922f1ca7be238c88d4505e0d897d8",
         "owner": "gatsby-transformer-remark",
         "fieldOwners": {
           "slug": "default-site-plugin"
@@ -2527,7 +2221,8 @@
         "path": "/post-two",
         "date": "2018-05-01",
         "tags": [
-          "finance"
+          "tag2",
+          "tag3"
         ],
         "headerImg": "hiker.jpg",
         "_PARENT": "/Users/drewmoody/Personal_Projects/Cael/src/pages/2018-05-01-post-two/index.md absPath of file",
@@ -2538,71 +2233,6 @@
       "fileAbsolutePath": "/Users/drewmoody/Personal_Projects/Cael/src/pages/2018-05-01-post-two/index.md",
       "fields": {
         "slug": "/2018-05-01-post-two/"
-      }
-    },
-    "/Users/drewmoody/Personal_Projects/Cael/src/pages/2018-04-01-post-three/index.md absPath of file >>> MarkdownRemark": {
-      "id": "/Users/drewmoody/Personal_Projects/Cael/src/pages/2018-04-01-post-three/index.md absPath of file >>> MarkdownRemark",
-      "children": [],
-      "parent": "/Users/drewmoody/Personal_Projects/Cael/src/pages/2018-04-01-post-three/index.md absPath of file",
-      "internal": {
-        "content": "---\npath: \"/post-three\"\ntitle: \"Post Three\"\ndate: \"2018-04-01\"\ntags: ['diet', 'exercise']\nheaderImg: \"hut.jpg\"\n---\n\n![](hut.jpg)\n\nInteger eget tellus sagittis, auctor felis quis, fermentum leo. Morbi tincidunt augue et iaculis dignissim. Phasellus accumsan malesuada odio, at rutrum odio gravida sit amet. Integer vitae leo ultrices, maximus massa ut, placerat lorem. Maecenas lobortis feugiat velit, id efficitur augue blandit eu. Cras feugiat nec lacus nec tincidunt. Nullam a scelerisque libero, vitae fermentum arcu. Phasellus commodo gravida pharetra. Suspendisse non massa risus. Nam at tellus a nisi tempus pretium. Aliquam laoreet neque at dapibus sagittis.\n\nInteger laoreet ex eget congue imperdiet. Praesent luctus nunc sit amet interdum posuere. Duis rutrum augue lobortis augue aliquam tempor. Proin ut neque viverra risus dapibus finibus. Fusce finibus, nibh sollicitudin scelerisque porttitor, ipsum arcu commodo metus, sed ultrices lectus ex vel ex. Aenean dolor augue, dictum non posuere sit amet, commodo sed risus. Sed rutrum nisi in mauris ullamcorper molestie. Integer interdum nunc ut aliquam malesuada.\n\nUt luctus dapibus odio. In mollis sodales libero. Praesent in nibh quam. Pellentesque eget vulputate ante. Sed dui odio, bibendum pharetra accumsan non, pulvinar non odio. Morbi tempus tellus non porta malesuada. Proin aliquet placerat nulla et semper. Curabitur eget eleifend nisi. Vestibulum blandit porttitor mauris eget ultricies. Vivamus sed euismod justo, lobortis fermentum ligula. Sed vestibulum odio tellus, non suscipit neque ultricies vel. In fringilla lectus nec metus consectetur gravida. Duis mattis nunc a interdum lobortis. Phasellus consequat purus ut urna dapibus placerat. Donec ligula est, aliquet vitae augue id, ultricies pharetra ex.\n\n<!-- To embed a youtube video:\n<iframe width=\"560\" height=\"315\" src=\"https://www.youtube.com/embed/4n0xNbfJLR8\" frameborder=\"0\" allowfullscreen></iframe> -->",
-        "type": "MarkdownRemark",
-        "contentDigest": "831cb9301e4cdb3e8c510c67c1388f50",
-        "owner": "gatsby-transformer-remark",
-        "fieldOwners": {
-          "slug": "default-site-plugin"
-        }
-      },
-      "frontmatter": {
-        "title": "Post Three",
-        "path": "/post-three",
-        "date": "2018-04-01",
-        "tags": [
-          "diet",
-          "exercise"
-        ],
-        "headerImg": "hut.jpg",
-        "_PARENT": "/Users/drewmoody/Personal_Projects/Cael/src/pages/2018-04-01-post-three/index.md absPath of file",
-        "parent": "/Users/drewmoody/Personal_Projects/Cael/src/pages/2018-04-01-post-three/index.md absPath of file"
-      },
-      "excerpt": "",
-      "rawMarkdownBody": "\n![](hut.jpg)\n\nInteger eget tellus sagittis, auctor felis quis, fermentum leo. Morbi tincidunt augue et iaculis dignissim. Phasellus accumsan malesuada odio, at rutrum odio gravida sit amet. Integer vitae leo ultrices, maximus massa ut, placerat lorem. Maecenas lobortis feugiat velit, id efficitur augue blandit eu. Cras feugiat nec lacus nec tincidunt. Nullam a scelerisque libero, vitae fermentum arcu. Phasellus commodo gravida pharetra. Suspendisse non massa risus. Nam at tellus a nisi tempus pretium. Aliquam laoreet neque at dapibus sagittis.\n\nInteger laoreet ex eget congue imperdiet. Praesent luctus nunc sit amet interdum posuere. Duis rutrum augue lobortis augue aliquam tempor. Proin ut neque viverra risus dapibus finibus. Fusce finibus, nibh sollicitudin scelerisque porttitor, ipsum arcu commodo metus, sed ultrices lectus ex vel ex. Aenean dolor augue, dictum non posuere sit amet, commodo sed risus. Sed rutrum nisi in mauris ullamcorper molestie. Integer interdum nunc ut aliquam malesuada.\n\nUt luctus dapibus odio. In mollis sodales libero. Praesent in nibh quam. Pellentesque eget vulputate ante. Sed dui odio, bibendum pharetra accumsan non, pulvinar non odio. Morbi tempus tellus non porta malesuada. Proin aliquet placerat nulla et semper. Curabitur eget eleifend nisi. Vestibulum blandit porttitor mauris eget ultricies. Vivamus sed euismod justo, lobortis fermentum ligula. Sed vestibulum odio tellus, non suscipit neque ultricies vel. In fringilla lectus nec metus consectetur gravida. Duis mattis nunc a interdum lobortis. Phasellus consequat purus ut urna dapibus placerat. Donec ligula est, aliquet vitae augue id, ultricies pharetra ex.\n\n<!-- To embed a youtube video:\n<iframe width=\"560\" height=\"315\" src=\"https://www.youtube.com/embed/4n0xNbfJLR8\" frameborder=\"0\" allowfullscreen></iframe> -->",
-      "fileAbsolutePath": "/Users/drewmoody/Personal_Projects/Cael/src/pages/2018-04-01-post-three/index.md",
-      "fields": {
-        "slug": "/2018-04-01-post-three/"
-      }
-    },
-    "/Users/drewmoody/Personal_Projects/Cael/src/pages/2018-06-21-post-four/index.md absPath of file >>> MarkdownRemark": {
-      "id": "/Users/drewmoody/Personal_Projects/Cael/src/pages/2018-06-21-post-four/index.md absPath of file >>> MarkdownRemark",
-      "children": [],
-      "parent": "/Users/drewmoody/Personal_Projects/Cael/src/pages/2018-06-21-post-four/index.md absPath of file",
-      "internal": {
-        "content": "---\npath: \"/post-four\"\ndate: \"2018-06-21T01:46:57\"\ntitle: \"Post Four\"\ntags: ['test', 'testing', 'banana']\nheaderImg: \"hut.jpg\"\n---\n\nLorem ipsum dolor sit amet, fastidii offendit no duo, tacimates corrumpit gloriatur duo ad. Nec eu vide duis libris, vel aeque utamur expetenda ad, an voluptua epicurei democritum vix. Virtute diceret eu vix, his dolore iuvaret scaevola ut. Ut case menandri his, in sed homero corrumpit. Consul scripserit cu pro.\n\nNec quaeque percipit perpetua no, timeam facilisi quaestio usu no. Pro in decore tractatos, eos delicata persequeris no. Pri commodo delenit docendi no, atqui inani falli ex nam. Cibo putant delicatissimi est id. Purto utamur gubergren te has, graeci viderer graecis an mea, nam ut vide ancillae. Te vis iriure periculis incorrupte, his omnes postulant consetetur ad, accusata salutatus et nam. Ad autem tibique appareat usu, est eius accusam definiebas in.\n\nLatine eligendi facilisi at nam. Hinc audire maiorum te quo, adipisci liberavisse qui ex, has labore pericula ea. Ex mel aeque expetenda cotidieque. Ut tale constituto expetendis mel.",
-        "type": "MarkdownRemark",
-        "contentDigest": "0098724c87d2ac8612ae1729c135b200",
-        "owner": "gatsby-transformer-remark",
-        "fieldOwners": {
-          "slug": "default-site-plugin"
-        }
-      },
-      "frontmatter": {
-        "title": "Post Four",
-        "path": "/post-four",
-        "date": "2018-06-21T01:46:57",
-        "tags": [
-          "test",
-          "testing",
-          "banana"
-        ],
-        "headerImg": "hut.jpg",
-        "_PARENT": "/Users/drewmoody/Personal_Projects/Cael/src/pages/2018-06-21-post-four/index.md absPath of file",
-        "parent": "/Users/drewmoody/Personal_Projects/Cael/src/pages/2018-06-21-post-four/index.md absPath of file"
-      },
-      "excerpt": "",
-      "rawMarkdownBody": "\nLorem ipsum dolor sit amet, fastidii offendit no duo, tacimates corrumpit gloriatur duo ad. Nec eu vide duis libris, vel aeque utamur expetenda ad, an voluptua epicurei democritum vix. Virtute diceret eu vix, his dolore iuvaret scaevola ut. Ut case menandri his, in sed homero corrumpit. Consul scripserit cu pro.\n\nNec quaeque percipit perpetua no, timeam facilisi quaestio usu no. Pro in decore tractatos, eos delicata persequeris no. Pri commodo delenit docendi no, atqui inani falli ex nam. Cibo putant delicatissimi est id. Purto utamur gubergren te has, graeci viderer graecis an mea, nam ut vide ancillae. Te vis iriure periculis incorrupte, his omnes postulant consetetur ad, accusata salutatus et nam. Ad autem tibique appareat usu, est eius accusam definiebas in.\n\nLatine eligendi facilisi at nam. Hinc audire maiorum te quo, adipisci liberavisse qui ex, has labore pericula ea. Ex mel aeque expetenda cotidieque. Ut tale constituto expetendis mel.",
-      "fileAbsolutePath": "/Users/drewmoody/Personal_Projects/Cael/src/pages/2018-06-21-post-four/index.md",
-      "fields": {
-        "slug": "/2018-06-21-post-four/"
       }
     },
     "/Users/drewmoody/Personal_Projects/Cael/src/imgs/headerBackground.jpeg absPath of file": {
@@ -2625,7 +2255,7 @@
       "size": 771232,
       "prettySize": "771 kB",
       "modifiedTime": "2018-08-31T05:18:55.678Z",
-      "accessTime": "2018-09-01T17:41:16.096Z",
+      "accessTime": "2018-09-02T05:33:31.466Z",
       "changeTime": "2018-08-31T05:18:55.679Z",
       "birthTime": "2018-08-31T05:18:46.967Z",
       "root": "/",
@@ -2643,11 +2273,11 @@
       "blksize": 4194304,
       "ino": 8604000798,
       "blocks": 1512,
-      "atimeMs": 1535823676096.1704,
+      "atimeMs": 1535866411466.3005,
       "mtimeMs": 1535692735678,
       "ctimeMs": 1535692735678.5742,
       "birthtimeMs": 1535692726967.2803,
-      "atime": "2018-09-01T17:41:16.096Z",
+      "atime": "2018-09-02T05:33:31.466Z",
       "mtime": "2018-08-31T05:18:55.678Z",
       "ctime": "2018-08-31T05:18:55.679Z",
       "birthtime": "2018-08-31T05:18:46.967Z"
@@ -2662,35 +2292,167 @@
         "owner": "gatsby-transformer-sharp"
       }
     },
-    "/Users/drewmoody/Personal_Projects/Cael/src/pages/2018-04-01-post-three/hut.jpg absPath of file": {
-      "id": "/Users/drewmoody/Personal_Projects/Cael/src/pages/2018-04-01-post-three/hut.jpg absPath of file",
+    "/Users/drewmoody/Personal_Projects/Cael/src/pages/2018-04-01-post-one absPath of file": {
+      "id": "/Users/drewmoody/Personal_Projects/Cael/src/pages/2018-04-01-post-one absPath of file",
+      "children": [],
+      "parent": "___SOURCE___",
+      "internal": {
+        "contentDigest": "2f82999ef9d6e2c64bae91f38d04f69b",
+        "type": "Directory",
+        "description": "Directory \"src/pages/2018-04-01-post-one\"",
+        "owner": "gatsby-source-filesystem"
+      },
+      "sourceInstanceName": "pages",
+      "absolutePath": "/Users/drewmoody/Personal_Projects/Cael/src/pages/2018-04-01-post-one",
+      "relativePath": "2018-04-01-post-one",
+      "extension": "",
+      "size": 128,
+      "prettySize": "128 B",
+      "modifiedTime": "2018-08-29T05:06:40.884Z",
+      "accessTime": "2018-09-02T06:00:20.655Z",
+      "changeTime": "2018-09-02T05:59:36.176Z",
+      "birthTime": "2018-06-22T02:32:16.264Z",
+      "root": "/",
+      "dir": "/Users/drewmoody/Personal_Projects/Cael/src/pages",
+      "base": "2018-04-01-post-one",
+      "ext": "",
+      "name": "2018-04-01-post-one",
+      "relativeDirectory": "",
+      "dev": 16777221,
+      "mode": 16877,
+      "nlink": 4,
+      "uid": 501,
+      "gid": 20,
+      "rdev": 0,
+      "blksize": 4194304,
+      "ino": 8599721953,
+      "blocks": 0,
+      "atimeMs": 1535868020655.2441,
+      "mtimeMs": 1535519200884.1455,
+      "ctimeMs": 1535867976176.2014,
+      "birthtimeMs": 1529634736263.928,
+      "atime": "2018-09-02T06:00:20.655Z",
+      "mtime": "2018-08-29T05:06:40.884Z",
+      "ctime": "2018-09-02T05:59:36.176Z",
+      "birthtime": "2018-06-22T02:32:16.264Z"
+    },
+    "/Users/drewmoody/Personal_Projects/Cael/src/pages/2018-06-01-post-three absPath of file": {
+      "id": "/Users/drewmoody/Personal_Projects/Cael/src/pages/2018-06-01-post-three absPath of file",
+      "children": [],
+      "parent": "___SOURCE___",
+      "internal": {
+        "contentDigest": "5da735e716914dc9b3982123986ff950",
+        "type": "Directory",
+        "description": "Directory \"src/pages/2018-06-01-post-three\"",
+        "owner": "gatsby-source-filesystem"
+      },
+      "sourceInstanceName": "pages",
+      "absolutePath": "/Users/drewmoody/Personal_Projects/Cael/src/pages/2018-06-01-post-three",
+      "relativePath": "2018-06-01-post-three",
+      "extension": "",
+      "size": 128,
+      "prettySize": "128 B",
+      "modifiedTime": "2018-09-02T05:20:18.401Z",
+      "accessTime": "2018-09-02T06:00:20.655Z",
+      "changeTime": "2018-09-02T05:59:20.001Z",
+      "birthTime": "2018-06-22T02:32:55.871Z",
+      "root": "/",
+      "dir": "/Users/drewmoody/Personal_Projects/Cael/src/pages",
+      "base": "2018-06-01-post-three",
+      "ext": "",
+      "name": "2018-06-01-post-three",
+      "relativeDirectory": "",
+      "dev": 16777221,
+      "mode": 16877,
+      "nlink": 4,
+      "uid": 501,
+      "gid": 20,
+      "rdev": 0,
+      "blksize": 4194304,
+      "ino": 8599721986,
+      "blocks": 0,
+      "atimeMs": 1535868020655.2107,
+      "mtimeMs": 1535865618400.6096,
+      "ctimeMs": 1535867960001.497,
+      "birthtimeMs": 1529634775871.1306,
+      "atime": "2018-09-02T06:00:20.655Z",
+      "mtime": "2018-09-02T05:20:18.401Z",
+      "ctime": "2018-09-02T05:59:20.001Z",
+      "birthtime": "2018-06-22T02:32:55.871Z"
+    },
+    "/Users/drewmoody/Personal_Projects/Cael/src/pages/2018-07-01-post-four absPath of file": {
+      "id": "/Users/drewmoody/Personal_Projects/Cael/src/pages/2018-07-01-post-four absPath of file",
+      "children": [],
+      "parent": "___SOURCE___",
+      "internal": {
+        "contentDigest": "dc2f4d7a0332fe332e65bf316fa65cc5",
+        "type": "Directory",
+        "description": "Directory \"src/pages/2018-07-01-post-four\"",
+        "owner": "gatsby-source-filesystem"
+      },
+      "sourceInstanceName": "pages",
+      "absolutePath": "/Users/drewmoody/Personal_Projects/Cael/src/pages/2018-07-01-post-four",
+      "relativePath": "2018-07-01-post-four",
+      "extension": "",
+      "size": 128,
+      "prettySize": "128 B",
+      "modifiedTime": "2018-08-29T06:47:43.392Z",
+      "accessTime": "2018-09-02T06:00:20.655Z",
+      "changeTime": "2018-09-02T05:59:04.192Z",
+      "birthTime": "2018-06-22T01:45:44.505Z",
+      "root": "/",
+      "dir": "/Users/drewmoody/Personal_Projects/Cael/src/pages",
+      "base": "2018-07-01-post-four",
+      "ext": "",
+      "name": "2018-07-01-post-four",
+      "relativeDirectory": "",
+      "dev": 16777221,
+      "mode": 16877,
+      "nlink": 4,
+      "uid": 501,
+      "gid": 20,
+      "rdev": 0,
+      "blksize": 4194304,
+      "ino": 8599681160,
+      "blocks": 0,
+      "atimeMs": 1535868020655.2915,
+      "mtimeMs": 1535525263392.0615,
+      "ctimeMs": 1535867944191.5376,
+      "birthtimeMs": 1529631944504.84,
+      "atime": "2018-09-02T06:00:20.655Z",
+      "mtime": "2018-08-29T06:47:43.392Z",
+      "ctime": "2018-09-02T05:59:04.192Z",
+      "birthtime": "2018-06-22T01:45:44.505Z"
+    },
+    "/Users/drewmoody/Personal_Projects/Cael/src/pages/2018-07-01-post-four/index.md absPath of file": {
+      "id": "/Users/drewmoody/Personal_Projects/Cael/src/pages/2018-07-01-post-four/index.md absPath of file",
       "children": [
-        "/Users/drewmoody/Personal_Projects/Cael/src/pages/2018-04-01-post-three/hut.jpg absPath of file >> ImageSharp"
+        "/Users/drewmoody/Personal_Projects/Cael/src/pages/2018-07-01-post-four/index.md absPath of file >>> MarkdownRemark"
       ],
       "parent": "___SOURCE___",
       "internal": {
-        "contentDigest": "58f3f4d5d85f70a456cabea460fb8f90",
-        "mediaType": "image/jpeg",
+        "contentDigest": "a68e9e1cc923702cc7ea71e8d8843f14",
+        "mediaType": "text/markdown",
         "type": "File",
-        "description": "File \"src/pages/2018-04-01-post-three/hut.jpg\"",
+        "description": "File \"src/pages/2018-07-01-post-four/index.md\"",
         "owner": "gatsby-source-filesystem"
       },
       "sourceInstanceName": "src",
-      "absolutePath": "/Users/drewmoody/Personal_Projects/Cael/src/pages/2018-04-01-post-three/hut.jpg",
-      "relativePath": "pages/2018-04-01-post-three/hut.jpg",
-      "extension": "jpg",
-      "size": 1048583,
-      "prettySize": "1.05 MB",
-      "modifiedTime": "2018-08-29T05:06:29.680Z",
-      "accessTime": "2018-09-01T17:41:17.076Z",
-      "changeTime": "2018-08-29T05:06:29.681Z",
-      "birthTime": "2018-06-17T02:24:37.643Z",
+      "absolutePath": "/Users/drewmoody/Personal_Projects/Cael/src/pages/2018-07-01-post-four/index.md",
+      "relativePath": "pages/2018-07-01-post-four/index.md",
+      "extension": "md",
+      "size": 1084,
+      "prettySize": "1.08 kB",
+      "modifiedTime": "2018-09-02T06:00:55.844Z",
+      "accessTime": "2018-09-02T06:00:55.844Z",
+      "changeTime": "2018-09-02T06:00:55.844Z",
+      "birthTime": "2018-06-22T01:45:49.996Z",
       "root": "/",
-      "dir": "/Users/drewmoody/Personal_Projects/Cael/src/pages/2018-04-01-post-three",
-      "base": "hut.jpg",
-      "ext": ".jpg",
-      "name": "hut",
-      "relativeDirectory": "pages/2018-04-01-post-three",
+      "dir": "/Users/drewmoody/Personal_Projects/Cael/src/pages/2018-07-01-post-four",
+      "base": "index.md",
+      "ext": ".md",
+      "name": "index",
+      "relativeDirectory": "pages/2018-07-01-post-four",
       "dev": 16777221,
       "mode": 33188,
       "nlink": 1,
@@ -2698,56 +2460,318 @@
       "gid": 20,
       "rdev": 0,
       "blksize": 4194304,
-      "ino": 8599298093,
-      "blocks": 2176,
-      "atimeMs": 1535823677076.3645,
-      "mtimeMs": 1535519189680,
-      "ctimeMs": 1535519189680.8257,
-      "birthtimeMs": 1529202277642.715,
-      "atime": "2018-09-01T17:41:17.076Z",
-      "mtime": "2018-08-29T05:06:29.680Z",
-      "ctime": "2018-08-29T05:06:29.681Z",
-      "birthtime": "2018-06-17T02:24:37.643Z"
+      "ino": 8599681162,
+      "blocks": 8,
+      "atimeMs": 1535868055843.992,
+      "mtimeMs": 1535868055844.3472,
+      "ctimeMs": 1535868055844.3472,
+      "birthtimeMs": 1529631949995.8928,
+      "atime": "2018-09-02T06:00:55.844Z",
+      "mtime": "2018-09-02T06:00:55.844Z",
+      "ctime": "2018-09-02T06:00:55.844Z",
+      "birthtime": "2018-06-22T01:45:49.996Z"
     },
-    "/Users/drewmoody/Personal_Projects/Cael/src/pages/2018-04-01-post-three/hut.jpg absPath of file >> ImageSharp": {
-      "id": "/Users/drewmoody/Personal_Projects/Cael/src/pages/2018-04-01-post-three/hut.jpg absPath of file >> ImageSharp",
-      "children": [],
-      "parent": "/Users/drewmoody/Personal_Projects/Cael/src/pages/2018-04-01-post-three/hut.jpg absPath of file",
+    "/Users/drewmoody/Personal_Projects/Cael/src/pages/2018-06-01-post-three/index.md absPath of file": {
+      "id": "/Users/drewmoody/Personal_Projects/Cael/src/pages/2018-06-01-post-three/index.md absPath of file",
+      "children": [
+        "/Users/drewmoody/Personal_Projects/Cael/src/pages/2018-06-01-post-three/index.md absPath of file >>> MarkdownRemark"
+      ],
+      "parent": "___SOURCE___",
       "internal": {
-        "contentDigest": "58f3f4d5d85f70a456cabea460fb8f90",
+        "contentDigest": "189da1879dec14e85c4f4242af3b5beb",
+        "mediaType": "text/markdown",
+        "type": "File",
+        "description": "File \"src/pages/2018-06-01-post-three/index.md\"",
+        "owner": "gatsby-source-filesystem"
+      },
+      "sourceInstanceName": "src",
+      "absolutePath": "/Users/drewmoody/Personal_Projects/Cael/src/pages/2018-06-01-post-three/index.md",
+      "relativePath": "pages/2018-06-01-post-three/index.md",
+      "extension": "md",
+      "size": 1943,
+      "prettySize": "1.94 kB",
+      "modifiedTime": "2018-09-02T05:59:56.278Z",
+      "accessTime": "2018-09-02T05:59:57.835Z",
+      "changeTime": "2018-09-02T05:59:56.278Z",
+      "birthTime": "2018-06-17T00:31:55.001Z",
+      "root": "/",
+      "dir": "/Users/drewmoody/Personal_Projects/Cael/src/pages/2018-06-01-post-three",
+      "base": "index.md",
+      "ext": ".md",
+      "name": "index",
+      "relativeDirectory": "pages/2018-06-01-post-three",
+      "dev": 16777221,
+      "mode": 33188,
+      "nlink": 1,
+      "uid": 501,
+      "gid": 20,
+      "rdev": 0,
+      "blksize": 4194304,
+      "ino": 8599291607,
+      "blocks": 8,
+      "atimeMs": 1535867997834.5625,
+      "mtimeMs": 1535867996278.2278,
+      "ctimeMs": 1535867996278.2278,
+      "birthtimeMs": 1529195515000.5754,
+      "atime": "2018-09-02T05:59:57.835Z",
+      "mtime": "2018-09-02T05:59:56.278Z",
+      "ctime": "2018-09-02T05:59:56.278Z",
+      "birthtime": "2018-06-17T00:31:55.001Z"
+    },
+    "/Users/drewmoody/Personal_Projects/Cael/src/pages/2018-04-01-post-one/index.md absPath of file": {
+      "id": "/Users/drewmoody/Personal_Projects/Cael/src/pages/2018-04-01-post-one/index.md absPath of file",
+      "children": [
+        "/Users/drewmoody/Personal_Projects/Cael/src/pages/2018-04-01-post-one/index.md absPath of file >>> MarkdownRemark"
+      ],
+      "parent": "___SOURCE___",
+      "internal": {
+        "contentDigest": "3d63b9f87655ac78133d88b23991e194",
+        "mediaType": "text/markdown",
+        "type": "File",
+        "description": "File \"src/pages/2018-04-01-post-one/index.md\"",
+        "owner": "gatsby-source-filesystem"
+      },
+      "sourceInstanceName": "src",
+      "absolutePath": "/Users/drewmoody/Personal_Projects/Cael/src/pages/2018-04-01-post-one/index.md",
+      "relativePath": "pages/2018-04-01-post-one/index.md",
+      "extension": "md",
+      "size": 2454,
+      "prettySize": "2.45 kB",
+      "modifiedTime": "2018-09-02T06:00:12.877Z",
+      "accessTime": "2018-09-02T06:00:14.090Z",
+      "changeTime": "2018-09-02T06:00:12.877Z",
+      "birthTime": "2018-06-17T00:41:11.928Z",
+      "root": "/",
+      "dir": "/Users/drewmoody/Personal_Projects/Cael/src/pages/2018-04-01-post-one",
+      "base": "index.md",
+      "ext": ".md",
+      "name": "index",
+      "relativeDirectory": "pages/2018-04-01-post-one",
+      "dev": 16777221,
+      "mode": 33188,
+      "nlink": 1,
+      "uid": 501,
+      "gid": 20,
+      "rdev": 0,
+      "blksize": 4194304,
+      "ino": 8599294856,
+      "blocks": 8,
+      "atimeMs": 1535868014089.9324,
+      "mtimeMs": 1535868012876.661,
+      "ctimeMs": 1535868012876.661,
+      "birthtimeMs": 1529196071927.8044,
+      "atime": "2018-09-02T06:00:14.090Z",
+      "mtime": "2018-09-02T06:00:12.877Z",
+      "ctime": "2018-09-02T06:00:12.877Z",
+      "birthtime": "2018-06-17T00:41:11.928Z"
+    },
+    "/Users/drewmoody/Personal_Projects/Cael/src/pages/2018-04-01-post-one/sunset.jpg absPath of file": {
+      "id": "/Users/drewmoody/Personal_Projects/Cael/src/pages/2018-04-01-post-one/sunset.jpg absPath of file",
+      "children": [
+        "/Users/drewmoody/Personal_Projects/Cael/src/pages/2018-04-01-post-one/sunset.jpg absPath of file >> ImageSharp"
+      ],
+      "parent": "___SOURCE___",
+      "internal": {
+        "contentDigest": "95da4572d5307cf2b9b54c5ee1f4641b",
+        "mediaType": "image/jpeg",
+        "type": "File",
+        "description": "File \"src/pages/2018-04-01-post-one/sunset.jpg\"",
+        "owner": "gatsby-source-filesystem"
+      },
+      "sourceInstanceName": "src",
+      "absolutePath": "/Users/drewmoody/Personal_Projects/Cael/src/pages/2018-04-01-post-one/sunset.jpg",
+      "relativePath": "pages/2018-04-01-post-one/sunset.jpg",
+      "extension": "jpg",
+      "size": 226668,
+      "prettySize": "227 kB",
+      "modifiedTime": "2018-08-29T05:06:40.884Z",
+      "accessTime": "2018-09-02T05:58:10.871Z",
+      "changeTime": "2018-08-29T05:06:40.884Z",
+      "birthTime": "2018-06-17T02:38:07.693Z",
+      "root": "/",
+      "dir": "/Users/drewmoody/Personal_Projects/Cael/src/pages/2018-04-01-post-one",
+      "base": "sunset.jpg",
+      "ext": ".jpg",
+      "name": "sunset",
+      "relativeDirectory": "pages/2018-04-01-post-one",
+      "dev": 16777221,
+      "mode": 33188,
+      "nlink": 1,
+      "uid": 501,
+      "gid": 20,
+      "rdev": 0,
+      "blksize": 4194304,
+      "ino": 8599298417,
+      "blocks": 448,
+      "atimeMs": 1535867890871.4297,
+      "mtimeMs": 1535519200884,
+      "ctimeMs": 1535519200884.4963,
+      "birthtimeMs": 1529203087693.3037,
+      "atime": "2018-09-02T05:58:10.871Z",
+      "mtime": "2018-08-29T05:06:40.884Z",
+      "ctime": "2018-08-29T05:06:40.884Z",
+      "birthtime": "2018-06-17T02:38:07.693Z"
+    },
+    "/Users/drewmoody/Personal_Projects/Cael/src/pages/2018-04-01-post-one/sunset.jpg absPath of file >> ImageSharp": {
+      "id": "/Users/drewmoody/Personal_Projects/Cael/src/pages/2018-04-01-post-one/sunset.jpg absPath of file >> ImageSharp",
+      "children": [],
+      "parent": "/Users/drewmoody/Personal_Projects/Cael/src/pages/2018-04-01-post-one/sunset.jpg absPath of file",
+      "internal": {
+        "contentDigest": "95da4572d5307cf2b9b54c5ee1f4641b",
         "type": "ImageSharp",
         "owner": "gatsby-transformer-sharp"
       }
     },
-    "/Users/drewmoody/Personal_Projects/Cael/src/pages/2018-06-21-post-four/hut.jpg absPath of file": {
-      "id": "/Users/drewmoody/Personal_Projects/Cael/src/pages/2018-06-21-post-four/hut.jpg absPath of file",
+    "/Users/drewmoody/Personal_Projects/Cael/src/pages/2018-06-01-post-three/index.md absPath of file >>> MarkdownRemark": {
+      "id": "/Users/drewmoody/Personal_Projects/Cael/src/pages/2018-06-01-post-three/index.md absPath of file >>> MarkdownRemark",
+      "children": [],
+      "parent": "/Users/drewmoody/Personal_Projects/Cael/src/pages/2018-06-01-post-three/index.md absPath of file",
+      "internal": {
+        "content": "---\npath: \"/post-three\"\ntitle: \"Post Three\"\ndate: \"2018-06-01\"\ntags: ['tag1', 'tag2']\nheaderImg: \"field.jpeg\"\n---\n\n![](field.jpeg)\n\nInteger eget tellus sagittis, auctor felis quis, fermentum leo. Morbi tincidunt augue et iaculis dignissim. Phasellus accumsan malesuada odio, at rutrum odio gravida sit amet. Integer vitae leo ultrices, maximus massa ut, placerat lorem. Maecenas lobortis feugiat velit, id efficitur augue blandit eu. Cras feugiat nec lacus nec tincidunt. Nullam a scelerisque libero, vitae fermentum arcu. Phasellus commodo gravida pharetra. Suspendisse non massa risus. Nam at tellus a nisi tempus pretium. Aliquam laoreet neque at dapibus sagittis.\n\nInteger laoreet ex eget congue imperdiet. Praesent luctus nunc sit amet interdum posuere. Duis rutrum augue lobortis augue aliquam tempor. Proin ut neque viverra risus dapibus finibus. Fusce finibus, nibh sollicitudin scelerisque porttitor, ipsum arcu commodo metus, sed ultrices lectus ex vel ex. Aenean dolor augue, dictum non posuere sit amet, commodo sed risus. Sed rutrum nisi in mauris ullamcorper molestie. Integer interdum nunc ut aliquam malesuada.\n\nUt luctus dapibus odio. In mollis sodales libero. Praesent in nibh quam. Pellentesque eget vulputate ante. Sed dui odio, bibendum pharetra accumsan non, pulvinar non odio. Morbi tempus tellus non porta malesuada. Proin aliquet placerat nulla et semper. Curabitur eget eleifend nisi. Vestibulum blandit porttitor mauris eget ultricies. Vivamus sed euismod justo, lobortis fermentum ligula. Sed vestibulum odio tellus, non suscipit neque ultricies vel. In fringilla lectus nec metus consectetur gravida. Duis mattis nunc a interdum lobortis. Phasellus consequat purus ut urna dapibus placerat. Donec ligula est, aliquet vitae augue id, ultricies pharetra ex.\n\n<!-- To embed a youtube video:\n<iframe width=\"560\" height=\"315\" src=\"https://www.youtube.com/embed/4n0xNbfJLR8\" frameborder=\"0\" allowfullscreen></iframe> -->",
+        "type": "MarkdownRemark",
+        "contentDigest": "9de53de73c7c59e1ec0f3df062e8adc3",
+        "owner": "gatsby-transformer-remark",
+        "fieldOwners": {
+          "slug": "default-site-plugin"
+        }
+      },
+      "frontmatter": {
+        "title": "Post Three",
+        "path": "/post-three",
+        "date": "2018-06-01",
+        "tags": [
+          "tag1",
+          "tag2"
+        ],
+        "headerImg": "field.jpeg",
+        "_PARENT": "/Users/drewmoody/Personal_Projects/Cael/src/pages/2018-06-01-post-three/index.md absPath of file",
+        "parent": "/Users/drewmoody/Personal_Projects/Cael/src/pages/2018-06-01-post-three/index.md absPath of file"
+      },
+      "excerpt": "",
+      "rawMarkdownBody": "\n![](field.jpeg)\n\nInteger eget tellus sagittis, auctor felis quis, fermentum leo. Morbi tincidunt augue et iaculis dignissim. Phasellus accumsan malesuada odio, at rutrum odio gravida sit amet. Integer vitae leo ultrices, maximus massa ut, placerat lorem. Maecenas lobortis feugiat velit, id efficitur augue blandit eu. Cras feugiat nec lacus nec tincidunt. Nullam a scelerisque libero, vitae fermentum arcu. Phasellus commodo gravida pharetra. Suspendisse non massa risus. Nam at tellus a nisi tempus pretium. Aliquam laoreet neque at dapibus sagittis.\n\nInteger laoreet ex eget congue imperdiet. Praesent luctus nunc sit amet interdum posuere. Duis rutrum augue lobortis augue aliquam tempor. Proin ut neque viverra risus dapibus finibus. Fusce finibus, nibh sollicitudin scelerisque porttitor, ipsum arcu commodo metus, sed ultrices lectus ex vel ex. Aenean dolor augue, dictum non posuere sit amet, commodo sed risus. Sed rutrum nisi in mauris ullamcorper molestie. Integer interdum nunc ut aliquam malesuada.\n\nUt luctus dapibus odio. In mollis sodales libero. Praesent in nibh quam. Pellentesque eget vulputate ante. Sed dui odio, bibendum pharetra accumsan non, pulvinar non odio. Morbi tempus tellus non porta malesuada. Proin aliquet placerat nulla et semper. Curabitur eget eleifend nisi. Vestibulum blandit porttitor mauris eget ultricies. Vivamus sed euismod justo, lobortis fermentum ligula. Sed vestibulum odio tellus, non suscipit neque ultricies vel. In fringilla lectus nec metus consectetur gravida. Duis mattis nunc a interdum lobortis. Phasellus consequat purus ut urna dapibus placerat. Donec ligula est, aliquet vitae augue id, ultricies pharetra ex.\n\n<!-- To embed a youtube video:\n<iframe width=\"560\" height=\"315\" src=\"https://www.youtube.com/embed/4n0xNbfJLR8\" frameborder=\"0\" allowfullscreen></iframe> -->",
+      "fileAbsolutePath": "/Users/drewmoody/Personal_Projects/Cael/src/pages/2018-06-01-post-three/index.md",
+      "fields": {
+        "slug": "/2018-06-01-post-three/"
+      }
+    },
+    "/Users/drewmoody/Personal_Projects/Cael/src/pages/2018-04-01-post-one/index.md absPath of file >>> MarkdownRemark": {
+      "id": "/Users/drewmoody/Personal_Projects/Cael/src/pages/2018-04-01-post-one/index.md absPath of file >>> MarkdownRemark",
+      "children": [],
+      "parent": "/Users/drewmoody/Personal_Projects/Cael/src/pages/2018-04-01-post-one/index.md absPath of file",
+      "internal": {
+        "content": "---\npath: \"/post-one\"\ntitle: \"Post One\"\ndate: \"2018-04-01\"\ntags: ['tag1', 'tag4']\nheaderImg: \"sunset.jpg\"\n---\n\n![](sunset.jpg)\n\nLorem ipsum dolor sit amet, consectetur adipiscing elit. Integer nec odio. Praesent libero. Sed cursus ante dapibus diam. Sed nisi. Nulla quis sem at nibh elementum imperdiet. Duis sagittis ipsum. Praesent mauris. Fusce nec tellus sed augue semper porta. Mauris massa. Vestibulum lacinia arcu eget nulla. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. \n\nCurabitur sodales ligula in libero. Sed dignissim lacinia nunc. Curabitur tortor. Pellentesque nibh. Aenean quam. In scelerisque sem at dolor. Maecenas mattis. Sed convallis tristique sem. Proin ut ligula vel nunc egestas porttitor. Morbi lectus risus, iaculis vel, suscipit quis, luctus non, massa. Fusce ac turpis quis ligula lacinia aliquet. Mauris ipsum. Nulla metus metus, ullamcorper vel, tincidunt sed, euismod in, nibh. Quisque volutpat condimentum velit. \n\nClass aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Nam nec ante. Sed lacinia, urna non tincidunt mattis, tortor neque adipiscing diam, a cursus ipsum ante quis turpis. Nulla facilisi. Ut fringilla. Suspendisse potenti. Nunc feugiat mi a tellus consequat imperdiet. Vestibulum sapien. Proin quam. Etiam ultrices. Suspendisse in justo eu magna luctus suscipit. Sed lectus. Integer euismod lacus luctus magna. \n\nQuisque cursus, metus vitae pharetra auctor, sem massa mattis sem, at interdum magna augue eget diam. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Morbi lacinia molestie dui. Praesent blandit dolor. Sed non quam. In vel mi sit amet augue congue elementum. Morbi in ipsum sit amet pede facilisis laoreet. Donec lacus nunc, viverra nec, blandit vel, egestas et, augue. Vestibulum tincidunt malesuada tellus. Ut ultrices ultrices enim. Curabitur sit amet mauris. Morbi in dui quis est pulvinar ullamcorper. \n\nNulla facilisi. Integer lacinia sollicitudin massa. Cras metus. Sed aliquet risus a tortor. Integer id quam. Morbi mi. Quisque nisl felis, venenatis tristique, dignissim in, ultrices sit amet, augue. Proin sodales libero eget ante. Nulla quam. Aenean laoreet. Vestibulum nisi lectus, commodo ac, facilisis ac, ultricies eu, pede. Ut orci risus, accumsan porttitor, cursus quis, aliquet eget, justo. Sed pretium blandit orci. Ut eu diam at pede suscipit sodales. ",
+        "type": "MarkdownRemark",
+        "contentDigest": "6bdb334408c2f3922540daaed9ec05a8",
+        "owner": "gatsby-transformer-remark",
+        "fieldOwners": {
+          "slug": "default-site-plugin"
+        }
+      },
+      "frontmatter": {
+        "title": "Post One",
+        "path": "/post-one",
+        "date": "2018-04-01",
+        "tags": [
+          "tag1",
+          "tag4"
+        ],
+        "headerImg": "sunset.jpg",
+        "_PARENT": "/Users/drewmoody/Personal_Projects/Cael/src/pages/2018-04-01-post-one/index.md absPath of file",
+        "parent": "/Users/drewmoody/Personal_Projects/Cael/src/pages/2018-04-01-post-one/index.md absPath of file"
+      },
+      "excerpt": "",
+      "rawMarkdownBody": "\n![](sunset.jpg)\n\nLorem ipsum dolor sit amet, consectetur adipiscing elit. Integer nec odio. Praesent libero. Sed cursus ante dapibus diam. Sed nisi. Nulla quis sem at nibh elementum imperdiet. Duis sagittis ipsum. Praesent mauris. Fusce nec tellus sed augue semper porta. Mauris massa. Vestibulum lacinia arcu eget nulla. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. \n\nCurabitur sodales ligula in libero. Sed dignissim lacinia nunc. Curabitur tortor. Pellentesque nibh. Aenean quam. In scelerisque sem at dolor. Maecenas mattis. Sed convallis tristique sem. Proin ut ligula vel nunc egestas porttitor. Morbi lectus risus, iaculis vel, suscipit quis, luctus non, massa. Fusce ac turpis quis ligula lacinia aliquet. Mauris ipsum. Nulla metus metus, ullamcorper vel, tincidunt sed, euismod in, nibh. Quisque volutpat condimentum velit. \n\nClass aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Nam nec ante. Sed lacinia, urna non tincidunt mattis, tortor neque adipiscing diam, a cursus ipsum ante quis turpis. Nulla facilisi. Ut fringilla. Suspendisse potenti. Nunc feugiat mi a tellus consequat imperdiet. Vestibulum sapien. Proin quam. Etiam ultrices. Suspendisse in justo eu magna luctus suscipit. Sed lectus. Integer euismod lacus luctus magna. \n\nQuisque cursus, metus vitae pharetra auctor, sem massa mattis sem, at interdum magna augue eget diam. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Morbi lacinia molestie dui. Praesent blandit dolor. Sed non quam. In vel mi sit amet augue congue elementum. Morbi in ipsum sit amet pede facilisis laoreet. Donec lacus nunc, viverra nec, blandit vel, egestas et, augue. Vestibulum tincidunt malesuada tellus. Ut ultrices ultrices enim. Curabitur sit amet mauris. Morbi in dui quis est pulvinar ullamcorper. \n\nNulla facilisi. Integer lacinia sollicitudin massa. Cras metus. Sed aliquet risus a tortor. Integer id quam. Morbi mi. Quisque nisl felis, venenatis tristique, dignissim in, ultrices sit amet, augue. Proin sodales libero eget ante. Nulla quam. Aenean laoreet. Vestibulum nisi lectus, commodo ac, facilisis ac, ultricies eu, pede. Ut orci risus, accumsan porttitor, cursus quis, aliquet eget, justo. Sed pretium blandit orci. Ut eu diam at pede suscipit sodales. ",
+      "fileAbsolutePath": "/Users/drewmoody/Personal_Projects/Cael/src/pages/2018-04-01-post-one/index.md",
+      "fields": {
+        "slug": "/2018-04-01-post-one/"
+      }
+    },
+    "/Users/drewmoody/Personal_Projects/Cael/src/pages/2018-06-01-post-three/field.jpeg absPath of file": {
+      "id": "/Users/drewmoody/Personal_Projects/Cael/src/pages/2018-06-01-post-three/field.jpeg absPath of file",
       "children": [
-        "/Users/drewmoody/Personal_Projects/Cael/src/pages/2018-06-21-post-four/hut.jpg absPath of file >> ImageSharp"
+        "/Users/drewmoody/Personal_Projects/Cael/src/pages/2018-06-01-post-three/field.jpeg absPath of file >> ImageSharp"
+      ],
+      "parent": "___SOURCE___",
+      "internal": {
+        "contentDigest": "0e6ca1f0be6f3e14912a4454cf58e9a5",
+        "mediaType": "image/jpeg",
+        "type": "File",
+        "description": "File \"src/pages/2018-06-01-post-three/field.jpeg\"",
+        "owner": "gatsby-source-filesystem"
+      },
+      "sourceInstanceName": "src",
+      "absolutePath": "/Users/drewmoody/Personal_Projects/Cael/src/pages/2018-06-01-post-three/field.jpeg",
+      "relativePath": "pages/2018-06-01-post-three/field.jpeg",
+      "extension": "jpeg",
+      "size": 706467,
+      "prettySize": "706 kB",
+      "modifiedTime": "2018-09-02T05:20:11.365Z",
+      "accessTime": "2018-09-02T05:58:10.871Z",
+      "changeTime": "2018-09-02T05:20:11.366Z",
+      "birthTime": "2018-09-02T05:19:41.600Z",
+      "root": "/",
+      "dir": "/Users/drewmoody/Personal_Projects/Cael/src/pages/2018-06-01-post-three",
+      "base": "field.jpeg",
+      "ext": ".jpeg",
+      "name": "field",
+      "relativeDirectory": "pages/2018-06-01-post-three",
+      "dev": 16777221,
+      "mode": 33188,
+      "nlink": 1,
+      "uid": 501,
+      "gid": 20,
+      "rdev": 0,
+      "blksize": 4194304,
+      "ino": 8604054259,
+      "blocks": 1384,
+      "atimeMs": 1535867890871.3335,
+      "mtimeMs": 1535865611365,
+      "ctimeMs": 1535865611365.615,
+      "birthtimeMs": 1535865581600.107,
+      "atime": "2018-09-02T05:58:10.871Z",
+      "mtime": "2018-09-02T05:20:11.365Z",
+      "ctime": "2018-09-02T05:20:11.366Z",
+      "birthtime": "2018-09-02T05:19:41.600Z"
+    },
+    "/Users/drewmoody/Personal_Projects/Cael/src/pages/2018-06-01-post-three/field.jpeg absPath of file >> ImageSharp": {
+      "id": "/Users/drewmoody/Personal_Projects/Cael/src/pages/2018-06-01-post-three/field.jpeg absPath of file >> ImageSharp",
+      "children": [],
+      "parent": "/Users/drewmoody/Personal_Projects/Cael/src/pages/2018-06-01-post-three/field.jpeg absPath of file",
+      "internal": {
+        "contentDigest": "0e6ca1f0be6f3e14912a4454cf58e9a5",
+        "type": "ImageSharp",
+        "owner": "gatsby-transformer-sharp"
+      }
+    },
+    "/Users/drewmoody/Personal_Projects/Cael/src/pages/2018-07-01-post-four/hut.jpg absPath of file": {
+      "id": "/Users/drewmoody/Personal_Projects/Cael/src/pages/2018-07-01-post-four/hut.jpg absPath of file",
+      "children": [
+        "/Users/drewmoody/Personal_Projects/Cael/src/pages/2018-07-01-post-four/hut.jpg absPath of file >> ImageSharp"
       ],
       "parent": "___SOURCE___",
       "internal": {
         "contentDigest": "58f3f4d5d85f70a456cabea460fb8f90",
         "mediaType": "image/jpeg",
         "type": "File",
-        "description": "File \"src/pages/2018-06-21-post-four/hut.jpg\"",
+        "description": "File \"src/pages/2018-07-01-post-four/hut.jpg\"",
         "owner": "gatsby-source-filesystem"
       },
       "sourceInstanceName": "src",
-      "absolutePath": "/Users/drewmoody/Personal_Projects/Cael/src/pages/2018-06-21-post-four/hut.jpg",
-      "relativePath": "pages/2018-06-21-post-four/hut.jpg",
+      "absolutePath": "/Users/drewmoody/Personal_Projects/Cael/src/pages/2018-07-01-post-four/hut.jpg",
+      "relativePath": "pages/2018-07-01-post-four/hut.jpg",
       "extension": "jpg",
       "size": 1048583,
       "prettySize": "1.05 MB",
       "modifiedTime": "2018-08-29T06:47:35.941Z",
-      "accessTime": "2018-09-01T17:41:17.077Z",
+      "accessTime": "2018-09-02T05:58:10.871Z",
       "changeTime": "2018-08-29T06:47:35.942Z",
       "birthTime": "2018-08-29T06:47:35.938Z",
       "root": "/",
-      "dir": "/Users/drewmoody/Personal_Projects/Cael/src/pages/2018-06-21-post-four",
+      "dir": "/Users/drewmoody/Personal_Projects/Cael/src/pages/2018-07-01-post-four",
       "base": "hut.jpg",
       "ext": ".jpg",
       "name": "hut",
-      "relativeDirectory": "pages/2018-06-21-post-four",
+      "relativeDirectory": "pages/2018-07-01-post-four",
       "dev": 16777221,
       "mode": 33188,
       "nlink": 1,
@@ -2757,44 +2781,23 @@
       "blksize": 4194304,
       "ino": 8603879224,
       "blocks": 2056,
-      "atimeMs": 1535823677076.6365,
+      "atimeMs": 1535867890871.262,
       "mtimeMs": 1535525255941.156,
       "ctimeMs": 1535525255941.8706,
       "birthtimeMs": 1535525255937.817,
-      "atime": "2018-09-01T17:41:17.077Z",
+      "atime": "2018-09-02T05:58:10.871Z",
       "mtime": "2018-08-29T06:47:35.941Z",
       "ctime": "2018-08-29T06:47:35.942Z",
       "birthtime": "2018-08-29T06:47:35.938Z"
     },
-    "/Users/drewmoody/Personal_Projects/Cael/src/pages/2018-06-21-post-four/hut.jpg absPath of file >> ImageSharp": {
-      "id": "/Users/drewmoody/Personal_Projects/Cael/src/pages/2018-06-21-post-four/hut.jpg absPath of file >> ImageSharp",
+    "/Users/drewmoody/Personal_Projects/Cael/src/pages/2018-07-01-post-four/hut.jpg absPath of file >> ImageSharp": {
+      "id": "/Users/drewmoody/Personal_Projects/Cael/src/pages/2018-07-01-post-four/hut.jpg absPath of file >> ImageSharp",
       "children": [],
-      "parent": "/Users/drewmoody/Personal_Projects/Cael/src/pages/2018-06-21-post-four/hut.jpg absPath of file",
+      "parent": "/Users/drewmoody/Personal_Projects/Cael/src/pages/2018-07-01-post-four/hut.jpg absPath of file",
       "internal": {
         "contentDigest": "58f3f4d5d85f70a456cabea460fb8f90",
         "type": "ImageSharp",
         "owner": "gatsby-transformer-sharp"
-      }
-    },
-    "SitePage /post-one": {
-      "layout": "index",
-      "jsonName": "post-one.json",
-      "internalComponentName": "ComponentPostOne",
-      "path": "/post-one",
-      "component": "/Users/drewmoody/Personal_Projects/Cael/src/templates/blog-post.js",
-      "componentChunkName": "component---src-templates-blog-post-js",
-      "context": {},
-      "pluginCreator___NODE": "Plugin default-site-plugin",
-      "pluginCreatorId": "Plugin default-site-plugin",
-      "componentPath": "/Users/drewmoody/Personal_Projects/Cael/src/templates/blog-post.js",
-      "id": "SitePage /post-one",
-      "parent": "SOURCE",
-      "children": [],
-      "internal": {
-        "type": "SitePage",
-        "contentDigest": "bd55c874e133f88a0072450dcffdadab",
-        "description": "Your site's \"gatsby-node.js\"",
-        "owner": "internal-data-bridge"
       }
     },
     "SitePage /post-two": {
@@ -2813,28 +2816,7 @@
       "children": [],
       "internal": {
         "type": "SitePage",
-        "contentDigest": "cc40cf648edeee8836c3237b537c97bc",
-        "description": "Your site's \"gatsby-node.js\"",
-        "owner": "internal-data-bridge"
-      }
-    },
-    "SitePage /post-three": {
-      "layout": "index",
-      "jsonName": "post-three.json",
-      "internalComponentName": "ComponentPostThree",
-      "path": "/post-three",
-      "component": "/Users/drewmoody/Personal_Projects/Cael/src/templates/blog-post.js",
-      "componentChunkName": "component---src-templates-blog-post-js",
-      "context": {},
-      "pluginCreator___NODE": "Plugin default-site-plugin",
-      "pluginCreatorId": "Plugin default-site-plugin",
-      "componentPath": "/Users/drewmoody/Personal_Projects/Cael/src/templates/blog-post.js",
-      "id": "SitePage /post-three",
-      "parent": "SOURCE",
-      "children": [],
-      "internal": {
-        "type": "SitePage",
-        "contentDigest": "4ed963b352a46dc8da12fb7f037269b0",
+        "contentDigest": "b5a76e6d12c7cd29561bd458429fc969",
         "description": "Your site's \"gatsby-node.js\"",
         "owner": "internal-data-bridge"
       }
@@ -2855,7 +2837,49 @@
       "children": [],
       "internal": {
         "type": "SitePage",
-        "contentDigest": "d48bab6ef209918734ced7b54569fb75",
+        "contentDigest": "344d023393011011c18ffba7a92be193",
+        "description": "Your site's \"gatsby-node.js\"",
+        "owner": "internal-data-bridge"
+      }
+    },
+    "SitePage /post-three": {
+      "layout": "index",
+      "jsonName": "post-three.json",
+      "internalComponentName": "ComponentPostThree",
+      "path": "/post-three",
+      "component": "/Users/drewmoody/Personal_Projects/Cael/src/templates/blog-post.js",
+      "componentChunkName": "component---src-templates-blog-post-js",
+      "context": {},
+      "pluginCreator___NODE": "Plugin default-site-plugin",
+      "pluginCreatorId": "Plugin default-site-plugin",
+      "componentPath": "/Users/drewmoody/Personal_Projects/Cael/src/templates/blog-post.js",
+      "id": "SitePage /post-three",
+      "parent": "SOURCE",
+      "children": [],
+      "internal": {
+        "type": "SitePage",
+        "contentDigest": "4196ff6f9595793a485547df18abc348",
+        "description": "Your site's \"gatsby-node.js\"",
+        "owner": "internal-data-bridge"
+      }
+    },
+    "SitePage /post-one": {
+      "layout": "index",
+      "jsonName": "post-one.json",
+      "internalComponentName": "ComponentPostOne",
+      "path": "/post-one",
+      "component": "/Users/drewmoody/Personal_Projects/Cael/src/templates/blog-post.js",
+      "componentChunkName": "component---src-templates-blog-post-js",
+      "context": {},
+      "pluginCreator___NODE": "Plugin default-site-plugin",
+      "pluginCreatorId": "Plugin default-site-plugin",
+      "componentPath": "/Users/drewmoody/Personal_Projects/Cael/src/templates/blog-post.js",
+      "id": "SitePage /post-one",
+      "parent": "SOURCE",
+      "children": [],
+      "internal": {
+        "type": "SitePage",
+        "contentDigest": "59f0cf99b3decd46d0a1723ddb5d467d",
         "description": "Your site's \"gatsby-node.js\"",
         "owner": "internal-data-bridge"
       }
@@ -2876,7 +2900,7 @@
       "children": [],
       "internal": {
         "type": "SitePage",
-        "contentDigest": "df295c38ad231938eb76e2e61f7a4ad5",
+        "contentDigest": "5dce4a2276c360ff700ccdba973c528d",
         "description": "Plugin gatsby-plugin-page-creator",
         "owner": "internal-data-bridge"
       }
@@ -2897,7 +2921,7 @@
       "children": [],
       "internal": {
         "type": "SitePage",
-        "contentDigest": "6f34ab75e334b0098d195a95f00db913",
+        "contentDigest": "dcd7233acf958969efd5f712c1fe24b8",
         "description": "Plugin gatsby-plugin-page-creator",
         "owner": "internal-data-bridge"
       }
@@ -2918,7 +2942,7 @@
       "children": [],
       "internal": {
         "type": "SitePage",
-        "contentDigest": "a86b1ad1831d46848566ebcadccb8860",
+        "contentDigest": "35c2fc960088c2b685db7bc5d019050d",
         "description": "Plugin gatsby-plugin-page-creator",
         "owner": "internal-data-bridge"
       }
@@ -2939,7 +2963,7 @@
       "children": [],
       "internal": {
         "type": "SitePage",
-        "contentDigest": "cc8c3b07bf6783ab4d3121d3ed9a85f6",
+        "contentDigest": "abbb117f1ab1b1a6519f58edee86dfde",
         "description": "Plugin gatsby-plugin-page-creator",
         "owner": "internal-data-bridge"
       }
@@ -2960,37 +2984,70 @@
       "children": [],
       "internal": {
         "type": "SitePage",
-        "contentDigest": "0e86a19137db572ffde6739c0e4230f2",
+        "contentDigest": "f01ea03346d0b48db8cd4ed70073a55b",
         "description": "Plugin gatsby-plugin-page-creator",
         "owner": "internal-data-bridge"
       }
     },
-    "/Users/drewmoody/Personal_Projects/Cael/src/components/headerMini.js absPath of file": {
-      "id": "/Users/drewmoody/Personal_Projects/Cael/src/components/headerMini.js absPath of file",
+    "/Users/drewmoody/Personal_Projects/Cael/src/pages/2018-07-01-post-four/index.md absPath of file >>> MarkdownRemark": {
+      "id": "/Users/drewmoody/Personal_Projects/Cael/src/pages/2018-07-01-post-four/index.md absPath of file >>> MarkdownRemark",
+      "children": [],
+      "parent": "/Users/drewmoody/Personal_Projects/Cael/src/pages/2018-07-01-post-four/index.md absPath of file",
+      "internal": {
+        "content": "---\npath: \"/post-four\"\ndate: \"2018-07-01T01:46:57\"\ntitle: \"Post Four\"\ntags: ['tag2', 'tag3', 'tag4']\nheaderImg: \"hut.jpg\"\n---\n\nLorem ipsum dolor sit amet, fastidii offendit no duo, tacimates corrumpit gloriatur duo ad. Nec eu vide duis libris, vel aeque utamur expetenda ad, an voluptua epicurei democritum vix. Virtute diceret eu vix, his dolore iuvaret scaevola ut. Ut case menandri his, in sed homero corrumpit. Consul scripserit cu pro.\n\nNec quaeque percipit perpetua no, timeam facilisi quaestio usu no. Pro in decore tractatos, eos delicata persequeris no. Pri commodo delenit docendi no, atqui inani falli ex nam. Cibo putant delicatissimi est id. Purto utamur gubergren te has, graeci viderer graecis an mea, nam ut vide ancillae. Te vis iriure periculis incorrupte, his omnes postulant consetetur ad, accusata salutatus et nam. Ad autem tibique appareat usu, est eius accusam definiebas in.\n\nLatine eligendi facilisi at nam. Hinc audire maiorum te quo, adipisci liberavisse qui ex, has labore pericula ea. Ex mel aeque expetenda cotidieque. Ut tale constituto expetendis mel.",
+        "type": "MarkdownRemark",
+        "contentDigest": "eca66d5a3bf6cac7d04f400ef4b012f4",
+        "owner": "gatsby-transformer-remark",
+        "fieldOwners": {
+          "slug": "default-site-plugin"
+        }
+      },
+      "frontmatter": {
+        "title": "Post Four",
+        "path": "/post-four",
+        "date": "2018-07-01T01:46:57",
+        "tags": [
+          "tag2",
+          "tag3",
+          "tag4"
+        ],
+        "headerImg": "hut.jpg",
+        "_PARENT": "/Users/drewmoody/Personal_Projects/Cael/src/pages/2018-07-01-post-four/index.md absPath of file",
+        "parent": "/Users/drewmoody/Personal_Projects/Cael/src/pages/2018-07-01-post-four/index.md absPath of file"
+      },
+      "excerpt": "",
+      "rawMarkdownBody": "\nLorem ipsum dolor sit amet, fastidii offendit no duo, tacimates corrumpit gloriatur duo ad. Nec eu vide duis libris, vel aeque utamur expetenda ad, an voluptua epicurei democritum vix. Virtute diceret eu vix, his dolore iuvaret scaevola ut. Ut case menandri his, in sed homero corrumpit. Consul scripserit cu pro.\n\nNec quaeque percipit perpetua no, timeam facilisi quaestio usu no. Pro in decore tractatos, eos delicata persequeris no. Pri commodo delenit docendi no, atqui inani falli ex nam. Cibo putant delicatissimi est id. Purto utamur gubergren te has, graeci viderer graecis an mea, nam ut vide ancillae. Te vis iriure periculis incorrupte, his omnes postulant consetetur ad, accusata salutatus et nam. Ad autem tibique appareat usu, est eius accusam definiebas in.\n\nLatine eligendi facilisi at nam. Hinc audire maiorum te quo, adipisci liberavisse qui ex, has labore pericula ea. Ex mel aeque expetenda cotidieque. Ut tale constituto expetendis mel.",
+      "fileAbsolutePath": "/Users/drewmoody/Personal_Projects/Cael/src/pages/2018-07-01-post-four/index.md",
+      "fields": {
+        "slug": "/2018-07-01-post-four/"
+      }
+    },
+    "/Users/drewmoody/Personal_Projects/Cael/src/components/Filter.js absPath of file": {
+      "id": "/Users/drewmoody/Personal_Projects/Cael/src/components/Filter.js absPath of file",
       "children": [],
       "parent": "___SOURCE___",
       "internal": {
-        "contentDigest": "c283b2d843f7b3e4ac07a0a1b4002c10",
+        "contentDigest": "4d0eb424392ed85b2153c06df324796e",
         "mediaType": "application/javascript",
         "type": "File",
-        "description": "File \"src/components/headerMini.js\"",
+        "description": "File \"src/components/Filter.js\"",
         "owner": "gatsby-source-filesystem"
       },
       "sourceInstanceName": "src",
-      "absolutePath": "/Users/drewmoody/Personal_Projects/Cael/src/components/headerMini.js",
-      "relativePath": "components/headerMini.js",
+      "absolutePath": "/Users/drewmoody/Personal_Projects/Cael/src/components/Filter.js",
+      "relativePath": "components/Filter.js",
       "extension": "js",
-      "size": 570,
-      "prettySize": "570 B",
-      "modifiedTime": "2018-09-01T19:39:29.917Z",
-      "accessTime": "2018-09-01T19:39:29.917Z",
-      "changeTime": "2018-09-01T19:39:29.917Z",
-      "birthTime": "2018-08-31T05:53:46.618Z",
+      "size": 682,
+      "prettySize": "682 B",
+      "modifiedTime": "2018-09-02T06:43:10.688Z",
+      "accessTime": "2018-09-02T06:43:10.687Z",
+      "changeTime": "2018-09-02T06:43:10.688Z",
+      "birthTime": "2018-09-02T06:08:04.724Z",
       "root": "/",
       "dir": "/Users/drewmoody/Personal_Projects/Cael/src/components",
-      "base": "headerMini.js",
+      "base": "Filter.js",
       "ext": ".js",
-      "name": "headerMini",
+      "name": "Filter",
       "relativeDirectory": "components",
       "dev": 16777221,
       "mode": 33188,
@@ -2999,78 +3056,167 @@
       "gid": 20,
       "rdev": 0,
       "blksize": 4194304,
-      "ino": 8604001885,
+      "ino": 8604061150,
       "blocks": 8,
-      "atimeMs": 1535830769916.5474,
-      "mtimeMs": 1535830769916.8774,
-      "ctimeMs": 1535830769916.8774,
-      "birthtimeMs": 1535694826618.442,
-      "atime": "2018-09-01T19:39:29.917Z",
-      "mtime": "2018-09-01T19:39:29.917Z",
-      "ctime": "2018-09-01T19:39:29.917Z",
-      "birthtime": "2018-08-31T05:53:46.618Z"
+      "atimeMs": 1535870590687.3882,
+      "mtimeMs": 1535870590687.78,
+      "ctimeMs": 1535870590687.78,
+      "birthtimeMs": 1535868484723.5388,
+      "atime": "2018-09-02T06:43:10.687Z",
+      "mtime": "2018-09-02T06:43:10.688Z",
+      "ctime": "2018-09-02T06:43:10.688Z",
+      "birthtime": "2018-09-02T06:08:04.724Z"
+    },
+    "/Users/drewmoody/Personal_Projects/Cael/src/components/FilterV2.js absPath of file": {
+      "id": "/Users/drewmoody/Personal_Projects/Cael/src/components/FilterV2.js absPath of file",
+      "children": [],
+      "parent": "___SOURCE___",
+      "internal": {
+        "contentDigest": "6db4320fe6f48293c29b816938c45e43",
+        "mediaType": "application/javascript",
+        "type": "File",
+        "description": "File \"src/components/FilterV2.js\"",
+        "owner": "gatsby-source-filesystem"
+      },
+      "sourceInstanceName": "src",
+      "absolutePath": "/Users/drewmoody/Personal_Projects/Cael/src/components/FilterV2.js",
+      "relativePath": "components/FilterV2.js",
+      "extension": "js",
+      "size": 450,
+      "prettySize": "450 B",
+      "modifiedTime": "2018-09-02T06:53:04.979Z",
+      "accessTime": "2018-09-02T06:53:04.978Z",
+      "changeTime": "2018-09-02T06:53:04.979Z",
+      "birthTime": "2018-09-02T06:43:45.723Z",
+      "root": "/",
+      "dir": "/Users/drewmoody/Personal_Projects/Cael/src/components",
+      "base": "FilterV2.js",
+      "ext": ".js",
+      "name": "FilterV2",
+      "relativeDirectory": "components",
+      "dev": 16777221,
+      "mode": 33188,
+      "nlink": 1,
+      "uid": 501,
+      "gid": 20,
+      "rdev": 0,
+      "blksize": 4194304,
+      "ino": 8604062515,
+      "blocks": 8,
+      "atimeMs": 1535871184978.455,
+      "mtimeMs": 1535871184978.9631,
+      "ctimeMs": 1535871184978.9631,
+      "birthtimeMs": 1535870625722.5212,
+      "atime": "2018-09-02T06:53:04.978Z",
+      "mtime": "2018-09-02T06:53:04.979Z",
+      "ctime": "2018-09-02T06:53:04.979Z",
+      "birthtime": "2018-09-02T06:43:45.723Z"
     }
   },
   "status": {
     "plugins": {},
-    "PLUGINS_HASH": "c1f407740e2e7ec7f23b74ebc5b3f634"
+    "PLUGINS_HASH": "dd13da4dd0dce687a292cc1681ac0e4d"
   },
   "componentDataDependencies": {
     "nodes": {
-      "/Users/drewmoody/Personal_Projects/Cael/src/pages/2018-04-01-post-three/index.md absPath of file >>> MarkdownRemark": [
-        "/post-three"
+      "/Users/drewmoody/Personal_Projects/Cael/src/pages/2018-06-21-post-four/index.md absPath of file >>> MarkdownRemark": [
+        "/post-four"
       ],
-      "/Users/drewmoody/Personal_Projects/Cael/src/pages/2018-04-01-post-three/hut.jpg absPath of file": [
-        "/post-three",
-        "/all-posts/",
-        "/"
+      "/Users/drewmoody/Personal_Projects/Cael/src/pages/2018-06-21-post-four/hut.jpg absPath of file": [
+        "/post-four",
+        "/all-posts/"
       ],
-      "/Users/drewmoody/Personal_Projects/Cael/src/pages/2018-04-01-post-three/hut.jpg absPath of file >> ImageSharp": [
-        "/post-three",
-        "/all-posts/",
-        "/"
-      ],
-      "/Users/drewmoody/Personal_Projects/Cael/src/pages/2018-05-01-post-two/index.md absPath of file >>> MarkdownRemark": [
-        "/post-two"
-      ],
-      "/Users/drewmoody/Personal_Projects/Cael/src/pages/2018-05-01-post-two/hiker.jpg absPath of file": [
-        "/post-two",
-        "/all-posts/",
-        "/"
-      ],
-      "/Users/drewmoody/Personal_Projects/Cael/src/pages/2018-05-01-post-two/hiker.jpg absPath of file >> ImageSharp": [
-        "/post-two",
-        "/all-posts/",
-        "/"
+      "/Users/drewmoody/Personal_Projects/Cael/src/pages/2018-06-21-post-four/hut.jpg absPath of file >> ImageSharp": [
+        "/post-four",
+        "/all-posts/"
       ],
       "/Users/drewmoody/Personal_Projects/Cael/src/pages/2018-06-01-post-one/index.md absPath of file >>> MarkdownRemark": [
         "/post-one"
       ],
       "/Users/drewmoody/Personal_Projects/Cael/src/pages/2018-06-01-post-one/sunset.jpg absPath of file": [
         "/post-one",
-        "/all-posts/",
-        "/"
+        "/all-posts/"
       ],
       "/Users/drewmoody/Personal_Projects/Cael/src/pages/2018-06-01-post-one/sunset.jpg absPath of file >> ImageSharp": [
         "/post-one",
-        "/all-posts/",
-        "/"
+        "/all-posts/"
       ],
-      "/Users/drewmoody/Personal_Projects/Cael/src/pages/2018-06-21-post-four/index.md absPath of file >>> MarkdownRemark": [
-        "/post-four"
+      "/Users/drewmoody/Personal_Projects/Cael/src/pages/2018-05-01-post-two/index.md absPath of file >>> MarkdownRemark": [
+        "/post-two"
       ],
-      "/Users/drewmoody/Personal_Projects/Cael/src/pages/2018-06-21-post-four/hut.jpg absPath of file": [
-        "/post-four",
-        "/all-posts/",
-        "/"
+      "/Users/drewmoody/Personal_Projects/Cael/src/pages/2018-05-01-post-two/hiker.jpg absPath of file": [
+        "/post-two",
+        "/all-posts/"
       ],
-      "/Users/drewmoody/Personal_Projects/Cael/src/pages/2018-06-21-post-four/hut.jpg absPath of file >> ImageSharp": [
-        "/post-four",
-        "/all-posts/",
-        "/"
+      "/Users/drewmoody/Personal_Projects/Cael/src/pages/2018-05-01-post-two/hiker.jpg absPath of file >> ImageSharp": [
+        "/post-two",
+        "/all-posts/"
+      ],
+      "/Users/drewmoody/Personal_Projects/Cael/src/pages/2018-04-01-post-three/index.md absPath of file >>> MarkdownRemark": [
+        "/post-three"
+      ],
+      "/Users/drewmoody/Personal_Projects/Cael/src/pages/2018-04-01-post-three/field.jpeg absPath of file": [
+        "/post-three",
+        "/all-posts/"
+      ],
+      "/Users/drewmoody/Personal_Projects/Cael/src/pages/2018-04-01-post-three/field.jpeg absPath of file >> ImageSharp": [
+        "/post-three",
+        "/all-posts/"
+      ],
+      "/Users/drewmoody/Personal_Projects/Cael/src/imgs/headerBackground.jpeg absPath of file": [
+        "/",
+        "/all-posts/"
+      ],
+      "/Users/drewmoody/Personal_Projects/Cael/src/imgs/headerBackground.jpeg absPath of file >> ImageSharp": [
+        "/",
+        "/all-posts/"
       ],
       "Site": [
         "LAYOUT___index"
+      ],
+      "/Users/drewmoody/Personal_Projects/Cael/src/pages/2018-03-21-post-four/hut.jpg absPath of file": [
+        "/all-posts/",
+        "/post-four"
+      ],
+      "/Users/drewmoody/Personal_Projects/Cael/src/pages/2018-03-21-post-four/hut.jpg absPath of file >> ImageSharp": [
+        "/all-posts/",
+        "/post-four"
+      ],
+      "/Users/drewmoody/Personal_Projects/Cael/src/pages/2018-03-21-post-four/index.md absPath of file >>> MarkdownRemark": [
+        "/post-four"
+      ],
+      "/Users/drewmoody/Personal_Projects/Cael/src/pages/2018-06-01-post-three/field.jpeg absPath of file": [
+        "/all-posts/",
+        "/post-three"
+      ],
+      "/Users/drewmoody/Personal_Projects/Cael/src/pages/2018-06-01-post-three/field.jpeg absPath of file >> ImageSharp": [
+        "/all-posts/",
+        "/post-three"
+      ],
+      "/Users/drewmoody/Personal_Projects/Cael/src/pages/2018-04-01-post-one/sunset.jpg absPath of file": [
+        "/all-posts/",
+        "/post-one"
+      ],
+      "/Users/drewmoody/Personal_Projects/Cael/src/pages/2018-04-01-post-one/sunset.jpg absPath of file >> ImageSharp": [
+        "/all-posts/",
+        "/post-one"
+      ],
+      "/Users/drewmoody/Personal_Projects/Cael/src/pages/2018-07-01-post-four/hut.jpg absPath of file": [
+        "/all-posts/",
+        "/post-four"
+      ],
+      "/Users/drewmoody/Personal_Projects/Cael/src/pages/2018-07-01-post-four/hut.jpg absPath of file >> ImageSharp": [
+        "/all-posts/",
+        "/post-four"
+      ],
+      "/Users/drewmoody/Personal_Projects/Cael/src/pages/2018-04-01-post-one/index.md absPath of file >>> MarkdownRemark": [
+        "/post-one"
+      ],
+      "/Users/drewmoody/Personal_Projects/Cael/src/pages/2018-06-01-post-three/index.md absPath of file >>> MarkdownRemark": [
+        "/post-three"
+      ],
+      "/Users/drewmoody/Personal_Projects/Cael/src/pages/2018-07-01-post-four/index.md absPath of file >>> MarkdownRemark": [
+        "/post-four"
       ]
     },
     "connections": {
@@ -3078,8 +3224,7 @@
         "/dev-404-page/"
       ],
       "MarkdownRemark": [
-        "/all-posts/",
-        "/"
+        "/all-posts/"
       ],
       "File": [
         "/my-files/"

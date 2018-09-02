@@ -1,9 +1,5 @@
 import React from "react";
-import Img from "gatsby-image";
 import Link from 'gatsby-link';
-
-// purpose of this is because with the normal header, it requires resolutions.
-// Need work around, but don't have that now
 
 function HeaderMini(props) {
   return (

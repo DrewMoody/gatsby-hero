@@ -5,32 +5,17 @@ import Header from "../components/header";
 export default ({ data }) => {
   return (
     <div>
-      <Header title='Welcome' text='Placeholder text' hideArrow={true} noPadding={true}/>
+      <Header heroImg={data.file.childImageSharp.sizes} title='Welcome' text='Placeholder text' hideArrow={true} noPadding={true}/>
     </div>
   );
 };
 
 export const query = graphql`
-  query IndexQuery {
-    allMarkdownRemark(sort: {fields: [frontmatter___date], order: DESC}) {
-      totalCount
-      edges {
-        node {
-          id
-          frontmatter {
-            title
-            date(formatString: "DD MMMM, YYYY")
-            path
-            headerImg {
-              childImageSharp {
-                id
-              }
-            }
-          }
-          fields {
-            slug
-          }
-          excerpt
+  query GetImage {
+    file(relativePath: { regex: "/headerBackground/" }) {
+      childImageSharp {
+        sizes(maxWidth:1920) {
+          ...GatsbyImageSharpSizes
         }
       }
     }

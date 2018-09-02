@@ -1,8 +1,8 @@
 ---
 path: "/post-one"
 title: "Post One"
-date: "2018-06-01"
-tags: ['diet', 'exercise', 'banana']
+date: "2018-04-01"
+tags: ['tag1', 'tag4']
 headerImg: "sunset.jpg"
 ---
 
