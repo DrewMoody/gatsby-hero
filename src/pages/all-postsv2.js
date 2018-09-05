@@ -4,7 +4,7 @@ import Img from "gatsby-image";
 import Header from "../components/header";
 import Filter from "../components/Filter";
 
-
+// TODO: On Hover, show the blurb text
 class AllPostsv2 extends React.Component {
   constructor() {
     super();
@@ -38,23 +38,29 @@ class AllPostsv2 extends React.Component {
   render() {
     const data = this.props.data;
     return (
-      <div className="all-posts-wrapper">
+      <div className="all-posts-wrapper-v2">
         <Header heroImg={data.file.childImageSharp.sizes} title={'View All Posts'} text={`${data.allMarkdownRemark.totalCount} Total Posts`}/>
-        <div className="all-posts">
-          <Filter setTab={this.setTab} tabsArr={this.state.tagsArr} />
+        <Filter className='wow' setTab={this.setTab} tabsArr={this.state.tagsArr} />
+        <div className="all-posts-v2">
           {data.allMarkdownRemark.edges.filter(x=> {
             if (this.state.tab === 'all') return x;
             return x.node.frontmatter.tags.includes(this.state.tab)
           }).map((x, i) => (
-              <div key={x.node.id}>
+              // <div key={x.node.id} className='blog-posts'>
+              <div key={x.node.id} className={
+                i === 2 ?
+                'blog-posts p-three' :
+                i === 3 ?
+                'blog-posts p-four' :
+                'blog-posts'
+              }>
               <Link
                 to={x.node.frontmatter.path}
-                className={i % 2 === 0 ? "post-preview" : "post-preview ppr-reverse"}
+                // className={i % 2 === 0 ? "post-preview" : "post-preview ppr-reverse"}
               >
-                <Img resolutions={x.node.frontmatter.headerImg.childImageSharp.resolutions} />
-                <div className="ppr-text-content">
+                <Img sizes={x.node.frontmatter.headerImg.childImageSharp.sizes} />
+                <div className="ppr-title">
                   <h3>{`${x.node.frontmatter.title} `}<span>— {x.node.frontmatter.date}</span></h3>
-                <p>{x.node.excerpt}</p>
                 </div>
               </Link>
             </div>
@@ -89,8 +95,8 @@ export const allPostQueryV2 = graphql`
             tags
             headerImg {
               childImageSharp {
-                resolutions(width:200, height:150) {
-                  ...GatsbyImageSharpResolutions
+                sizes(maxWidth:600) {
+                  ...GatsbyImageSharpSizes
                 }
               }
             }
