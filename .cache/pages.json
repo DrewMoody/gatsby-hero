@@ -10,8 +10,29 @@
         "componentChunkName": "component---src-templates-blog-post-js",
         "layout": "layout---index",
         "layoutComponentChunkName": "component---src-layouts-index-js",
-        "jsonName": "post-two.json",
-        "path": "/post-two"
+        "jsonName": "post-six.json",
+        "path": "/post-six"
+    },
+    {
+        "componentChunkName": "component---src-templates-blog-post-js",
+        "layout": "layout---index",
+        "layoutComponentChunkName": "component---src-layouts-index-js",
+        "jsonName": "post-seven.json",
+        "path": "/post-seven"
+    },
+    {
+        "componentChunkName": "component---src-templates-blog-post-js",
+        "layout": "layout---index",
+        "layoutComponentChunkName": "component---src-layouts-index-js",
+        "jsonName": "post-eight.json",
+        "path": "/post-eight"
+    },
+    {
+        "componentChunkName": "component---src-templates-blog-post-js",
+        "layout": "layout---index",
+        "layoutComponentChunkName": "component---src-layouts-index-js",
+        "jsonName": "post-five.json",
+        "path": "/post-five"
     },
     {
         "componentChunkName": "component---src-templates-blog-post-js",
@@ -28,11 +49,11 @@
         "path": "/post-three"
     },
     {
-        "componentChunkName": "component---cache-dev-404-page-js",
+        "componentChunkName": "component---src-templates-blog-post-js",
         "layout": "layout---index",
         "layoutComponentChunkName": "component---src-layouts-index-js",
-        "jsonName": "dev-404-page.json",
-        "path": "/dev-404-page/"
+        "jsonName": "post-two.json",
+        "path": "/post-two"
     },
     {
         "componentChunkName": "component---src-pages-about-js",
@@ -47,6 +68,13 @@
         "layoutComponentChunkName": "component---src-layouts-index-js",
         "jsonName": "all-posts.json",
         "path": "/all-posts/"
+    },
+    {
+        "componentChunkName": "component---src-pages-all-postsv-2-js",
+        "layout": "layout---index",
+        "layoutComponentChunkName": "component---src-layouts-index-js",
+        "jsonName": "all-postsv-2.json",
+        "path": "/all-postsv2/"
     },
     {
         "componentChunkName": "component---src-pages-index-js",

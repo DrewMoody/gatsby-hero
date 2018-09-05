@@ -3,7 +3,6 @@ import Link from "gatsby-link";
 import Img from "gatsby-image";
 import Header from "../components/header";
 import Filter from "../components/Filter";
-import FilterV2 from "../components/FilterV2";
 
 
 class AllPosts extends React.Component {
@@ -42,7 +41,7 @@ class AllPosts extends React.Component {
       <div className="all-posts-wrapper">
         <Header heroImg={data.file.childImageSharp.sizes} title={'View All Posts'} text={`${data.allMarkdownRemark.totalCount} Total Posts`}/>
         <div className="all-posts">
-          <FilterV2 setTab={this.setTab} tabsArr={this.state.tagsArr} />
+          <Filter setTab={this.setTab} tabsArr={this.state.tagsArr} />
           {data.allMarkdownRemark.edges.filter(x=> {
             if (this.state.tab === 'all') return x;
             return x.node.frontmatter.tags.includes(this.state.tab)

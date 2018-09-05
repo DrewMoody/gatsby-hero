@@ -2,7 +2,7 @@
 path: "/post-two"
 title: Post Two
 date: "2018-05-01"
-tags: ['tag2', 'tag3']
+tags: ['tag3']
 headerImg: "hiker.jpg"
 ---
 

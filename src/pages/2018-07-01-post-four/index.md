@@ -2,7 +2,7 @@
 path: "/post-four"
 date: "2018-07-01T01:46:57"
 title: "Post Four"
-tags: ['tag2', 'tag3', 'tag4']
+tags: ['tag2']
 headerImg: "hut.jpg"
 ---
 
