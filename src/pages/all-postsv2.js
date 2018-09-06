@@ -5,6 +5,9 @@ import Header from "../components/header";
 import Filter from "../components/Filter";
 
 // TODO: On Hover, show the blurb text
+// On live server, the arrow is huge on page load. Fix
+// Make it responsive
+// Also make it so if no image, it just shows the blurb text
 class AllPostsv2 extends React.Component {
   constructor() {
     super();
