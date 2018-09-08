@@ -339,6 +339,7 @@ p {
   align-items: center;
   color: #FFFFFF;
   margin-bottom: 3rem;
+  text-shadow: 0 0 4px #7d7d7d;
 }
 .header .navbar {
   position: absolute;
@@ -364,11 +365,11 @@ p {
 }
 .header .hero-img {
   width: 100%;
-  height: 100vh;
+  height: 100%;
 }
 .header .hero-img img {
   width: 100%;
-  height: 100vh;
+  height: 100%;
   object-fit: cover;
 }
 .header .down-arrow {
@@ -381,6 +382,7 @@ p {
 }
 .header h1 {
   font-size: calc(1rem + 3vw);
+  text-shadow: 0 0 100px black;
 }
 .hero {
   position: absolute;

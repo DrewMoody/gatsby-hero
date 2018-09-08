@@ -10,6 +10,34 @@
         "componentChunkName": "component---src-templates-blog-post-js",
         "layout": "layout---index",
         "layoutComponentChunkName": "component---src-layouts-index-js",
+        "jsonName": "post-four.json",
+        "path": "/post-four"
+    },
+    {
+        "componentChunkName": "component---src-templates-blog-post-js",
+        "layout": "layout---index",
+        "layoutComponentChunkName": "component---src-layouts-index-js",
+        "jsonName": "post-two.json",
+        "path": "/post-two"
+    },
+    {
+        "componentChunkName": "component---src-templates-blog-post-js",
+        "layout": "layout---index",
+        "layoutComponentChunkName": "component---src-layouts-index-js",
+        "jsonName": "post-three.json",
+        "path": "/post-three"
+    },
+    {
+        "componentChunkName": "component---src-templates-blog-post-js",
+        "layout": "layout---index",
+        "layoutComponentChunkName": "component---src-layouts-index-js",
+        "jsonName": "post-five.json",
+        "path": "/post-five"
+    },
+    {
+        "componentChunkName": "component---src-templates-blog-post-js",
+        "layout": "layout---index",
+        "layoutComponentChunkName": "component---src-layouts-index-js",
         "jsonName": "post-six.json",
         "path": "/post-six"
     },
@@ -26,34 +54,6 @@
         "layoutComponentChunkName": "component---src-layouts-index-js",
         "jsonName": "post-eight.json",
         "path": "/post-eight"
-    },
-    {
-        "componentChunkName": "component---src-templates-blog-post-js",
-        "layout": "layout---index",
-        "layoutComponentChunkName": "component---src-layouts-index-js",
-        "jsonName": "post-five.json",
-        "path": "/post-five"
-    },
-    {
-        "componentChunkName": "component---src-templates-blog-post-js",
-        "layout": "layout---index",
-        "layoutComponentChunkName": "component---src-layouts-index-js",
-        "jsonName": "post-four.json",
-        "path": "/post-four"
-    },
-    {
-        "componentChunkName": "component---src-templates-blog-post-js",
-        "layout": "layout---index",
-        "layoutComponentChunkName": "component---src-layouts-index-js",
-        "jsonName": "post-three.json",
-        "path": "/post-three"
-    },
-    {
-        "componentChunkName": "component---src-templates-blog-post-js",
-        "layout": "layout---index",
-        "layoutComponentChunkName": "component---src-layouts-index-js",
-        "jsonName": "post-two.json",
-        "path": "/post-two"
     },
     {
         "componentChunkName": "component---cache-dev-404-page-js",
