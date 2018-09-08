@@ -427,16 +427,25 @@ p {
   }
 }
 .header .down-arrow {
-  position: absolute;
-  align-self: flex-end;
-  width: 100%;
-  text-align: right;
-  padding: 2% 5%;
-  animation: bounce 4s 4s infinite;
+  display: none;
+}
+@media (min-width: 501px) {
+  .header .down-arrow {
+    position: absolute;
+    align-self: flex-end;
+    width: 100%;
+    text-align: right;
+    padding: 2% 5%;
+    animation: bounce 4s 4s infinite;
+    display: inline;
+  }
 }
 .header h1 {
   font-size: calc(1rem + 3vw);
   text-shadow: 0 0 100px black;
+}
+.menu-open .navbar .nav {
+  display: flex;
 }
 .menu-closed .navbar .nav {
   display: none;
