@@ -2007,7 +2007,7 @@
       "children": [],
       "parent": "___SOURCE___",
       "internal": {
-        "contentDigest": "4ce5a8ee735d6d52809d355753176004",
+        "contentDigest": "d79e094864854ec2eee5bd623a4c22b1",
         "mediaType": "text/css",
         "type": "File",
         "description": "File \"src/layouts/styles.css\"",
@@ -2017,11 +2017,11 @@
       "absolutePath": "/Users/drewmoody/Personal_Projects/Cael/src/layouts/styles.css",
       "relativePath": "layouts/styles.css",
       "extension": "css",
-      "size": 7697,
-      "prettySize": "7.7 kB",
-      "modifiedTime": "2018-09-08T04:21:51.081Z",
-      "accessTime": "2018-09-08T04:19:37.204Z",
-      "changeTime": "2018-09-08T04:21:51.081Z",
+      "size": 7563,
+      "prettySize": "7.56 kB",
+      "modifiedTime": "2018-09-08T04:41:02.099Z",
+      "accessTime": "2018-09-08T04:39:37.004Z",
+      "changeTime": "2018-09-08T04:41:02.099Z",
       "birthTime": "2018-06-17T04:40:40.133Z",
       "root": "/",
       "dir": "/Users/drewmoody/Personal_Projects/Cael/src/layouts",
@@ -2038,13 +2038,13 @@
       "blksize": 4194304,
       "ino": 8599348969,
       "blocks": 16,
-      "atimeMs": 1536380377204.2698,
-      "mtimeMs": 1536380511081.1748,
-      "ctimeMs": 1536380511081.1748,
+      "atimeMs": 1536381577003.7297,
+      "mtimeMs": 1536381662099.43,
+      "ctimeMs": 1536381662099.43,
       "birthtimeMs": 1529210440132.556,
-      "atime": "2018-09-08T04:19:37.204Z",
-      "mtime": "2018-09-08T04:21:51.081Z",
-      "ctime": "2018-09-08T04:21:51.081Z",
+      "atime": "2018-09-08T04:39:37.004Z",
+      "mtime": "2018-09-08T04:41:02.099Z",
+      "ctime": "2018-09-08T04:41:02.099Z",
       "birthtime": "2018-06-17T04:40:40.133Z"
     },
     "/Users/drewmoody/Personal_Projects/Cael/src/templates/blog-post.js absPath of file": {
@@ -3701,7 +3701,7 @@
       "children": [],
       "parent": "___SOURCE___",
       "internal": {
-        "contentDigest": "6fc271cc598d6149755f71c33dc83204",
+        "contentDigest": "2ec4464ca16d751dba22762d1f5a2e0b",
         "mediaType": "text/less",
         "type": "File",
         "description": "File \"src/less/all-postsv2.less\"",
@@ -3711,11 +3711,11 @@
       "absolutePath": "/Users/drewmoody/Personal_Projects/Cael/src/less/all-postsv2.less",
       "relativePath": "less/all-postsv2.less",
       "extension": "less",
-      "size": 2289,
-      "prettySize": "2.29 kB",
-      "modifiedTime": "2018-09-08T04:21:50.763Z",
-      "accessTime": "2018-09-08T04:21:51.000Z",
-      "changeTime": "2018-09-08T04:21:50.763Z",
+      "size": 2085,
+      "prettySize": "2.08 kB",
+      "modifiedTime": "2018-09-08T04:41:01.899Z",
+      "accessTime": "2018-09-08T04:41:02.110Z",
+      "changeTime": "2018-09-08T04:41:01.899Z",
       "birthTime": "2018-09-05T06:15:34.146Z",
       "root": "/",
       "dir": "/Users/drewmoody/Personal_Projects/Cael/src/less",
@@ -3732,13 +3732,13 @@
       "blksize": 4194304,
       "ino": 8604190704,
       "blocks": 8,
-      "atimeMs": 1536380511000.085,
-      "mtimeMs": 1536380510762.8296,
-      "ctimeMs": 1536380510762.8296,
+      "atimeMs": 1536381662109.6162,
+      "mtimeMs": 1536381661898.5117,
+      "ctimeMs": 1536381661898.5117,
       "birthtimeMs": 1536128134146.4888,
-      "atime": "2018-09-08T04:21:51.000Z",
-      "mtime": "2018-09-08T04:21:50.763Z",
-      "ctime": "2018-09-08T04:21:50.763Z",
+      "atime": "2018-09-08T04:41:02.110Z",
+      "mtime": "2018-09-08T04:41:01.899Z",
+      "ctime": "2018-09-08T04:41:01.899Z",
       "birthtime": "2018-09-05T06:15:34.146Z"
     },
     "SitePage /post-one": {
@@ -3757,7 +3757,7 @@
       "children": [],
       "internal": {
         "type": "SitePage",
-        "contentDigest": "d1f27664de6999e56d56a4bebac67650",
+        "contentDigest": "2ed37bfd7040d9ad62d33a46789a5ad0",
         "description": "Your site's \"gatsby-node.js\"",
         "owner": "internal-data-bridge"
       }
@@ -3778,7 +3778,7 @@
       "children": [],
       "internal": {
         "type": "SitePage",
-        "contentDigest": "d66886acb33282ebf686699e788adf63",
+        "contentDigest": "2b0b3c5bed9cfe69891e4f66988dfec4",
         "description": "Your site's \"gatsby-node.js\"",
         "owner": "internal-data-bridge"
       }
@@ -3799,7 +3799,7 @@
       "children": [],
       "internal": {
         "type": "SitePage",
-        "contentDigest": "61aa0b82ec5faf496b840a791e010915",
+        "contentDigest": "693255e259653f8314d3901a4371fca8",
         "description": "Your site's \"gatsby-node.js\"",
         "owner": "internal-data-bridge"
       }
@@ -3820,7 +3820,7 @@
       "children": [],
       "internal": {
         "type": "SitePage",
-        "contentDigest": "b5e0f33cbfe1794e250b9bf97156ebdd",
+        "contentDigest": "6ae4a572acb6d6f1b8c48ac0a69165b4",
         "description": "Your site's \"gatsby-node.js\"",
         "owner": "internal-data-bridge"
       }
@@ -3841,7 +3841,7 @@
       "children": [],
       "internal": {
         "type": "SitePage",
-        "contentDigest": "d641dafd00cfc386b6285afe4bbed53b",
+        "contentDigest": "65000aa7bde0e767689feeb0a47e4918",
         "description": "Your site's \"gatsby-node.js\"",
         "owner": "internal-data-bridge"
       }
@@ -3862,7 +3862,7 @@
       "children": [],
       "internal": {
         "type": "SitePage",
-        "contentDigest": "c0beb1dd70862efa457af65ed0778e39",
+        "contentDigest": "f3a8db44af0d53e8e46bcde4a9862937",
         "description": "Your site's \"gatsby-node.js\"",
         "owner": "internal-data-bridge"
       }
@@ -3883,7 +3883,7 @@
       "children": [],
       "internal": {
         "type": "SitePage",
-        "contentDigest": "1ff32f25367a88a6415bb505d44a2495",
+        "contentDigest": "19c8a7d6687dcff18a34f4b06d92fc23",
         "description": "Your site's \"gatsby-node.js\"",
         "owner": "internal-data-bridge"
       }
@@ -3904,7 +3904,7 @@
       "children": [],
       "internal": {
         "type": "SitePage",
-        "contentDigest": "1a783d22e3c0672b4d3b80f1ed9cec84",
+        "contentDigest": "c7727e7df1d503266c4bd99c741de10d",
         "description": "Your site's \"gatsby-node.js\"",
         "owner": "internal-data-bridge"
       }
