@@ -2,6 +2,11 @@ import React from "react";
 import HeaderMini from '../components/headerMini';
 import Header from '../components/header';
 
+const headerStyles = {
+  filter: 'invert(5%)',
+  height: '75vh'
+}
+
 export default ({ data }) =>
   <div>
     <Header
@@ -9,6 +14,7 @@ export default ({ data }) =>
       title='Contact Us' text="We're pretty great"
       viewHeight='70vh'
       hideArrow={true}
+      headerStyles={headerStyles}
     />
     {/* <HeaderMini /> */}
     <div className='miniPages'>

@@ -7,7 +7,7 @@ import { faAngleDoubleDown } from '@fortawesome/free-solid-svg-icons'
 // need to redesign for custom height
 const Header = (props) => {
   return (
-    <div className="header" style={props.viewHeight ? { height: props.viewHeight } : null }>
+    <div className="header" style={props.headerStyles ? props.headerStyles : null }>
       <div className='navbar'>
         <Link to={`/`}>
           <h1>Blog title</h1>
@@ -21,7 +21,7 @@ const Header = (props) => {
       <div className='hero-img'>
         <Img
           sizes={props.heroImg}
-          style={props.spStyles ? props.spStyles : { height: '100vh'} }
+          style={props.headerStyles ? props.headerStyles : { height: '100vh'} }
         />
         {/* </div>{props.heroImg ?
           <Img sizes={props.heroImg} style={{ height: '100vh'}}/>

@@ -1,11 +1,21 @@
 import React from "react";
-import Link from "gatsby-link";
 import Header from "../components/header";
+
+const headerStyles = {
+  marginBottom: 0,
+  height: '100vh'
+}
 
 export default ({ data }) => {
   return (
     <div>
-      <Header heroImg={data.file.childImageSharp.sizes} title='Welcome' text="Placeholder text" hideArrow={true} noPadding={true}/>
+      <Header
+        heroImg={data.file.childImageSharp.sizes}
+        title='Welcome'
+        text="Placeholder text"
+        hideArrow={true}
+        headerStyles={headerStyles}
+      />
     </div>
   );
 };

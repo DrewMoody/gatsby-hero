@@ -1,10 +1,9 @@
 import React from "react";
-import HeaderMini from '../components/headerMini';
 import Header from '../components/header';
 
-const spStyles = {
-    filter: 'invert(10%)',
-    // height: '70vh'
+const headerStyles = {
+    filter: 'invert(5%)',
+    height: '75vh'
 }
 
 export default ({ data }) =>
@@ -14,6 +13,7 @@ export default ({ data }) =>
       title='About Us' text="We're pretty great"
       viewHeight='70vh'
       hideArrow={true}
+      headerStyles={headerStyles}
     />
     {/* <HeaderMini /> */}
     <div className='miniPages'>
