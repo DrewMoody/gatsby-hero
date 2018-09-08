@@ -455,6 +455,9 @@ p {
 .postfilter .active {
   font-weight: 700;
 }
+.postfilter .filterTab {
+  cursor: pointer;
+}
 .post-preview {
   display: flex;
   margin-bottom: 3rem;

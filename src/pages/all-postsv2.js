@@ -4,10 +4,12 @@ import Img from "gatsby-image";
 import Header from "../components/header";
 import Filter from "../components/Filter";
 
-// TODO: On Hover, show the blurb text
+// TODO:
 // On live server, the arrow is huge on page load. Fix
 // Also make it so if no image, it just shows the blurb text
 // IDEA: have a button where user can swap between text view and image view
+// Since the display is based on VH, it will maintain container size even when filtered. fix
+// Refactor getTabsList to sort by popularity?
 class AllPostsv2 extends React.Component {
   constructor() {
     super();
@@ -26,7 +28,6 @@ class AllPostsv2 extends React.Component {
     this.setState({tab: tagName});
   } 
 
-  // should refactor to have it sorted by popularity
   getTabsList = () => {
     let tagsArr = [];
     this.props.data.allMarkdownRemark.edges.forEach(x => {

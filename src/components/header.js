@@ -29,7 +29,7 @@ const Header = (props) => {
         <p>{props.text}</p>
       </div>
       
-      {!props.hideArrow ? <div className='down-arrow'><FontAwesomeIcon icon={faAngleDoubleDown} size="3x" /></div> : null}
+      {!props.hideArrow ? <div className='down-arrow'><FontAwesomeIcon icon={faAngleDoubleDown} size="3x" style={{ maxHeight: '50px' }}/></div> : null}
     </div>
   )
 }
