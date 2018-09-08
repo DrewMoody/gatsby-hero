@@ -198,6 +198,7 @@ a:-webkit-any-link {
   padding-bottom: 0.5rem;
   color: #FFFFFF;
   padding-left: 0.5rem;
+  text-shadow: 0 0 10px black;
 }
 .all-posts-v2 .blog-posts .ppr-title .ppr-excerpt {
   display: none;
@@ -212,6 +213,12 @@ a:-webkit-any-link {
 @media (min-width: 700px) {
   .all-posts-v2 .hovering .ppr-title .ppr-excerpt {
     max-width: 28vw;
+    font-size: 1.8vw;
+    font-weight: 200;
+    line-height: 1.2;
+  }
+  .all-posts-v2 .hovering .ppr-title .ppr-excerpt h3 {
+    font-size: 3.6vw;
   }
 }
 @media (min-width: 700px) {
