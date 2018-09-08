@@ -1872,7 +1872,7 @@
       "children": [],
       "parent": "___SOURCE___",
       "internal": {
-        "contentDigest": "76ffa97a88bd2a01b554c315ac09cfba",
+        "contentDigest": "a41e9034113ef7ca90a3e78a7eedc5b0",
         "mediaType": "application/javascript",
         "type": "File",
         "description": "File \"src/components/header.js\"",
@@ -1882,11 +1882,11 @@
       "absolutePath": "/Users/drewmoody/Personal_Projects/Cael/src/components/header.js",
       "relativePath": "components/header.js",
       "extension": "js",
-      "size": 1384,
-      "prettySize": "1.38 kB",
-      "modifiedTime": "2018-09-08T06:30:16.195Z",
-      "accessTime": "2018-09-08T06:30:16.195Z",
-      "changeTime": "2018-09-08T06:30:16.195Z",
+      "size": 1965,
+      "prettySize": "1.97 kB",
+      "modifiedTime": "2018-09-08T16:16:30.701Z",
+      "accessTime": "2018-09-08T16:16:30.700Z",
+      "changeTime": "2018-09-08T16:16:30.701Z",
       "birthTime": "2018-06-17T13:00:11.350Z",
       "root": "/",
       "dir": "/Users/drewmoody/Personal_Projects/Cael/src/components",
@@ -1903,13 +1903,13 @@
       "blksize": 4194304,
       "ino": 8599353064,
       "blocks": 8,
-      "atimeMs": 1536388216194.9988,
-      "mtimeMs": 1536388216195.3396,
-      "ctimeMs": 1536388216195.3396,
+      "atimeMs": 1536423390700.153,
+      "mtimeMs": 1536423390700.6648,
+      "ctimeMs": 1536423390700.6648,
       "birthtimeMs": 1529240411350.2554,
-      "atime": "2018-09-08T06:30:16.195Z",
-      "mtime": "2018-09-08T06:30:16.195Z",
-      "ctime": "2018-09-08T06:30:16.195Z",
+      "atime": "2018-09-08T16:16:30.700Z",
+      "mtime": "2018-09-08T16:16:30.701Z",
+      "ctime": "2018-09-08T16:16:30.701Z",
       "birthtime": "2018-06-17T13:00:11.350Z"
     },
     "/Users/drewmoody/Personal_Projects/Cael/src/less/all-postsv2.less absPath of file": {
@@ -2052,7 +2052,7 @@
       "children": [],
       "parent": "___SOURCE___",
       "internal": {
-        "contentDigest": "454ea6189aacca99e5c45fe60d11cdae",
+        "contentDigest": "61d8e7c7e839c811ff4cdc2409ef43ea",
         "mediaType": "text/css",
         "type": "File",
         "description": "File \"src/layouts/styles.css\"",
@@ -2062,11 +2062,11 @@
       "absolutePath": "/Users/drewmoody/Personal_Projects/Cael/src/layouts/styles.css",
       "relativePath": "layouts/styles.css",
       "extension": "css",
-      "size": 7815,
-      "prettySize": "7.82 kB",
-      "modifiedTime": "2018-09-08T07:24:49.941Z",
-      "accessTime": "2018-09-08T07:22:30.480Z",
-      "changeTime": "2018-09-08T07:24:49.941Z",
+      "size": 8643,
+      "prettySize": "8.64 kB",
+      "modifiedTime": "2018-09-08T16:18:53.422Z",
+      "accessTime": "2018-09-08T16:07:38.992Z",
+      "changeTime": "2018-09-08T16:18:53.422Z",
       "birthTime": "2018-06-17T04:40:40.133Z",
       "root": "/",
       "dir": "/Users/drewmoody/Personal_Projects/Cael/src/layouts",
@@ -2082,14 +2082,14 @@
       "rdev": 0,
       "blksize": 4194304,
       "ino": 8599348969,
-      "blocks": 16,
-      "atimeMs": 1536391350479.9978,
-      "mtimeMs": 1536391489941.4934,
-      "ctimeMs": 1536391489941.4934,
+      "blocks": 24,
+      "atimeMs": 1536422858991.9832,
+      "mtimeMs": 1536423533422.2788,
+      "ctimeMs": 1536423533422.2788,
       "birthtimeMs": 1529210440132.556,
-      "atime": "2018-09-08T07:22:30.480Z",
-      "mtime": "2018-09-08T07:24:49.941Z",
-      "ctime": "2018-09-08T07:24:49.941Z",
+      "atime": "2018-09-08T16:07:38.992Z",
+      "mtime": "2018-09-08T16:18:53.422Z",
+      "ctime": "2018-09-08T16:18:53.422Z",
       "birthtime": "2018-06-17T04:40:40.133Z"
     },
     "/Users/drewmoody/Personal_Projects/Cael/src/utils/typography.js absPath of file": {
@@ -2878,7 +2878,7 @@
       "children": [],
       "parent": "___SOURCE___",
       "internal": {
-        "contentDigest": "d092ddbcb62aaa2c6523630eb0825b1c",
+        "contentDigest": "8f41984c1f56222eba02ff2d0952abd7",
         "mediaType": "text/less",
         "type": "File",
         "description": "File \"src/less/styles.less\"",
@@ -2888,11 +2888,11 @@
       "absolutePath": "/Users/drewmoody/Personal_Projects/Cael/src/less/styles.less",
       "relativePath": "less/styles.less",
       "extension": "less",
-      "size": 4749,
-      "prettySize": "4.75 kB",
-      "modifiedTime": "2018-09-08T06:41:09.258Z",
-      "accessTime": "2018-09-08T06:41:09.517Z",
-      "changeTime": "2018-09-08T06:41:09.258Z",
+      "size": 5586,
+      "prettySize": "5.59 kB",
+      "modifiedTime": "2018-09-08T16:19:34.409Z",
+      "accessTime": "2018-09-08T16:19:34.747Z",
+      "changeTime": "2018-09-08T16:19:34.409Z",
       "birthTime": "2018-08-20T19:01:39.382Z",
       "root": "/",
       "dir": "/Users/drewmoody/Personal_Projects/Cael/src/less",
@@ -2909,13 +2909,13 @@
       "blksize": 4194304,
       "ino": 8603393358,
       "blocks": 16,
-      "atimeMs": 1536388869516.679,
-      "mtimeMs": 1536388869257.6511,
-      "ctimeMs": 1536388869257.6511,
+      "atimeMs": 1536423574747.3652,
+      "mtimeMs": 1536423574409.0771,
+      "ctimeMs": 1536423574409.0771,
       "birthtimeMs": 1534791699381.7612,
-      "atime": "2018-09-08T06:41:09.517Z",
-      "mtime": "2018-09-08T06:41:09.258Z",
-      "ctime": "2018-09-08T06:41:09.258Z",
+      "atime": "2018-09-08T16:19:34.747Z",
+      "mtime": "2018-09-08T16:19:34.409Z",
+      "ctime": "2018-09-08T16:19:34.409Z",
       "birthtime": "2018-08-20T19:01:39.382Z"
     },
     "/Users/drewmoody/Personal_Projects/Cael/src/pages/2018-05-01-post-two/hiker.jpg absPath of file": {
@@ -3871,7 +3871,7 @@
       "children": [],
       "internal": {
         "type": "SitePage",
-        "contentDigest": "598b4acddf118bb8b4619cec6460357c",
+        "contentDigest": "1e2e3cf1b3a454d301137e484873221d",
         "description": "Your site's \"gatsby-node.js\"",
         "owner": "internal-data-bridge"
       }
@@ -3892,7 +3892,7 @@
       "children": [],
       "internal": {
         "type": "SitePage",
-        "contentDigest": "51ef293a1133fcd42ce221c4dea24906",
+        "contentDigest": "af6c4c5f0a8101bbdeb22a8a53dcd4ae",
         "description": "Your site's \"gatsby-node.js\"",
         "owner": "internal-data-bridge"
       }
@@ -3913,7 +3913,7 @@
       "children": [],
       "internal": {
         "type": "SitePage",
-        "contentDigest": "1f76e89b133c89490202445532dd5455",
+        "contentDigest": "7b11c9ed450509a8a00e381b3ed9d926",
         "description": "Your site's \"gatsby-node.js\"",
         "owner": "internal-data-bridge"
       }
@@ -3934,7 +3934,7 @@
       "children": [],
       "internal": {
         "type": "SitePage",
-        "contentDigest": "4cef44671a99c5c00f3ba83bb7526732",
+        "contentDigest": "d8e8305b04d141b48762a5eac28c9a3a",
         "description": "Your site's \"gatsby-node.js\"",
         "owner": "internal-data-bridge"
       }
@@ -3955,7 +3955,7 @@
       "children": [],
       "internal": {
         "type": "SitePage",
-        "contentDigest": "ec8bc63fca7f1072d1937a7b1255fc74",
+        "contentDigest": "eec9b2eba92c9a268ba602ce13f2d450",
         "description": "Your site's \"gatsby-node.js\"",
         "owner": "internal-data-bridge"
       }
@@ -3976,7 +3976,7 @@
       "children": [],
       "internal": {
         "type": "SitePage",
-        "contentDigest": "9cf35c98e673a53d6ebb72f3b4400148",
+        "contentDigest": "bf21506fc89bcd2fc0768893277ebb8e",
         "description": "Your site's \"gatsby-node.js\"",
         "owner": "internal-data-bridge"
       }
@@ -3997,7 +3997,7 @@
       "children": [],
       "internal": {
         "type": "SitePage",
-        "contentDigest": "5b0da51f483bd38cbe130fad1d52f9a8",
+        "contentDigest": "ee069193b7ebfa0f96da75d01a753127",
         "description": "Your site's \"gatsby-node.js\"",
         "owner": "internal-data-bridge"
       }
@@ -4018,7 +4018,7 @@
       "children": [],
       "internal": {
         "type": "SitePage",
-        "contentDigest": "adef0f4665cc0f0c5d28123276083542",
+        "contentDigest": "a88688edc39468dc5ef5be279997b5f5",
         "description": "Your site's \"gatsby-node.js\"",
         "owner": "internal-data-bridge"
       }
