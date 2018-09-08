@@ -1782,7 +1782,7 @@
       "children": [],
       "parent": "___SOURCE___",
       "internal": {
-        "contentDigest": "597a94358efa103ba41b87a26773ea48",
+        "contentDigest": "629901850c55159fcc4a64e74d493ebb",
         "mediaType": "application/javascript",
         "type": "File",
         "description": "File \"src/components/header.js\"",
@@ -1792,11 +1792,11 @@
       "absolutePath": "/Users/drewmoody/Personal_Projects/Cael/src/components/header.js",
       "relativePath": "components/header.js",
       "extension": "js",
-      "size": 1266,
+      "size": 1268,
       "prettySize": "1.27 kB",
-      "modifiedTime": "2018-09-08T03:47:47.458Z",
-      "accessTime": "2018-09-08T03:47:47.458Z",
-      "changeTime": "2018-09-08T03:47:47.458Z",
+      "modifiedTime": "2018-09-08T03:52:05.618Z",
+      "accessTime": "2018-09-08T03:52:05.617Z",
+      "changeTime": "2018-09-08T03:52:05.618Z",
       "birthTime": "2018-06-17T13:00:11.350Z",
       "root": "/",
       "dir": "/Users/drewmoody/Personal_Projects/Cael/src/components",
@@ -1813,13 +1813,13 @@
       "blksize": 4194304,
       "ino": 8599353064,
       "blocks": 8,
-      "atimeMs": 1536378467457.6545,
-      "mtimeMs": 1536378467457.958,
-      "ctimeMs": 1536378467457.958,
+      "atimeMs": 1536378725617.2263,
+      "mtimeMs": 1536378725617.608,
+      "ctimeMs": 1536378725617.608,
       "birthtimeMs": 1529240411350.2554,
-      "atime": "2018-09-08T03:47:47.458Z",
-      "mtime": "2018-09-08T03:47:47.458Z",
-      "ctime": "2018-09-08T03:47:47.458Z",
+      "atime": "2018-09-08T03:52:05.617Z",
+      "mtime": "2018-09-08T03:52:05.618Z",
+      "ctime": "2018-09-08T03:52:05.618Z",
       "birthtime": "2018-06-17T13:00:11.350Z"
     },
     "/Users/drewmoody/Personal_Projects/Cael/src/components/headerMini.js absPath of file": {
@@ -1827,7 +1827,7 @@
       "children": [],
       "parent": "___SOURCE___",
       "internal": {
-        "contentDigest": "ba238de47ca61ef4c4af94e109094141",
+        "contentDigest": "cbb9c2d2aaa43fa809849a7fd2673f62",
         "mediaType": "application/javascript",
         "type": "File",
         "description": "File \"src/components/headerMini.js\"",
@@ -1837,11 +1837,11 @@
       "absolutePath": "/Users/drewmoody/Personal_Projects/Cael/src/components/headerMini.js",
       "relativePath": "components/headerMini.js",
       "extension": "js",
-      "size": 413,
-      "prettySize": "413 B",
-      "modifiedTime": "2018-09-02T06:08:43.196Z",
-      "accessTime": "2018-09-05T05:49:34.561Z",
-      "changeTime": "2018-09-02T06:08:43.196Z",
+      "size": 415,
+      "prettySize": "415 B",
+      "modifiedTime": "2018-09-08T03:53:19.939Z",
+      "accessTime": "2018-09-08T03:53:19.936Z",
+      "changeTime": "2018-09-08T03:53:19.939Z",
       "birthTime": "2018-08-31T05:53:46.618Z",
       "root": "/",
       "dir": "/Users/drewmoody/Personal_Projects/Cael/src/components",
@@ -1849,7 +1849,7 @@
       "ext": ".js",
       "name": "headerMini",
       "relativeDirectory": "components",
-      "dev": 16777221,
+      "dev": 16777220,
       "mode": 33188,
       "nlink": 1,
       "uid": 501,
@@ -1858,13 +1858,13 @@
       "blksize": 4194304,
       "ino": 8604001885,
       "blocks": 8,
-      "atimeMs": 1536126574561.068,
-      "mtimeMs": 1535868523195.9653,
-      "ctimeMs": 1535868523195.9653,
+      "atimeMs": 1536378799936.3704,
+      "mtimeMs": 1536378799938.9514,
+      "ctimeMs": 1536378799938.9514,
       "birthtimeMs": 1535694826618.442,
-      "atime": "2018-09-05T05:49:34.561Z",
-      "mtime": "2018-09-02T06:08:43.196Z",
-      "ctime": "2018-09-02T06:08:43.196Z",
+      "atime": "2018-09-08T03:53:19.936Z",
+      "mtime": "2018-09-08T03:53:19.939Z",
+      "ctime": "2018-09-08T03:53:19.939Z",
       "birthtime": "2018-08-31T05:53:46.618Z"
     },
     "/Users/drewmoody/Personal_Projects/Cael/src/less/reset.less absPath of file": {
@@ -1929,9 +1929,9 @@
       "extension": "less",
       "size": 4632,
       "prettySize": "4.63 kB",
-      "modifiedTime": "2018-09-08T03:24:50.305Z",
-      "accessTime": "2018-09-08T03:24:50.429Z",
-      "changeTime": "2018-09-08T03:24:50.305Z",
+      "modifiedTime": "2018-09-08T03:55:08.228Z",
+      "accessTime": "2018-09-08T03:55:08.396Z",
+      "changeTime": "2018-09-08T03:55:08.228Z",
       "birthTime": "2018-08-20T19:01:39.382Z",
       "root": "/",
       "dir": "/Users/drewmoody/Personal_Projects/Cael/src/less",
@@ -1948,13 +1948,13 @@
       "blksize": 4194304,
       "ino": 8603393358,
       "blocks": 16,
-      "atimeMs": 1536377090428.76,
-      "mtimeMs": 1536377090305.2441,
-      "ctimeMs": 1536377090305.2441,
+      "atimeMs": 1536378908395.503,
+      "mtimeMs": 1536378908227.627,
+      "ctimeMs": 1536378908227.627,
       "birthtimeMs": 1534791699381.7612,
-      "atime": "2018-09-08T03:24:50.429Z",
-      "mtime": "2018-09-08T03:24:50.305Z",
-      "ctime": "2018-09-08T03:24:50.305Z",
+      "atime": "2018-09-08T03:55:08.396Z",
+      "mtime": "2018-09-08T03:55:08.228Z",
+      "ctime": "2018-09-08T03:55:08.228Z",
       "birthtime": "2018-08-20T19:01:39.382Z"
     },
     "/Users/drewmoody/Personal_Projects/Cael/src/layouts/index.js absPath of file": {
@@ -2007,7 +2007,7 @@
       "children": [],
       "parent": "___SOURCE___",
       "internal": {
-        "contentDigest": "d7ebbffd3ae1eb44c3a1334efd2f0e85",
+        "contentDigest": "4ce5a8ee735d6d52809d355753176004",
         "mediaType": "text/css",
         "type": "File",
         "description": "File \"src/layouts/styles.css\"",
@@ -2017,11 +2017,11 @@
       "absolutePath": "/Users/drewmoody/Personal_Projects/Cael/src/layouts/styles.css",
       "relativePath": "layouts/styles.css",
       "extension": "css",
-      "size": 7477,
-      "prettySize": "7.48 kB",
-      "modifiedTime": "2018-09-08T03:24:50.580Z",
-      "accessTime": "2018-09-08T03:10:50.482Z",
-      "changeTime": "2018-09-08T03:24:50.580Z",
+      "size": 7697,
+      "prettySize": "7.7 kB",
+      "modifiedTime": "2018-09-08T04:21:51.081Z",
+      "accessTime": "2018-09-08T04:19:37.204Z",
+      "changeTime": "2018-09-08T04:21:51.081Z",
       "birthTime": "2018-06-17T04:40:40.133Z",
       "root": "/",
       "dir": "/Users/drewmoody/Personal_Projects/Cael/src/layouts",
@@ -2038,13 +2038,13 @@
       "blksize": 4194304,
       "ino": 8599348969,
       "blocks": 16,
-      "atimeMs": 1536376250482.2864,
-      "mtimeMs": 1536377090579.6003,
-      "ctimeMs": 1536377090579.6003,
+      "atimeMs": 1536380377204.2698,
+      "mtimeMs": 1536380511081.1748,
+      "ctimeMs": 1536380511081.1748,
       "birthtimeMs": 1529210440132.556,
-      "atime": "2018-09-08T03:10:50.482Z",
-      "mtime": "2018-09-08T03:24:50.580Z",
-      "ctime": "2018-09-08T03:24:50.580Z",
+      "atime": "2018-09-08T04:19:37.204Z",
+      "mtime": "2018-09-08T04:21:51.081Z",
+      "ctime": "2018-09-08T04:21:51.081Z",
       "birthtime": "2018-06-17T04:40:40.133Z"
     },
     "/Users/drewmoody/Personal_Projects/Cael/src/templates/blog-post.js absPath of file": {
@@ -3701,7 +3701,7 @@
       "children": [],
       "parent": "___SOURCE___",
       "internal": {
-        "contentDigest": "c62d8bef16d4de4b0697466f16cf5705",
+        "contentDigest": "6fc271cc598d6149755f71c33dc83204",
         "mediaType": "text/less",
         "type": "File",
         "description": "File \"src/less/all-postsv2.less\"",
@@ -3711,11 +3711,11 @@
       "absolutePath": "/Users/drewmoody/Personal_Projects/Cael/src/less/all-postsv2.less",
       "relativePath": "less/all-postsv2.less",
       "extension": "less",
-      "size": 1968,
-      "prettySize": "1.97 kB",
-      "modifiedTime": "2018-09-08T03:09:13.238Z",
-      "accessTime": "2018-09-08T03:09:13.237Z",
-      "changeTime": "2018-09-08T03:09:13.238Z",
+      "size": 2289,
+      "prettySize": "2.29 kB",
+      "modifiedTime": "2018-09-08T04:21:50.763Z",
+      "accessTime": "2018-09-08T04:21:51.000Z",
+      "changeTime": "2018-09-08T04:21:50.763Z",
       "birthTime": "2018-09-05T06:15:34.146Z",
       "root": "/",
       "dir": "/Users/drewmoody/Personal_Projects/Cael/src/less",
@@ -3732,13 +3732,13 @@
       "blksize": 4194304,
       "ino": 8604190704,
       "blocks": 8,
-      "atimeMs": 1536376153237.2612,
-      "mtimeMs": 1536376153237.7952,
-      "ctimeMs": 1536376153237.7952,
+      "atimeMs": 1536380511000.085,
+      "mtimeMs": 1536380510762.8296,
+      "ctimeMs": 1536380510762.8296,
       "birthtimeMs": 1536128134146.4888,
-      "atime": "2018-09-08T03:09:13.237Z",
-      "mtime": "2018-09-08T03:09:13.238Z",
-      "ctime": "2018-09-08T03:09:13.238Z",
+      "atime": "2018-09-08T04:21:51.000Z",
+      "mtime": "2018-09-08T04:21:50.763Z",
+      "ctime": "2018-09-08T04:21:50.763Z",
       "birthtime": "2018-09-05T06:15:34.146Z"
     },
     "SitePage /post-one": {
@@ -3757,7 +3757,7 @@
       "children": [],
       "internal": {
         "type": "SitePage",
-        "contentDigest": "bb05702cccc76d0196417abdf9161029",
+        "contentDigest": "d1f27664de6999e56d56a4bebac67650",
         "description": "Your site's \"gatsby-node.js\"",
         "owner": "internal-data-bridge"
       }
@@ -3778,7 +3778,7 @@
       "children": [],
       "internal": {
         "type": "SitePage",
-        "contentDigest": "75f0d57962b13a477b18940e3043ebd1",
+        "contentDigest": "d66886acb33282ebf686699e788adf63",
         "description": "Your site's \"gatsby-node.js\"",
         "owner": "internal-data-bridge"
       }
@@ -3799,7 +3799,7 @@
       "children": [],
       "internal": {
         "type": "SitePage",
-        "contentDigest": "f678b3345d526fc9c86fa609360d152f",
+        "contentDigest": "61aa0b82ec5faf496b840a791e010915",
         "description": "Your site's \"gatsby-node.js\"",
         "owner": "internal-data-bridge"
       }
@@ -3820,7 +3820,7 @@
       "children": [],
       "internal": {
         "type": "SitePage",
-        "contentDigest": "00d89440f172c8b4563531dcce6b6c0d",
+        "contentDigest": "b5e0f33cbfe1794e250b9bf97156ebdd",
         "description": "Your site's \"gatsby-node.js\"",
         "owner": "internal-data-bridge"
       }
@@ -3841,7 +3841,7 @@
       "children": [],
       "internal": {
         "type": "SitePage",
-        "contentDigest": "c98fdb27c194e742b0abccf65e8e4517",
+        "contentDigest": "d641dafd00cfc386b6285afe4bbed53b",
         "description": "Your site's \"gatsby-node.js\"",
         "owner": "internal-data-bridge"
       }
@@ -3862,7 +3862,7 @@
       "children": [],
       "internal": {
         "type": "SitePage",
-        "contentDigest": "8b96a5c02c7c6c06d8931ceab7eb3b3d",
+        "contentDigest": "c0beb1dd70862efa457af65ed0778e39",
         "description": "Your site's \"gatsby-node.js\"",
         "owner": "internal-data-bridge"
       }
@@ -3883,7 +3883,7 @@
       "children": [],
       "internal": {
         "type": "SitePage",
-        "contentDigest": "4b6fc449153bc0a3a4f98056f99df2f9",
+        "contentDigest": "1ff32f25367a88a6415bb505d44a2495",
         "description": "Your site's \"gatsby-node.js\"",
         "owner": "internal-data-bridge"
       }
@@ -3904,7 +3904,7 @@
       "children": [],
       "internal": {
         "type": "SitePage",
-        "contentDigest": "34726f944f2b51cca2d4ab296173f7bf",
+        "contentDigest": "1a783d22e3c0672b4d3b80f1ed9cec84",
         "description": "Your site's \"gatsby-node.js\"",
         "owner": "internal-data-bridge"
       }

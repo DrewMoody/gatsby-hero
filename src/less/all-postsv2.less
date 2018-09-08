@@ -15,11 +15,14 @@
 
   @media (min-width: 700px) {
     grid-template-columns:1fr 1fr 1fr;
-    height:100vh;
+    // height:100vh;
     display: grid;
     grid-column-gap: 12px;
     grid-row-gap: 12px;
-    grid-auto-rows:24%;
+    // grid-auto-rows:24%;
+    // NOTE: done this way due to unexpected grid-row height behavior from css grid
+    height: calc(500px + 30vw);
+    grid-auto-rows: 1fr;
   }
 
   @media (min-width:769px) {
@@ -48,6 +51,13 @@
         .gatsby-image-wrapper {
           height: 100%;
           width: 100%;
+
+          div {
+
+            @media (min-width:700px) {
+              padding-bottom: 0 !important;
+            }
+          }
         }
       }
     }
@@ -83,7 +93,10 @@
       }
 
       .ex-2, .ex-3 {
-        max-width: 56vw;
+
+        @media(min-width:700px) {
+          max-width: 56vw;
+        }
       }
     }
 

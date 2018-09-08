@@ -8,7 +8,7 @@ function HeaderMini(props) {
         <h1>Blog Title</h1>
       </Link>
       <div className="nav">
-        <Link to={`/all-posts/`}>Blog</Link>
+        <Link to={`/all-postsv2/`}>Blog</Link>
         <Link to={`/about/`}>About</Link>
         <Link to={`/new-test/`}>Test</Link>
       </div>
