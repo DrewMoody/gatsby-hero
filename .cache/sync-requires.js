@@ -8,6 +8,7 @@ exports.layouts = {
 
 exports.components = {
   "component---src-templates-blog-post-js": preferDefault(require("/Users/drewmoody/Personal_Projects/Cael/src/templates/blog-post.js")),
+  "component---cache-dev-404-page-js": preferDefault(require("/Users/drewmoody/Personal_Projects/Cael/.cache/dev-404-page.js")),
   "component---src-pages-about-js": preferDefault(require("/Users/drewmoody/Personal_Projects/Cael/src/pages/about.js")),
   "component---src-pages-all-posts-js": preferDefault(require("/Users/drewmoody/Personal_Projects/Cael/src/pages/all-posts.js")),
   "component---src-pages-all-postsv-2-js": preferDefault(require("/Users/drewmoody/Personal_Projects/Cael/src/pages/all-postsv2.js")),
@@ -26,6 +27,7 @@ exports.json = {
   "post-four.json": require("/Users/drewmoody/Personal_Projects/Cael/.cache/json/post-four.json"),
   "post-three.json": require("/Users/drewmoody/Personal_Projects/Cael/.cache/json/post-three.json"),
   "post-two.json": require("/Users/drewmoody/Personal_Projects/Cael/.cache/json/post-two.json"),
+  "dev-404-page.json": require("/Users/drewmoody/Personal_Projects/Cael/.cache/json/dev-404-page.json"),
   "about.json": require("/Users/drewmoody/Personal_Projects/Cael/.cache/json/about.json"),
   "all-posts.json": require("/Users/drewmoody/Personal_Projects/Cael/.cache/json/all-posts.json"),
   "all-postsv-2.json": require("/Users/drewmoody/Personal_Projects/Cael/.cache/json/all-postsv-2.json"),

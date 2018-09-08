@@ -6,15 +6,20 @@ import Filter from "../components/Filter";
 
 // TODO: On Hover, show the blurb text
 // On live server, the arrow is huge on page load. Fix
-// Make it responsive
 // Also make it so if no image, it just shows the blurb text
+// IDEA: have a button where user can swap between text view and image view
 class AllPostsv2 extends React.Component {
   constructor() {
     super();
     this.state = {
       tab: 'all',
-      tagsArr: []
+      tagsArr: [],
+      imageHov: ''
     };
+  }
+
+  imageHover = val => {
+    this.setState({ imageHov: val });
   }
 
   setTab = tagName => {
@@ -43,30 +48,30 @@ class AllPostsv2 extends React.Component {
     return (
       <div className="all-posts-wrapper-v2">
         <Header heroImg={data.file.childImageSharp.sizes} title={'View All Posts'} text={`${data.allMarkdownRemark.totalCount} Total Posts`}/>
-        <Filter className='wow' setTab={this.setTab} tabsArr={this.state.tagsArr} />
+        <Filter activeTab={this.state.tab} setTab={this.setTab} tabsArr={this.state.tagsArr} />
         <div className="all-posts-v2">
-          {data.allMarkdownRemark.edges.filter(x=> {
+          {data.allMarkdownRemark.edges.filter((x, i) => {
             if (this.state.tab === 'all') return x;
             return x.node.frontmatter.tags.includes(this.state.tab)
           }).map((x, i) => (
               // <div key={x.node.id} className='blog-posts'>
               <div key={x.node.id} className={
-                i === 2 ?
-                'blog-posts p-three' :
-                i === 3 ?
-                'blog-posts p-four' :
-                'blog-posts'
-              }>
+                i === this.state.imageHov ?
+                `blog-posts p-${i} hovering` :
+                `blog-posts p-${i}`
+                } onMouseOver={() => this.imageHover(i)} onMouseLeave={() => this.imageHover('')}>
               <Link
                 to={x.node.frontmatter.path}
-                // className={i % 2 === 0 ? "post-preview" : "post-preview ppr-reverse"}
+                className='image-wrapper-a'
               >
-                <Img sizes={x.node.frontmatter.headerImg.childImageSharp.sizes} />
-                <div className="ppr-title">
-                  <h3>{`${x.node.frontmatter.title} `}<span>— {x.node.frontmatter.date}</span></h3>
-                </div>
+                <Img sizes={x.node.frontmatter.headerImg.childImageSharp.sizes}/>
               </Link>
-            </div>
+                <Link to={x.node.frontmatter.path} className="ppr-title">
+                  <h3>{`${x.node.frontmatter.title} `}<span>— {x.node.frontmatter.date}</span></h3>
+                  <div className={`ppr-excerpt ex-${i}`}>{x.node.excerpt}</div>
+                </Link>
+              </div>
+            // </div>
           ))}
         </div>
       </div>

@@ -171,22 +171,23 @@ a:-webkit-any-link {
   height: 100%;
   width: 100%;
   margin-bottom: 12px;
+  display: flex;
 }
 @media (min-width: 700px) {
   .all-posts-v2 .blog-posts {
     margin-bottom: 0;
   }
 }
-.all-posts-v2 .blog-posts a {
+.all-posts-v2 .blog-posts .image-wrapper-a {
   display: flex;
   width: 100%;
   height: 100%;
 }
-.all-posts-v2 .blog-posts a .gatsby-image-outer-wrapper {
+.all-posts-v2 .blog-posts .image-wrapper-a .gatsby-image-outer-wrapper {
   height: 100%;
   width: 100%;
 }
-.all-posts-v2 .blog-posts a .gatsby-image-outer-wrapper .gatsby-image-wrapper {
+.all-posts-v2 .blog-posts .image-wrapper-a .gatsby-image-outer-wrapper .gatsby-image-wrapper {
   height: 100%;
   width: 100%;
 }
@@ -195,10 +196,32 @@ a:-webkit-any-link {
   align-self: flex-end;
   padding-bottom: 0.5rem;
   color: #FFFFFF;
-  padding-left: 5px;
+  padding-left: 0.5rem;
+}
+.all-posts-v2 .blog-posts .ppr-title .ppr-excerpt {
+  display: none;
+}
+.all-posts-v2 .hovering .image-wrapper-a {
+  filter: brightness(50%);
+}
+.all-posts-v2 .hovering .ppr-title .ppr-excerpt {
+  display: block;
+  max-width: 90vw;
 }
 @media (min-width: 700px) {
-  .all-posts-v2 .p-three {
+  .all-posts-v2 .hovering .ppr-title .ppr-excerpt {
+    max-width: 28vw;
+  }
+}
+.all-posts-v2 .hovering .ppr-title .ex-2,
+.all-posts-v2 .hovering .ppr-title .ex-3 {
+  max-width: 56vw;
+}
+.all-posts-v2 .hovering h3 {
+  margin-bottom: 0.75rem;
+}
+@media (min-width: 700px) {
+  .all-posts-v2 .p-2 {
     grid-column-start: 2;
     grid-column-end: 4;
     grid-row-start: 1;
@@ -208,11 +231,15 @@ a:-webkit-any-link {
   }
 }
 @media (min-width: 700px) {
-  .all-posts-v2 .p-four {
+  .all-posts-v2 .p-3 {
     grid-column-start: 1;
     grid-column-end: 3;
     grid-row: span 1;
   }
+}
+.all-posts-v2 .p-2 .ppr-excerpt,
+.all-posts-v2 .p-3 .ppr-excerpt {
+  max-width: 50vw;
 }
 @keyframes bounce {
   from,
@@ -425,8 +452,8 @@ p {
 .postfilter h3 {
   margin-bottom: 0.3rem;
 }
-.postfilter .tabfilter {
-  margin-bottom: 0;
+.postfilter .active {
+  font-weight: 700;
 }
 .post-preview {
   display: flex;
