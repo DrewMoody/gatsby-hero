@@ -1,9 +1,5 @@
 import React from 'react';
 import './styles.css';
-// import Link from 'gatsby-link';
-// import Header from '../components/header';
-// require('typeface-cabin');
-// require('typeface-palanquin-dark')
 require('typeface-montserrat');
 require('typeface-mukta-mahee');
 
@@ -13,7 +9,7 @@ export default ({ children, data }) => {
     <div className="container">
       {/* <Header title={data.site.siteMetadata.title} /> */}
       <div className="content">
-        {children()} {/*this is what lists all of the posts  */}
+        {children()}
       </div>
     </div>
   );

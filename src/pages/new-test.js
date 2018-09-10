@@ -2,19 +2,24 @@ import React from "react";
 import HeaderMini from '../components/headerMini';
 import Header from '../components/header';
 
-const headerStyles = {
+// const headerStyles = {
+//   filter: 'invert(5%)',
+//   height: '75vh'
+// }
+
+const imgStyles = {
   filter: 'invert(5%)',
   height: '75vh'
 }
 
 export default ({ data }) =>
-  <div>
+  <div className='three-qtr-hero'>
     <Header
       heroImg={data.file.childImageSharp.sizes}
       title='Contact Us' text="We're pretty great"
       viewHeight='70vh'
       hideArrow={true}
-      headerStyles={headerStyles}
+      imgStyles={imgStyles}
     />
     {/* <HeaderMini /> */}
     <div className='miniPages'>

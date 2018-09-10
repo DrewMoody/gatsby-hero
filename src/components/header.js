@@ -41,7 +41,7 @@ class Header extends React.Component {
         <div className='hero-img'>
           <Img
             sizes={this.props.heroImg}
-            style={this.props.headerStyles ? this.props.headerStyles : undefined }
+            style={this.props.imgStyles ? this.props.imgStyles : undefined }
           />
           {/* </div>{props.heroImg ?
             <Img sizes={props.heroImg} style={{ height: '100vh'}}/>

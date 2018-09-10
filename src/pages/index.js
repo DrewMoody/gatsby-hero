@@ -1,20 +1,25 @@
 import React from "react";
 import Header from "../components/header";
 
-const headerStyles = {
-  marginBottom: 0,
-  height: '100vh'
-}
+// const headerStyles = {
+//   marginBottom: 0,
+//   // height: '100vh'
+// }
+
+// const imgStyles = {
+//   height: '100vh'
+// }
 
 export default ({ data }) => {
   return (
-    <div>
+    <div className='full-hero'>
       <Header
         heroImg={data.file.childImageSharp.sizes}
         title='Welcome'
         text="Placeholder text"
         hideArrow={true}
-        headerStyles={headerStyles}
+        // headerStyles={headerStyles}
+        // imgStyles={imgStyles}
       />
     </div>
   );
