@@ -4,13 +4,14 @@ import Link from 'gatsby-link';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faAngleDoubleDown, faBars } from '@fortawesome/free-solid-svg-icons'
 
-// need to redesign for custom height
+// make so if no image, gradient is applied
 class Header extends React.Component {
   constructor(props) {
     super(props)
 
     this.state = {
-      hamClicked: false
+      hamClicked: false,
+      currentTab: 'home'
     }
   }
 

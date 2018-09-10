@@ -1,7 +1,7 @@
 import React from 'react';
-import './styles.css';
 require('typeface-montserrat');
 require('typeface-mukta-mahee');
+import './styles.css';
 
 // Plugging header in to each component individually in order to change image/header style
 export default ({ children, data }) => {

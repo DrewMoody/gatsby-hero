@@ -5,10 +5,8 @@ import Header from "../components/header";
 import Filter from "../components/Filter";
 
 // TODO:
-// On live server, the arrow is huge on page load. Fix
-// Also make it so if no image, it just shows the blurb text
+// Also make it so if no image, it just shows the blurb text (gradient backtround?)
 // IDEA: have a button where user can swap between text view and image view
-// Since the display is based on VH, it will maintain container size even when filtered. fix
 // Refactor getTabsList to sort by popularity?
 class AllPostsv2 extends React.Component {
   constructor() {
