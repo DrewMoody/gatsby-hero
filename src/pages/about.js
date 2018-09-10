@@ -1,11 +1,6 @@
 import React from "react";
 import Header from '../components/header';
 
-// const headerStyles = {
-//     filter: 'invert(5%)',
-//     height: '75vh'
-// }
-
 const imgStyles = {
   filter: 'invert(12%)',
 }
@@ -19,7 +14,6 @@ export default ({ data }) =>
       hideArrow={true}
       imgStyles={imgStyles}
     />
-    {/* <HeaderMini /> */}
     <div className='miniPages'>
       <h1>About Us</h1>
       <p>Here's some information about us. Oh, wait...</p>

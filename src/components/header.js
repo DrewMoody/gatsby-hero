@@ -4,7 +4,7 @@ import Link from 'gatsby-link';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faAngleDoubleDown, faBars } from '@fortawesome/free-solid-svg-icons'
 
-// make so if no image, gradient is applied
+// TODO: make so if no image, gradient is applied
 class Header extends React.Component {
   constructor(props) {
     super(props)
@@ -34,9 +34,9 @@ class Header extends React.Component {
             <FontAwesomeIcon onClick={this.hamToggle} icon={faBars} size="lg" style={{ maxHeight: '50px' }}/>
           </div>
           <div className="nav">
-            <Link to={`/all-postsv2/`}>Blog</Link>
+            <Link to={`/all-posts/`}>Blog</Link>
             <Link to={`/about/`}>About</Link>
-            <Link to={`/new-test/`}>Contact</Link>
+            <Link to={`/contact/`}>Contact</Link>
           </div>
         </div>
         <div className='hero-img'>

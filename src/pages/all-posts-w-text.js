@@ -4,28 +4,21 @@ import Img from "gatsby-image";
 import Header from "../components/header";
 import Filter from "../components/Filter";
 
-// TODO:
-// Also make it so if no image, it just shows the blurb text (gradient backtround?)
-// IDEA: have a button where user can swap between text view and image view
-// Refactor getTabsList to sort by popularity?
-class AllPostsv2 extends React.Component {
+// This component is outdated/not currently in use
+class AllPostsWText extends React.Component {
   constructor() {
     super();
     this.state = {
       tab: 'all',
-      tagsArr: [],
-      imageHov: ''
+      tagsArr: []
     };
-  }
-
-  imageHover = val => {
-    this.setState({ imageHov: val });
   }
 
   setTab = tagName => {
     this.setState({tab: tagName});
   } 
 
+  // should refactor to have it sorted by popularity
   getTabsList = () => {
     let tagsArr = [];
     this.props.data.allMarkdownRemark.edges.forEach(x => {
@@ -45,32 +38,26 @@ class AllPostsv2 extends React.Component {
   render() {
     const data = this.props.data;
     return (
-      <div className="all-posts-wrapper-v2">
+      <div className="all-posts-wrapper">
         <Header heroImg={data.file.childImageSharp.sizes} title={'View All Posts'} text={`${data.allMarkdownRemark.totalCount} Total Posts`}/>
-        <Filter activeTab={this.state.tab} setTab={this.setTab} tabsArr={this.state.tagsArr} />
-        <div className="all-posts-v2">
-          {data.allMarkdownRemark.edges.filter((x, i) => {
+        <div className="all-posts">
+          <Filter setTab={this.setTab} tabsArr={this.state.tagsArr} />
+          {data.allMarkdownRemark.edges.filter(x=> {
             if (this.state.tab === 'all') return x;
             return x.node.frontmatter.tags.includes(this.state.tab)
           }).map((x, i) => (
-              // <div key={x.node.id} className='blog-posts'>
-              <div key={x.node.id} className={
-                i === this.state.imageHov ?
-                `blog-posts p-${i} hovering` :
-                `blog-posts p-${i}`
-                } onMouseOver={() => this.imageHover(i)} onMouseLeave={() => this.imageHover('')}>
+              <div key={x.node.id}>
               <Link
                 to={x.node.frontmatter.path}
-                className='image-wrapper-a'
+                className={i % 2 === 0 ? "post-preview" : "post-preview ppr-reverse"}
               >
-                <Img sizes={x.node.frontmatter.headerImg.childImageSharp.sizes}/>
-              </Link>
-                <Link to={x.node.frontmatter.path} className="ppr-title">
+                <Img resolutions={x.node.frontmatter.headerImg.childImageSharp.resolutions} />
+                <div className="ppr-text-content">
                   <h3>{`${x.node.frontmatter.title} `}<span>— {x.node.frontmatter.date}</span></h3>
-                  <div className={`ppr-excerpt ex-${i}`}>{x.node.excerpt}</div>
-                </Link>
-              </div>
-            // </div>
+                <p>{x.node.excerpt}</p>
+                </div>
+              </Link>
+            </div>
           ))}
         </div>
       </div>
@@ -78,11 +65,10 @@ class AllPostsv2 extends React.Component {
   }
 }
 
-export default AllPostsv2;
+export default AllPostsWText;
 
-// change headerBackground to allpostsBackground when you get an img
-export const allPostQueryV2 = graphql`
-  query AllPostQueryV2 {
+export const allPostQuery = graphql`
+  query AllPostQuery {
     file(relativePath: { regex: "/allpostsBackground/" }) {
       childImageSharp {
         sizes(maxWidth:1920) {
@@ -102,8 +88,8 @@ export const allPostQueryV2 = graphql`
             tags
             headerImg {
               childImageSharp {
-                sizes(maxWidth:600) {
-                  ...GatsbyImageSharpSizes
+                resolutions(width:200, height:150) {
+                  ...GatsbyImageSharpResolutions
                 }
               }
             }

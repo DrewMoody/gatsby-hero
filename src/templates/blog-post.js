@@ -2,10 +2,6 @@ import React from "react";
 import Img from "gatsby-image";
 import Header from "../components/header";
 
-// const headerStyles = {
-//   height: '90vh'
-// }
-
 export default ({ data }) => {
   const post = data.markdownRemark;
   return (
@@ -14,7 +10,6 @@ export default ({ data }) => {
       heroImg={post.frontmatter.headerImg.childImageSharp.sizes}
       title={post.frontmatter.title}
       text={post.frontmatter.date}
-      // headerStyles={headerStyles}
     />
       <div className='text' dangerouslySetInnerHTML={{ __html: post.html }} />
     </div>

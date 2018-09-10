@@ -1,15 +1,6 @@
 import React from "react";
 import Header from "../components/header";
 
-// const headerStyles = {
-//   marginBottom: 0,
-//   // height: '100vh'
-// }
-
-// const imgStyles = {
-//   height: '100vh'
-// }
-
 export default ({ data }) => {
   return (
     <div className='full-hero'>
@@ -18,8 +9,6 @@ export default ({ data }) => {
         title='Welcome'
         text="Placeholder text"
         hideArrow={true}
-        // headerStyles={headerStyles}
-        // imgStyles={imgStyles}
       />
     </div>
   );

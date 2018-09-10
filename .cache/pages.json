@@ -70,20 +70,6 @@
         "path": "/about/"
     },
     {
-        "componentChunkName": "component---src-pages-all-posts-js",
-        "layout": "layout---index",
-        "layoutComponentChunkName": "component---src-layouts-index-js",
-        "jsonName": "all-posts.json",
-        "path": "/all-posts/"
-    },
-    {
-        "componentChunkName": "component---src-pages-all-postsv-2-js",
-        "layout": "layout---index",
-        "layoutComponentChunkName": "component---src-layouts-index-js",
-        "jsonName": "all-postsv-2.json",
-        "path": "/all-postsv2/"
-    },
-    {
         "componentChunkName": "component---src-pages-index-js",
         "layout": "layout---index",
         "layoutComponentChunkName": "component---src-layouts-index-js",
@@ -98,10 +84,24 @@
         "path": "/my-files/"
     },
     {
-        "componentChunkName": "component---src-pages-new-test-js",
+        "componentChunkName": "component---src-pages-all-posts-w-text-js",
         "layout": "layout---index",
         "layoutComponentChunkName": "component---src-layouts-index-js",
-        "jsonName": "new-test.json",
-        "path": "/new-test/"
+        "jsonName": "all-posts-w-text.json",
+        "path": "/all-posts-w-text/"
+    },
+    {
+        "componentChunkName": "component---src-pages-all-posts-js",
+        "layout": "layout---index",
+        "layoutComponentChunkName": "component---src-layouts-index-js",
+        "jsonName": "all-posts.json",
+        "path": "/all-posts/"
+    },
+    {
+        "componentChunkName": "component---src-pages-contact-js",
+        "layout": "layout---index",
+        "layoutComponentChunkName": "component---src-layouts-index-js",
+        "jsonName": "contact.json",
+        "path": "/contact/"
     }
 ]

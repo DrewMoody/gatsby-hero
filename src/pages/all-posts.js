@@ -4,21 +4,30 @@ import Img from "gatsby-image";
 import Header from "../components/header";
 import Filter from "../components/Filter";
 
+// TODO:
+// If no image, show a gradient background
+// break down further into more components
+// IDEA: have a button where user can swap between text view and image view
+// Refactor getTabsList to sort by popularity
 
 class AllPosts extends React.Component {
   constructor() {
     super();
     this.state = {
       tab: 'all',
-      tagsArr: []
+      tagsArr: [],
+      imageHov: ''
     };
+  }
+
+  imageHover = val => {
+    this.setState({ imageHov: val });
   }
 
   setTab = tagName => {
     this.setState({tab: tagName});
   } 
 
-  // should refactor to have it sorted by popularity
   getTabsList = () => {
     let tagsArr = [];
     this.props.data.allMarkdownRemark.edges.forEach(x => {
@@ -38,24 +47,28 @@ class AllPosts extends React.Component {
   render() {
     const data = this.props.data;
     return (
-      <div className="all-posts-wrapper">
+      <div className="all-posts-wrapper-v2">
         <Header heroImg={data.file.childImageSharp.sizes} title={'View All Posts'} text={`${data.allMarkdownRemark.totalCount} Total Posts`}/>
-        <div className="all-posts">
-          <Filter setTab={this.setTab} tabsArr={this.state.tagsArr} />
-          {data.allMarkdownRemark.edges.filter(x=> {
+        <Filter activeTab={this.state.tab} setTab={this.setTab} tabsArr={this.state.tagsArr} />
+        <div className="all-posts-v2">
+          {data.allMarkdownRemark.edges.filter((x, i) => {
             if (this.state.tab === 'all') return x;
             return x.node.frontmatter.tags.includes(this.state.tab)
           }).map((x, i) => (
-              <div key={x.node.id}>
-              <Link
-                to={x.node.frontmatter.path}
-                className={i % 2 === 0 ? "post-preview" : "post-preview ppr-reverse"}
-              >
-                <Img resolutions={x.node.frontmatter.headerImg.childImageSharp.resolutions} />
-                <div className="ppr-text-content">
-                  <h3>{`${x.node.frontmatter.title} `}<span>— {x.node.frontmatter.date}</span></h3>
-                <p>{x.node.excerpt}</p>
-                </div>
+            <div key={x.node.id} className={
+              i === this.state.imageHov ?
+              `blog-posts p-${i} hovering` :
+              `blog-posts p-${i}`
+              } onMouseOver={() => this.imageHover(i)} onMouseLeave={() => this.imageHover('')}>
+            <Link
+              to={x.node.frontmatter.path}
+              className='image-wrapper-a'
+            >
+              <Img sizes={x.node.frontmatter.headerImg.childImageSharp.sizes}/>
+            </Link>
+              <Link to={x.node.frontmatter.path} className="ppr-title">
+                <h3>{`${x.node.frontmatter.title} `}<span>— {x.node.frontmatter.date}</span></h3>
+                <div className={`ppr-excerpt ex-${i}`}>{x.node.excerpt}</div>
               </Link>
             </div>
           ))}
@@ -67,9 +80,8 @@ class AllPosts extends React.Component {
 
 export default AllPosts;
 
-// change headerBackground to allpostsBackground when you get an img
-export const allPostQuery = graphql`
-  query AllPostQuery {
+export const allPostQueryV2 = graphql`
+  query AllPostQueryV2 {
     file(relativePath: { regex: "/allpostsBackground/" }) {
       childImageSharp {
         sizes(maxWidth:1920) {
@@ -89,8 +101,8 @@ export const allPostQuery = graphql`
             tags
             headerImg {
               childImageSharp {
-                resolutions(width:200, height:150) {
-                  ...GatsbyImageSharpResolutions
+                sizes(maxWidth:600) {
+                  ...GatsbyImageSharpSizes
                 }
               }
             }
