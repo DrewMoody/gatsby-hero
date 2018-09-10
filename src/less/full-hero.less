@@ -1,7 +1,16 @@
 .full-hero .header {
   margin-bottom: 0;
+  min-height: 100vh;
+
+  .navbar {
+    min-height:6.5vh; // eliminate vertical scroll but still allow nav expand
+  }
 
   .hero-img .gatsby-image-wrapper {
-    height: 100vh;
+    height:93.5vh; // done this way to eliminate vertical scroll
+
+    @media @minTab {
+      height:100vh;
+    }
   }
 }

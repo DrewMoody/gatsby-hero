@@ -2052,7 +2052,7 @@
       "children": [],
       "parent": "___SOURCE___",
       "internal": {
-        "contentDigest": "8bce8bec65e00d20abd06ee420d3da20",
+        "contentDigest": "27076ed7df2e1bdd6b9a5dc0c75d61ef",
         "mediaType": "text/css",
         "type": "File",
         "description": "File \"src/layouts/styles.css\"",
@@ -2062,11 +2062,11 @@
       "absolutePath": "/Users/drewmoody/Personal_Projects/Cael/src/layouts/styles.css",
       "relativePath": "layouts/styles.css",
       "extension": "css",
-      "size": 9322,
-      "prettySize": "9.32 kB",
-      "modifiedTime": "2018-09-10T00:20:57.788Z",
-      "accessTime": "2018-09-10T00:20:54.404Z",
-      "changeTime": "2018-09-10T00:20:57.788Z",
+      "size": 9508,
+      "prettySize": "9.51 kB",
+      "modifiedTime": "2018-09-10T02:31:59.647Z",
+      "accessTime": "2018-09-10T02:31:14.753Z",
+      "changeTime": "2018-09-10T02:31:59.647Z",
       "birthTime": "2018-06-17T04:40:40.133Z",
       "root": "/",
       "dir": "/Users/drewmoody/Personal_Projects/Cael/src/layouts",
@@ -2083,13 +2083,13 @@
       "blksize": 4194304,
       "ino": 8599348969,
       "blocks": 24,
-      "atimeMs": 1536538854403.7053,
-      "mtimeMs": 1536538857787.663,
-      "ctimeMs": 1536538857787.663,
+      "atimeMs": 1536546674753.3706,
+      "mtimeMs": 1536546719647.247,
+      "ctimeMs": 1536546719647.247,
       "birthtimeMs": 1529210440132.556,
-      "atime": "2018-09-10T00:20:54.404Z",
-      "mtime": "2018-09-10T00:20:57.788Z",
-      "ctime": "2018-09-10T00:20:57.788Z",
+      "atime": "2018-09-10T02:31:14.753Z",
+      "mtime": "2018-09-10T02:31:59.647Z",
+      "ctime": "2018-09-10T02:31:59.647Z",
       "birthtime": "2018-06-17T04:40:40.133Z"
     },
     "/Users/drewmoody/Personal_Projects/Cael/src/utils/typography.js absPath of file": {
@@ -2878,7 +2878,7 @@
       "children": [],
       "parent": "___SOURCE___",
       "internal": {
-        "contentDigest": "b6e6d27ca9ee4f01d75dd3f7a4d60252",
+        "contentDigest": "abff8d958de4ba0a39936c55d61046a0",
         "mediaType": "text/less",
         "type": "File",
         "description": "File \"src/less/styles.less\"",
@@ -2888,11 +2888,11 @@
       "absolutePath": "/Users/drewmoody/Personal_Projects/Cael/src/less/styles.less",
       "relativePath": "less/styles.less",
       "extension": "less",
-      "size": 6108,
-      "prettySize": "6.11 kB",
-      "modifiedTime": "2018-09-10T00:20:57.525Z",
-      "accessTime": "2018-09-10T00:20:57.524Z",
-      "changeTime": "2018-09-10T00:20:57.525Z",
+      "size": 6266,
+      "prettySize": "6.27 kB",
+      "modifiedTime": "2018-09-10T02:31:59.428Z",
+      "accessTime": "2018-09-10T02:31:59.658Z",
+      "changeTime": "2018-09-10T02:31:59.428Z",
       "birthTime": "2018-08-20T19:01:39.382Z",
       "root": "/",
       "dir": "/Users/drewmoody/Personal_Projects/Cael/src/less",
@@ -2909,13 +2909,13 @@
       "blksize": 4194304,
       "ino": 8603393358,
       "blocks": 16,
-      "atimeMs": 1536538857524.4153,
-      "mtimeMs": 1536538857525.1965,
-      "ctimeMs": 1536538857525.1965,
+      "atimeMs": 1536546719657.9463,
+      "mtimeMs": 1536546719428.412,
+      "ctimeMs": 1536546719428.412,
       "birthtimeMs": 1534791699381.7612,
-      "atime": "2018-09-10T00:20:57.524Z",
-      "mtime": "2018-09-10T00:20:57.525Z",
-      "ctime": "2018-09-10T00:20:57.525Z",
+      "atime": "2018-09-10T02:31:59.658Z",
+      "mtime": "2018-09-10T02:31:59.428Z",
+      "ctime": "2018-09-10T02:31:59.428Z",
       "birthtime": "2018-08-20T19:01:39.382Z"
     },
     "/Users/drewmoody/Personal_Projects/Cael/src/pages/2018-05-01-post-two/hiker.jpg absPath of file": {
@@ -3871,7 +3871,7 @@
       "children": [],
       "internal": {
         "type": "SitePage",
-        "contentDigest": "c60a794790c371855a2f7aad32bd13cb",
+        "contentDigest": "85c90256d3c84060e6c0564f1f35b26b",
         "description": "Your site's \"gatsby-node.js\"",
         "owner": "internal-data-bridge"
       }
@@ -3892,7 +3892,7 @@
       "children": [],
       "internal": {
         "type": "SitePage",
-        "contentDigest": "88bbfc6cb2243acc40180c4d3d753df1",
+        "contentDigest": "99dbb2e639072e63efb2c72cc65a9488",
         "description": "Your site's \"gatsby-node.js\"",
         "owner": "internal-data-bridge"
       }
@@ -3913,7 +3913,7 @@
       "children": [],
       "internal": {
         "type": "SitePage",
-        "contentDigest": "070c117c6a296570b124c7c4e3bb1502",
+        "contentDigest": "49b67ab7432f7fab0b088366f4dd24b2",
         "description": "Your site's \"gatsby-node.js\"",
         "owner": "internal-data-bridge"
       }
@@ -3934,7 +3934,7 @@
       "children": [],
       "internal": {
         "type": "SitePage",
-        "contentDigest": "e059510773e54ebb0210636213281a6a",
+        "contentDigest": "ee6571ab951fb8972e3c937c7f59596f",
         "description": "Your site's \"gatsby-node.js\"",
         "owner": "internal-data-bridge"
       }
@@ -3955,7 +3955,7 @@
       "children": [],
       "internal": {
         "type": "SitePage",
-        "contentDigest": "d178abb41fa1719318752bd66cadc4e3",
+        "contentDigest": "cdc97b8a0cc4e9b8d5ff5061face1123",
         "description": "Your site's \"gatsby-node.js\"",
         "owner": "internal-data-bridge"
       }
@@ -3976,7 +3976,7 @@
       "children": [],
       "internal": {
         "type": "SitePage",
-        "contentDigest": "0f8ce9dc8a69c6c162a42423057ca29c",
+        "contentDigest": "598a63f8f8596fb6906d666d12687838",
         "description": "Your site's \"gatsby-node.js\"",
         "owner": "internal-data-bridge"
       }
@@ -3997,7 +3997,7 @@
       "children": [],
       "internal": {
         "type": "SitePage",
-        "contentDigest": "0fde1af79f4002284e73fd696fc877cd",
+        "contentDigest": "c6f6c70bb901a1c45ff80fe83cb82175",
         "description": "Your site's \"gatsby-node.js\"",
         "owner": "internal-data-bridge"
       }
@@ -4018,7 +4018,7 @@
       "children": [],
       "internal": {
         "type": "SitePage",
-        "contentDigest": "df25ba17c876bdec683164f60d299e12",
+        "contentDigest": "905eff506d4dc4ca3a794a2cd522bb51",
         "description": "Your site's \"gatsby-node.js\"",
         "owner": "internal-data-bridge"
       }
@@ -4154,7 +4154,7 @@
       "children": [],
       "parent": "___SOURCE___",
       "internal": {
-        "contentDigest": "65da536bc8f29f214024aa2d40b40284",
+        "contentDigest": "54b790a653d70891b6dbe1af995aa5ee",
         "mediaType": "text/less",
         "type": "File",
         "description": "File \"src/less/full-hero.less\"",
@@ -4164,11 +4164,11 @@
       "absolutePath": "/Users/drewmoody/Personal_Projects/Cael/src/less/full-hero.less",
       "relativePath": "less/full-hero.less",
       "extension": "less",
-      "size": 102,
-      "prettySize": "102 B",
-      "modifiedTime": "2018-09-10T00:13:09.045Z",
-      "accessTime": "2018-09-10T00:13:09.139Z",
-      "changeTime": "2018-09-10T00:13:09.045Z",
+      "size": 312,
+      "prettySize": "312 B",
+      "modifiedTime": "2018-09-10T02:17:44.436Z",
+      "accessTime": "2018-09-10T02:17:44.648Z",
+      "changeTime": "2018-09-10T02:17:44.436Z",
       "birthTime": "2018-09-10T00:06:56.310Z",
       "root": "/",
       "dir": "/Users/drewmoody/Personal_Projects/Cael/src/less",
@@ -4185,13 +4185,13 @@
       "blksize": 4194304,
       "ino": 8604524627,
       "blocks": 8,
-      "atimeMs": 1536538389138.588,
-      "mtimeMs": 1536538389045.1912,
-      "ctimeMs": 1536538389045.1912,
+      "atimeMs": 1536545864647.7766,
+      "mtimeMs": 1536545864435.827,
+      "ctimeMs": 1536545864435.827,
       "birthtimeMs": 1536538016310.1033,
-      "atime": "2018-09-10T00:13:09.139Z",
-      "mtime": "2018-09-10T00:13:09.045Z",
-      "ctime": "2018-09-10T00:13:09.045Z",
+      "atime": "2018-09-10T02:17:44.648Z",
+      "mtime": "2018-09-10T02:17:44.436Z",
+      "ctime": "2018-09-10T02:17:44.436Z",
       "birthtime": "2018-09-10T00:06:56.310Z"
     },
     "/Users/drewmoody/Personal_Projects/Cael/src/less/three-qtr-hero.less absPath of file": {
@@ -4199,7 +4199,7 @@
       "children": [],
       "parent": "___SOURCE___",
       "internal": {
-        "contentDigest": "e36fb1e43aa70f12069609699915daa6",
+        "contentDigest": "cf1bbbab238f9a0da06781f482e3be47",
         "mediaType": "text/less",
         "type": "File",
         "description": "File \"src/less/three-qtr-hero.less\"",
@@ -4209,11 +4209,11 @@
       "absolutePath": "/Users/drewmoody/Personal_Projects/Cael/src/less/three-qtr-hero.less",
       "relativePath": "less/three-qtr-hero.less",
       "extension": "less",
-      "size": 128,
-      "prettySize": "128 B",
-      "modifiedTime": "2018-09-10T00:18:41.993Z",
-      "accessTime": "2018-09-10T00:18:42.273Z",
-      "changeTime": "2018-09-10T00:18:41.993Z",
+      "size": 378,
+      "prettySize": "378 B",
+      "modifiedTime": "2018-09-10T02:31:13.292Z",
+      "accessTime": "2018-09-10T02:31:13.399Z",
+      "changeTime": "2018-09-10T02:31:13.292Z",
       "birthTime": "2018-09-10T00:07:06.210Z",
       "root": "/",
       "dir": "/Users/drewmoody/Personal_Projects/Cael/src/less",
@@ -4230,13 +4230,13 @@
       "blksize": 4194304,
       "ino": 8604524637,
       "blocks": 8,
-      "atimeMs": 1536538722272.5564,
-      "mtimeMs": 1536538721993.2268,
-      "ctimeMs": 1536538721993.2268,
+      "atimeMs": 1536546673399.4456,
+      "mtimeMs": 1536546673292.156,
+      "ctimeMs": 1536546673292.156,
       "birthtimeMs": 1536538026209.548,
-      "atime": "2018-09-10T00:18:42.273Z",
-      "mtime": "2018-09-10T00:18:41.993Z",
-      "ctime": "2018-09-10T00:18:41.993Z",
+      "atime": "2018-09-10T02:31:13.399Z",
+      "mtime": "2018-09-10T02:31:13.292Z",
+      "ctime": "2018-09-10T02:31:13.292Z",
       "birthtime": "2018-09-10T00:07:06.210Z"
     }
   },
